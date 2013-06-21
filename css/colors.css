@@ -9,8 +9,15 @@ body.overlay {
   border-color: #ffffff;
 }
 
-#page,
-#main-wrapper,
+#page-wrapper {
+  background: url("../images/bodybg_green.gif") repeat-x center top #000;
+}
+
+#page {
+  background: url("../images/outer.gif") no-repeat center top;
+}
+
+#main,
 #main-menu-links li a.active,
 #main-menu-links li.active-trail a {
   background: #ffffff;
@@ -25,37 +32,37 @@ body.overlay {
   border-bottom: 1px solid #ffffff;
 }
 
-#header {
-  background-color: #48a9e4;
-  background-image: -moz-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
-  background-image: -ms-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
-  background-image: -o-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0779bf), color-stop(1, #48a9e4));
-  background-image: -webkit-linear-gradient(top, #0779bf 0%, #48a9e4 100%);
-  background-image: linear-gradient(top, #0779bf 0%, #48a9e4 100%);
+#header .section {
+  background: url("../images/eng-home-banner3.jpg") no-repeat;
 }
 
 a {
-  color: #0071B3;
+  color: #336600;
 }
 
-a:hover,
-a:focus {
-  color: #018fe2;
-}
-
-a:active {
-  color: #23aeff;
+a:active
+a:focus,
+a:hover {
+  color: #ff6633;
 }
 
 .sidebar .block {
-  background-color: #f6f6f2;
-  border-color: #f9f9f9;
+  background-color: #fff;
+  border-color: #ccc;
 }
 
-#page-wrapper,
-#footer-wrapper {
-  background: #292929;
+.sidebar h2 {
+  background: url("../images/khaki_bg.gif") repeat-x;
+  border-color: #ccc;
+  color: #666633;
+}
+
+#sidebar-second {
+  background: url("../images/droit_bg.gif") repeat-y;
+}
+
+#footer {
+  background: #eee url("../images/footerbg.gif") no-repeat;
 }
 
 .region-header,
@@ -64,5 +71,5 @@ a:active {
 #name-and-slogan,
 #name-and-slogan a,
 #secondary-menu-links li a {
-  color: #fffeff;
+  color: #003300;
 }
