@@ -106,3 +106,7 @@ a:hover {
   background-color: #fff;
   border-bottom: 1px solid #fff;
 }
+
+#breadcrumb {
+  border-color: #d5d3d0;
+}

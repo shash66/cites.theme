@@ -966,13 +966,6 @@ ul.links {
   font-size: 0.857em;
 }
 
-#footer-wrapper .block {
-  border-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid #444;
-  margin: 20px 0;
-  padding: 10px;
-}
-
 #footer-wrapper tr.odd {
   background-color: transparent;
 }
@@ -990,10 +983,7 @@ ul.links {
 }
 
 #footer .block {
-  border: none;
   clear: both;
-  margin: 0;
-  padding: 0;
 }
 
 #footer .block h2 {
@@ -1150,8 +1140,14 @@ div.messages {
 
 /* Breadcrumbs */
 
+#breadcrumb {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
 .breadcrumb {
   font-size: 0.929em;
+  padding-top: 0.5em;
 }
 
 
