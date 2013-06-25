@@ -209,10 +209,8 @@ a.button {
 /* Footer */
 
 #footer li a {
-  border-color: rgba(255, 255, 255, 0.15);
   border-left: 1px solid #555;
   border-right: none;
-  float: right;
 }
 
 #footer li.first a {

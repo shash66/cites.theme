@@ -94,6 +94,10 @@ a:hover {
   border: none;
 }
 
+#footer ul.menu li a {
+  border-color: #666;
+}
+
 .tabs ul.primary li a.active {
   background-color: #fff;
 }

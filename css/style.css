@@ -649,7 +649,6 @@ h1#site-name {
 
 #featured .section {
   background: #fff;
-  overflow: hidden;
 }
 
 #featured h2 {
@@ -974,58 +973,6 @@ ul.links {
   padding: 10px;
 }
 
-#footer .block {
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
-#footer .block {
-  clear: both;
-}
-
-#footer .block .content {
-  line-height: 43px;
-  margin-top: 0;
-  text-align: center;
-}
-
-#footer .block h2 {
-  margin: 0;
-}
-
-#footer {
-  border-color: rgba(255, 255, 255, 0.15);
-  border-top: 1px solid #555;
-  height: 43px;
-  letter-spacing: 0.2px;
-  overflow: hidden;
-}
-
-#footer ul,
-#footer li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-#footer li a {
-  border-color: rgba(255, 255, 255, 0.15);
-  border-right: 1px solid #555; /* LTR */
-  display: block;
-  float: left; /* LTR */
-  padding: 0 12px;
-}
-
-#footer li.first a {
-  padding-left: 0; /* LTR */
-}
-
-#footer li.last a {
-  border-right: none; /* LTR */
-  padding-right: 0; /* LTR */
-}
-
 #footer-wrapper tr.odd {
   background-color: transparent;
 }
@@ -1033,6 +980,51 @@ ul.links {
 #footer-wrapper tr.even {
   background-color: #2c2c2c;
   background-color: rgba(0, 0, 0, 0.15);
+}
+
+#footer {
+  border-color: rgba(255, 255, 255, 0.15);
+  border-top: 1px solid #555;
+  height: 43px;
+  letter-spacing: 0.2px;
+}
+
+#footer .block {
+  border: none;
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+#footer .block h2 {
+  margin: 0;
+}
+
+#footer .block .content {
+  margin-top: 0;
+  text-align: center;
+}
+
+#footer ul.menu,
+#footer ul.menu li {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer ul.menu li a {
+  border-right: 1px solid #555; /* LTR */
+  padding: 0 12px;
+}
+
+#footer ul.menu li.first a {
+  padding-left: 0; /* LTR */
+}
+
+#footer ul.menu li.last a {
+  border-right: none; /* LTR */
+  padding-right: 0; /* LTR */
 }
 
 
