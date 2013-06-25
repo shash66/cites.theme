@@ -60,6 +60,10 @@ a:hover {
   background: url("../images/droit_bg.gif") repeat-y;
 }
 
+#footer-wrapper {
+  color: #666;
+}
+
 #footer-wrapper a {
   color: #666;
 }
@@ -72,7 +76,6 @@ a:hover {
 #footer {
   background: #eee url("../images/footerbg.gif") no-repeat;
   border: none;
-  color: #666;
 }
 
 .tabs ul.primary li a.active {

@@ -639,16 +639,17 @@ h1#site-name {
 /* Featured */
 
 #featured {
-  background: #f0f0f0;
-  background: rgba(30, 50, 10, 0.08);
-  border-bottom: 1px solid #e7e7e7;
   font-size: 1.643em;
   font-weight: normal;
   line-height: 1.4;
   margin: 0;
-  padding: 20px 0 45px;
   text-align: center;
   text-shadow: 1px 1px #fff;
+}
+
+#featured .section {
+  background: #fff;
+  overflow: hidden;
 }
 
 #featured h2 {
@@ -916,21 +917,23 @@ ul.links {
 .sidebar .block {
   border: 1px solid;
   margin: 0 0 20px;
-  padding: 15px 20px;
 }
 
 .sidebar h2 {
   border-bottom: 1px solid #d6d6d6;
   font-size: 1.071em;
-  line-height: 1.2;
-  margin: 0 0 0.5em;
-  padding-bottom: 5px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 0;
+  text-align: center;
   text-shadow: 0 1px 0 #fff;
 }
 
 .sidebar .block .content {
   font-size: 0.914em;
   line-height: 1.4;
+  margin: 0;
+  padding: 15px 20px;
 }
 
 .sidebar tbody {
@@ -983,6 +986,7 @@ ul.links {
   border-top: 1px solid #555;
   height: 43px;
   letter-spacing: 0.2px;
+  overflow: hidden;
 }
 
 #footer ul,
@@ -1612,12 +1616,9 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 
 /* Search Form */
 
-#block-search-form {
-  padding-bottom: 7px;
-}
-
 #block-search-form .content {
   margin-top: 0;
+  padding-bottom: 5px;
 }
 
 #search-form input#edit-keys,
