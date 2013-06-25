@@ -948,6 +948,22 @@ ul.links {
   padding: 15px 20px;
 }
 
+.sidebar .block-menu-block .content {
+  padding: 0 0 10px;
+}
+
+.sidebar .block-menu-block ul.menu,
+.sidebar .block-menu-block ul.menu li {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar .block-menu-block ul.menu li a {
+  display: block;
+  padding: 5px 5px 5px 20px;
+  text-decoration: none;
+}
+
 .sidebar tbody {
   border: none;
 }
@@ -992,6 +1008,7 @@ ul.links {
 
 #footer .block .content {
   margin-top: 0;
+  padding-top: 12px;
   text-align: center;
 }
 
@@ -1875,4 +1892,23 @@ div.admin-panel .description {
 
 #footer-wrapper .poll .bar .foreground {
   background-color: #ddd;
+}
+
+
+
+/* Clearfix */
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
 }

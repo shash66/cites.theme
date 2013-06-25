@@ -76,6 +76,37 @@ a:hover {
   color: #666633;
 }
 
+.sidebar .block-menu-block {
+  -khtml-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  background-color: #567b29;
+  border-radius: 8px;
+  border: none;
+}
+
+.sidebar .block-menu-block h2 {
+  background-image: none;
+  border-color: #fff;
+  color: #fff;
+  text-shadow: none;
+}
+
+.sidebar .block-menu-block ul.menu li {
+  border-bottom: 1px solid #fff;
+}
+
+.sidebar .block-menu-block ul.menu li a {
+  background: #efeeec url("../images/arrow.gif") 10px center no-repeat;
+}
+
+.sidebar .block-menu-block ul.menu li a:focus,
+.sidebar .block-menu-block ul.menu li a:hover {
+  background-color: #567b29;
+  background-image: url("../images/arrow_red.gif");
+  color: #fff;
+}
+
 #footer-wrapper {
   color: #666;
 }
