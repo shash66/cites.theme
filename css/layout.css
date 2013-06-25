@@ -54,21 +54,20 @@ body,
 }
 
 .one-sidebar #content {
-  width: 720px;
+  width: 729px;
 }
 
 .two-sidebars #content {
-  width: 480px;
+  width: 472px;
 }
 
 .no-sidebars #content {
-  float: none;
-  width: 960px;
+  width: 986px;
 }
 
 #sidebar-first,
 #sidebar-second {
-  width: 240px;
+  width: 256px;
 }
 
 #content .section,

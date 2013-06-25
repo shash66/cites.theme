@@ -45,6 +45,26 @@ a:hover {
   border-color: #fff;
 }
 
+.sidebar-first #content {
+  border-left: 1px solid #d5d3d0;
+}
+
+.sidebar-second #content {
+  border-right: 1px solid #edebe6;
+}
+
+.two-sidebars #content {
+  border-left: 1px solid #d5d3d0;
+  border-right: 1px solid #edebe6;
+}
+
+.two-sidebars #main,
+.sidebar-second #main {
+  background-image: url("../images/droit_bg.gif");
+  background-position: right top;
+  background-repeat: repeat-y;
+}
+
 .sidebar .block {
   background-color: #fff;
   border-color: #ccc;
@@ -54,10 +74,6 @@ a:hover {
   background: url("../images/khaki_bg.gif") repeat-x;
   border-color: #ccc;
   color: #666633;
-}
-
-#sidebar-second {
-  background: url("../images/droit_bg.gif") repeat-y;
 }
 
 #footer-wrapper {

@@ -910,6 +910,19 @@ ul.links {
 
 /* Sidebar */
 
+.sidebar-first #content {
+  border-left: 1px solid #eee;
+}
+
+.sidebar-second #content {
+  border-right: 1px solid #eee;
+}
+
+.two-sidebars #content {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
 .sidebar .section {
   padding-top: 10px;
 }
@@ -1627,7 +1640,7 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
   font-size: 1em;
   height: 1.143em;
   margin-right: 5px;
-  width: 9em;
+  width: 135px;
 }
 
 #search-block-form input.form-submit,
