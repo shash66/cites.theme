@@ -5,8 +5,14 @@ body.overlay {
   color: #3b3b3b;
 }
 
-.comment .comment-arrow {
-  border-color: #ffffff;
+a {
+  color: #336600;
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: #ff6633;
 }
 
 #page-wrapper {
@@ -17,33 +23,36 @@ body.overlay {
   background: url("../images/outer.gif") no-repeat center top;
 }
 
-#main,
-#main-menu-links li a.active,
-#main-menu-links li.active-trail a {
-  background: #ffffff;
-}
-
-.tabs ul.primary li a.active {
-  background-color: #ffffff;
-}
-
-.tabs ul.primary li.active a {
-  background-color: #ffffff;
-  border-bottom: 1px solid #ffffff;
-}
-
 #header .section {
   background: url("../images/eng-home-banner3.jpg") no-repeat;
 }
 
-a {
-  color: #336600;
+.region-header,
+.region-header a,
+.region-header li a.active,
+#name-and-slogan,
+#name-and-slogan a,
+#secondary-menu-links li a {
+  color: #003300;
 }
 
-a:active
-a:focus,
-a:hover {
-  color: #ff6633;
+#main,
+#main-menu-links li a.active,
+#main-menu-links li.active-trail a {
+  background: #fff;
+}
+
+.tabs ul.primary li a.active {
+  background-color: #fff;
+}
+
+.tabs ul.primary li.active a {
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.comment .comment-arrow {
+  border-color: #fff;
 }
 
 .sidebar .block {
@@ -63,13 +72,15 @@ a:hover {
 
 #footer {
   background: #eee url("../images/footerbg.gif") no-repeat;
+  color: #666;
 }
 
-.region-header,
-.region-header a,
-.region-header li a.active,
-#name-and-slogan,
-#name-and-slogan a,
-#secondary-menu-links li a {
-  color: #003300;
+#footer-wrapper a {
+  color: #666;
+}
+
+#footer-wrapper a:active,
+#footer-wrapper a:focus,
+#footer-wrapper a:hover {
+  color: #ff6633;
 }
