@@ -632,10 +632,7 @@ h1#site-name {
 
 /* Main */
 
-#main {
-  margin-bottom: 40px;
-  margin-top: 20px;
-}
+#main { }
 
 
 
@@ -1043,8 +1040,9 @@ ul.links {
 }
 
 #footer .block .content {
+  line-height: 43px;
   margin-top: 0;
-  padding: 0.5em 0;
+  text-align: center;
 }
 
 #footer .block h2 {

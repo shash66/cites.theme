@@ -20,7 +20,7 @@ body,
 #footer {
   margin-left: auto;
   margin-right: auto;
-  width: 960px;
+  width: 986px;
 }
 
 #header div.section {
@@ -80,10 +80,6 @@ body,
   width: 240px;
 }
 
-#main-wrapper {
-  min-height: 300px;
-}
-
 #content .section,
 .sidebar .section {
   padding: 0 15px;
@@ -100,10 +96,6 @@ body,
   width: 280px;
 }
 
-#footer-wrapper {
-  padding: 35px 5px 30px;
-}
-
 .region-footer-firstcolumn,
 .region-footer-secondcolumn,
 .region-footer-thirdcolumn,
@@ -113,6 +105,5 @@ body,
 }
 
 #footer {
-  min-width: 920px;
-  width: 940px;
+  width: 986px;
 }
