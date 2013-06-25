@@ -208,14 +208,6 @@ a.button {
 
 /* Footer */
 
-#footer-columns ul {
-  padding-right: 0;
-}
-
-#footer-columns li a {
-  padding: 0.8em 20px 0.8em 2px;
-}
-
 #footer li a {
   border-color: rgba(255, 255, 255, 0.15);
   border-left: 1px solid #555;

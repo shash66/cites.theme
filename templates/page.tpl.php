@@ -68,13 +68,6 @@
  * - $page['help']: Dynamic help text, mostly for admin pages.
  * - $page['content']: The main content of the current page.
  * - $page['sidebar_first']: Items for the first sidebar.
- * - $page['triptych_first']: Items for the first triptych.
- * - $page['triptych_middle']: Items for the middle triptych.
- * - $page['triptych_last']: Items for the last triptych.
- * - $page['footer_firstcolumn']: Items for the first footer column.
- * - $page['footer_secondcolumn']: Items for the second footer column.
- * - $page['footer_thirdcolumn']: Items for the third footer column.
- * - $page['footer_fourthcolumn']: Items for the fourth footer column.
  * - $page['footer']: Items for the footer region.
  *
  * @see template_preprocess()
@@ -225,25 +218,8 @@
 				<?php endif; ?>
 			</div><!-- .clearfix #main -->
 		</div><!-- .clearfix #main-wrapper -->
-		<?php if ( $page['triptych_first'] || $page['triptych_middle'] || $page['triptych_last'] ) : ?>
-			<div id="triptych-wrapper">
-				<div class="clearfix" id="triptych">
-					<?php print render( $page['triptych_first'] ); ?>
-					<?php print render( $page['triptych_middle'] ); ?>
-					<?php print render( $page['triptych_last'] ); ?>
-				</div><!-- .clearfix #triptych -->
-			</div><!-- #triptych-wrapper -->
-		<?php endif; ?>
 		<div id="footer-wrapper">
 			<div class="section">
-				<?php if ( $page['footer_firstcolumn'] || $page['footer_secondcolumn'] || $page['footer_thirdcolumn'] || $page['footer_fourthcolumn'] ) : ?>
-					<div class="clearfix" id="footer-columns">
-						<?php print render( $page['footer_firstcolumn'] ); ?>
-						<?php print render( $page['footer_secondcolumn'] ); ?>
-						<?php print render( $page['footer_thirdcolumn'] ); ?>
-						<?php print render( $page['footer_fourthcolumn'] ); ?>
-					</div><!-- .clearfix #footer-columns -->
-				<?php endif; ?>
 				<?php if ( $page['footer'] ) : ?>
 					<div class="clearfix" id="footer">
 						<?php print render( $page['footer'] ); ?>

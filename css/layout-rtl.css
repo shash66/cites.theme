@@ -2,14 +2,7 @@
 
 #content,
 #sidebar-first,
-#sidebar-second,
-.region-triptych-first,
-.region-triptych-middle,
-.region-triptych-last,
-.region-footer-firstcolumn,
-.region-footer-secondcolumn,
-.region-footer-thirdcolumn,
-.region-footer-fourthcolumn {
+#sidebar-second {
   float: right;
 }
 
