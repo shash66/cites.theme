@@ -22,6 +22,7 @@ body,
 }
 
 #header div.section {
+  padding-top: 99px;
   position: relative;
 }
 

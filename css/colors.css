@@ -22,7 +22,7 @@ a:hover {
   background: url("../images/outer.gif") no-repeat center top;
 }
 
-#header .section {
+#header div.section {
   background: url("../images/eng-home-banner3.jpg") no-repeat;
 }
 

@@ -81,37 +81,6 @@
 	<div id="page">
 		<div class="<?php print $secondary_menu ? 'with-secondary-menu' : 'without-secondary-menu'; ?>" id="header">
 			<div class="section clearfix">
-				<?php if ( $logo ) : ?>
-					<a href="<?php print $front_page; ?>" id="logo" rel="home" title="<?php print t( 'Home' ); ?>">
-						<img alt="<?php print t( 'Home' ); ?>" src="<?php print $logo; ?>" />
-					</a><!-- #logo -->
-				<?php endif; ?>
-				<?php if ( $site_name || $site_slogan ) : ?>
-					<div <?php if ( $hide_site_name && $hide_site_slogan ) { print 'class="element-invisible"'; } ?> id="name-and-slogan">
-						<?php if ( $site_name ) : ?>
-							<?php if ( $title ) : ?>
-								<div <?php if ( $hide_site_name ) { print 'class="element-invisible"'; } ?> id="site-name">
-									<strong>
-										<a href="<?php print $front_page; ?>" rel="home" title="<?php print t( 'Home' ); ?>">
-											<span><?php print $site_name; ?></span>
-										</a>
-									</strong>
-								</div>
-							<?php else : // Use h1 when the content title is empty. ?>
-								<h1 <?php if ( $hide_site_name ) { print 'class="element-invisible"'; } ?> id="site-name">
-									<a href="<?php print $front_page; ?>" rel="home" title="<?php print t( 'Home' ); ?>">
-										<span><?php print $site_name; ?></span>
-									</a>
-								</h1><!-- #site-name -->
-							<?php endif; ?>
-						<?php endif; ?>
-						<?php if ( $site_slogan ) : ?>
-							<div <?php if ($hide_site_slogan) { print 'class="element-invisible"'; } ?> id="site-slogan">
-								<?php print $site_slogan; ?>
-							</div><!-- #site-slogan -->
-						<?php endif; ?>
-					</div><!-- #name-and-slogan -->
-				<?php endif; ?>
 				<?php print render( $page['header'] ); ?>
 				<?php if ( $main_menu ) : ?>
 					<div class="navigation" id="main-menu">
