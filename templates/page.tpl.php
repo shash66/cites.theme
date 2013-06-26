@@ -22,17 +22,6 @@
  * - $front_page: The URL of the front page. Use this instead of $base_path,
  *   when linking to the front page. This includes the language domain or
  *   prefix.
- * - $logo: The path to the logo image, as defined in theme configuration.
- * - $site_name: The name of the site, empty when display has been disabled
- *   in theme settings.
- * - $site_slogan: The slogan of the site, empty when display has been disabled
- *   in theme settings.
- * - $hide_site_name: TRUE if the site name has been toggled off on the theme
- *   settings page. If hidden, the "element-invisible" class is added to make
- *   the site name visually hidden, but still accessible.
- * - $hide_site_slogan: TRUE if the site slogan has been toggled off on the
- *   theme settings page. If hidden, the "element-invisible" class is added to
- *   make the site slogan visually hidden, but still accessible.
  *
  * Navigation:
  * - $main_menu (array): An array containing the Main menu links for the
