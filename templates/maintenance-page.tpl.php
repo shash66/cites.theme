@@ -28,24 +28,7 @@
 			<div id="page">
 				<div id="header">
 					<div class="section clearfix">
-						<?php if ( $site_name || $site_slogan ) : ?>
-							<div <?php if ( $hide_site_name && $hide_site_slogan ) { print 'class="element-invisible"'; } ?> id="name-and-slogan">
-								<?php if ( $site_name ) : ?>
-									<div <?php if ( $hide_site_name ) { print 'class="element-invisible"'; } ?> id="site-name">
-										<strong>
-											<a href="<?php print $front_page; ?>" rel="home" title="<?php print t( 'Home' ); ?>">
-												<span><?php print $site_name; ?></span>
-											</a>
-										</strong>
-									</div><!-- #site-name -->
-								<?php endif; ?>
-								<?php if ( $site_slogan ) : ?>
-									<div <?php if ( $hide_site_slogan ) { print 'class="element-invisible"'; } ?> id="site-slogan">
-										<?php print $site_slogan; ?>
-									</div><!-- #site-slogan -->
-								<?php endif; ?>
-							</div><!-- #name-and-slogan -->
-						<?php endif; ?>
+						<!-- -->
 					</div><!-- .section .clearfix -->
 				</div><!-- #header -->
 				<div id="main-wrapper">
