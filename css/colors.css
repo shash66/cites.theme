@@ -97,7 +97,12 @@ a:hover {
 }
 
 .sidebar .block-menu-block ul.menu li a {
-  background: #efeeec url("../images/arrow.gif") 20px center no-repeat;
+  background: #efeeec url("../images/arrow.gif") 10px center no-repeat;
+  color: #666;
+}
+
+.sidebar .block-menu-block ul.menu li a.active {
+  color: #000;
 }
 
 .sidebar .block-menu-block ul.menu li a:focus,

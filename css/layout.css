@@ -53,19 +53,26 @@ body,
   position: relative;
 }
 
-.one-sidebar #content {
+.one-sidebar.sidebar-first #content {
+  width: 785px;
+}
+
+.one-sidebar.sidebar-second #content {
   width: 729px;
 }
 
 .two-sidebars #content {
-  width: 472px;
+  width: 528px;
 }
 
 .no-sidebars #content {
   width: 986px;
 }
 
-#sidebar-first,
+#sidebar-first {
+  width: 200px;
+}
+
 #sidebar-second {
   width: 256px;
 }

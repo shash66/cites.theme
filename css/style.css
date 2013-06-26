@@ -960,7 +960,7 @@ ul.links {
 
 .sidebar .block-menu-block ul.menu li a {
   display: block;
-  padding: 3px 20px 3px 30px;
+  padding: 3px 10px 3px 20px;
   text-decoration: none;
 }
 
@@ -1160,11 +1160,11 @@ div.messages {
 #breadcrumb {
   background: #fff;
   border-bottom: 1px solid #eee;
+  padding-top: 0.5em;
 }
 
 .breadcrumb {
   font-size: 0.929em;
-  padding-top: 0.5em;
 }
 
 
