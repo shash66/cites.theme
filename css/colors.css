@@ -41,6 +41,10 @@ a:hover {
   background: #fff;
 }
 
+#main-menu {
+  background-image: url("../images/menubar_bg.gif");
+}
+
 .comment .comment-arrow {
   border-color: #fff;
 }

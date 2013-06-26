@@ -39,6 +39,10 @@ body,
   margin-top: 15px;
 }
 
+#main-menu {
+  height: 35px;
+}
+
 #secondary-menu {
   position: absolute;
   right: 0; /* LTR */
