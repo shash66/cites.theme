@@ -35,14 +35,30 @@ a:hover {
   color: #003300;
 }
 
-#main,
-#main-menu-links li a.active,
-#main-menu-links li.active-trail a {
+#main {
   background: #fff;
 }
 
 #main-menu {
   background-image: url("../images/menubar_bg.gif");
+}
+
+#main-menu-links a {
+  color: #d7d7d7;
+}
+
+#main-menu-links a:hover,
+#main-menu-links a:focus {
+  color: #fff;
+}
+
+#main-menu-links a:active {
+  background: #b3b3b3;
+}
+
+#main-menu-links li a.active,
+#main-menu-links li.active-trail a {
+  background: #43631c;
 }
 
 .comment .comment-arrow {
