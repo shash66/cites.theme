@@ -122,8 +122,8 @@ function cites_preprocess_node( &$variables ) {
  * Override or insert variables into the block template.
  */
 function cites_preprocess_block( &$variables ) {
-	// In the header region visually hide block titles.
-	if ( $variables['block']->region == 'header' ) {
+	// In the header and footer regions visually hide block titles.
+	if ( in_array( $variables['block']->region, array( 'header', 'footer' ) ) ) {
 		$variables['title_attributes_array']['class'][] = 'element-invisible';
 	}
 }
