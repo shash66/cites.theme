@@ -1636,6 +1636,15 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
   font-size: 1em;
   height: 1.143em;
   margin: 5px 5px 5px 0;
+}
+
+#sidebar-first #search-form input#edit-keys,
+#sidebar-first #block-search-form .form-item-search-block-form input {
+  width: 99px;
+}
+
+#sidebar-second #search-form input#edit-keys,
+#sidebar-second #block-search-form .form-item-search-block-form input {
   width: 155px;
 }
 
