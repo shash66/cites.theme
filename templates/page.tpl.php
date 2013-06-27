@@ -74,17 +74,9 @@
 				<?php if ( $main_menu ) : ?>
 					<div class="navigation" id="main-menu">
 						<?php
-						print theme( 'links__system_main_menu', array(
-							'attributes' => array(
-								'class' => array( 'links', 'clearfix' ),
-								'id'    => 'main-menu-links'
-							),
-							'heading' => array(
-								'class' => array( 'element-invisible' ),
-								'level' => 'h2',
-								'text'  => t( 'Main menu' )
-							),
-							'links' => $main_menu
+						print theme( 'nice_menus_main_menu', array(
+							'direction' => 'down',
+							'depth'     => -1
 						) );
 						?>
 					</div><!-- .navigation #main-menu -->

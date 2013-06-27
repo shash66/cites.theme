@@ -52,13 +52,10 @@ a:hover {
   color: #fff;
 }
 
-#main-menu-links a:active {
-  background: #b3b3b3;
-}
-
 #main-menu-links li a.active,
 #main-menu-links li.active-trail a {
   background: #43631c;
+  color: #fff;
 }
 
 #featured .section {
