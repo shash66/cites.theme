@@ -914,7 +914,7 @@ ul.links {
   font-size: 0.914em;
   line-height: 1.4;
   margin: 0;
-  padding: 15px 20px;
+  padding: 5px 10px;
 }
 
 .sidebar .block-menu-block .content {
@@ -1604,7 +1604,6 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 
 #block-search-form .content {
   margin-top: 0;
-  padding-bottom: 5px;
 }
 
 #search-form input#edit-keys,
@@ -1612,8 +1611,8 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
   float: left; /* LTR */
   font-size: 1em;
   height: 1.143em;
-  margin-right: 5px;
-  width: 135px;
+  margin: 5px 5px 5px 0;
+  width: 155px;
 }
 
 #search-block-form input.form-submit,
@@ -1622,8 +1621,7 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
   border-color: #e4e4e4 #d2d2d2 #b4b4b4;
   cursor: pointer;
   height: 25px;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 5px 0;
   overflow: hidden;
   padding: 0;
   text-indent: -9999px;
