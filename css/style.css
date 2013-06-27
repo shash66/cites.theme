@@ -1111,12 +1111,10 @@ ul.action-links li a {
 
 #messages {
   margin: 0 auto;
-  padding: 20px 0 5px;
 }
 
-.featured #messages {
-  background: #f0f0f0;
-  background: rgba(30, 50, 10, 0.08);
+#messages .section {
+  border-bottom: 1px solid #eee;
 }
 
 div.messages {

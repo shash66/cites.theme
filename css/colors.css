@@ -167,6 +167,11 @@ a:hover {
   border-bottom: 1px solid #fff;
 }
 
+#messages .section {
+  background-color: #fff;
+  border-color: #d5d3d0;
+}
+
 #breadcrumb {
   border-color: #d5d3d0;
 }
