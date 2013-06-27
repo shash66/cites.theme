@@ -269,7 +269,7 @@ table ul.links li {
 .block ol,
 .block ul {
   margin: 0;
-  padding: 0 0 0.25em 1em; /* LTR */
+  padding: 0 0 0 1em; /* LTR */
 }
 
 .contextual-links-wrapper {
@@ -918,17 +918,21 @@ ul.links {
   padding: 5px 10px;
 }
 
-.sidebar .block-menu-block .content {
+#sidebar-first .block-menu .content,
+#sidebar-first .block-menu-block .content {
   padding: 0 0 10px;
 }
 
-.sidebar .block-menu-block ul.menu,
-.sidebar .block-menu-block ul.menu li {
+#sidebar-first .block-menu ul.menu,
+#sidebar-first .block-menu ul.menu li,
+#sidebar-first .block-menu-block ul.menu,
+#sidebar-first .block-menu-block ul.menu li {
   list-style: none;
   padding: 0;
 }
 
-.sidebar .block-menu-block ul.menu li a {
+#sidebar-first .block-menu ul.menu li a,
+#sidebar-first .block-menu-block ul.menu li a {
   display: block;
   padding: 3px 10px 3px 20px;
   text-decoration: none;

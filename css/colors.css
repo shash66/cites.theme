@@ -94,13 +94,14 @@ a:hover {
   border-color: #ccc;
 }
 
-.sidebar h2 {
+#sidebar-second h2 {
   background: url("../images/khaki_bg.gif") repeat-x;
   border-color: #ccc;
   color: #666633;
 }
 
-.sidebar .block-menu-block {
+#sidebar-first .block-menu,
+#sidebar-first .block-menu-block {
   -khtml-border-radius: 8px;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -109,28 +110,34 @@ a:hover {
   border: none;
 }
 
-.sidebar .block-menu-block h2 {
+#sidebar-first .block-menu h2,
+#sidebar-first .block-menu-block h2 {
   background-image: none;
   border-color: #fff;
   color: #fff;
   text-shadow: none;
 }
 
-.sidebar .block-menu-block ul.menu li {
+#sidebar-first .block-menu ul.menu li,
+#sidebar-first .block-menu-block ul.menu li {
   border-bottom: 1px solid #fff;
 }
 
-.sidebar .block-menu-block ul.menu li a {
-  background: #efeeec url("../images/arrow.gif") 10px center no-repeat;
+#sidebar-first .block-menu ul.menu li a,
+#sidebar-first .block-menu-block ul.menu li a {
+  background: #efeeec url("../images/arrow.gif") 10px 8px no-repeat;
   color: #666;
 }
 
-.sidebar .block-menu-block ul.menu li a.active {
+#sidebar-first .block-menu ul.menu li a.active,
+#sidebar-first .block-menu-block ul.menu li a.active {
   color: #000;
 }
 
-.sidebar .block-menu-block ul.menu li a:focus,
-.sidebar .block-menu-block ul.menu li a:hover {
+#sidebar-first .block-menu ul.menu li a:focus,
+#sidebar-first .block-menu ul.menu li a:hover,
+#sidebar-first .block-menu-block ul.menu li a:focus,
+#sidebar-first .block-menu-block ul.menu li a:hover {
   background-color: #567b29;
   background-image: url("../images/arrow_red.gif");
   color: #fff;
