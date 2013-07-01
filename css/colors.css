@@ -52,11 +52,6 @@ a:hover {
   border: none;
 }
 
-#main-menu .nice-menu li:hover,
-#main-menu .nice-menu li:focus {
-  background-color: #43631c;
-}
-
 #main-menu .nice-menu li.menuparent {
   background-image: url("../images/arr_black_down.gif");
 }
@@ -84,6 +79,8 @@ a:hover {
   color: #333;
 }
 
+#main-menu .nice-menu li li a:focus,
+#main-menu .nice-menu li li a:hover,
 #main-menu .nice-menu li li:focus > a,
 #main-menu .nice-menu li li:hover > a {
   color: #fff;
