@@ -2,7 +2,7 @@
 /**
  * Add body classes if certain regions have content.
  */
-function cites_preprocess_html( &$variables ) {
+function cites_theme_preprocess_html( &$variables ) {
 	if ( ! empty( $variables['page']['featured'] ) ) {
 		$variables['classes_array'][] = 'featured';
 	}
@@ -36,7 +36,7 @@ function cites_preprocess_html( &$variables ) {
 /**
  * Override or insert variables into the page template.
  */
-function cites_process_page( &$variables ) {
+function cites_theme_process_page( &$variables ) {
 	// Always print the site name and slogan, but if they are toggled off, we'll
 	// just hide them visually.
 	$variables['hide_site_name']   = theme_get_setting( 'toggle_name' ) ? FALSE : TRUE;
@@ -77,7 +77,7 @@ function cites_process_page( &$variables ) {
 /**
  * Implements hook_preprocess_maintenance_page().
  */
-function cites_preprocess_maintenance_page( &$variables ) {
+function cites_theme_preprocess_maintenance_page( &$variables ) {
 	// By default, site_name is set to Drupal if no db connection is available
 	// or during site installation. Setting site_name to an empty string makes
 	// the site and update pages look cleaner.
@@ -92,7 +92,7 @@ function cites_preprocess_maintenance_page( &$variables ) {
 /**
  * Override or insert variables into the maintenance page template.
  */
-function cites_process_maintenance_page( &$variables ) {
+function cites_theme_process_maintenance_page( &$variables ) {
 	// Always print the site name and slogan, but if they are toggled off, we'll
 	// just hide them visually.
 	$variables['hide_site_name']   = theme_get_setting( 'toggle_name' ) ? FALSE : TRUE;
@@ -112,7 +112,7 @@ function cites_process_maintenance_page( &$variables ) {
 /**
  * Override or insert variables into the node template.
  */
-function cites_preprocess_node( &$variables ) {
+function cites_theme_preprocess_node( &$variables ) {
 	if ( $variables['view_mode'] == 'full' && node_is_page($variables['node'] ) ) {
 		$variables['classes_array'][] = 'node-full';
 	}
@@ -121,7 +121,7 @@ function cites_preprocess_node( &$variables ) {
 /**
  * Override or insert variables into the block template.
  */
-function cites_preprocess_block( &$variables ) {
+function cites_theme_preprocess_block( &$variables ) {
 	// In the header and footer regions visually hide block titles.
 	if ( in_array( $variables['block']->region, array( 'header', 'footer' ) ) ) {
 		$variables['title_attributes_array']['class'][] = 'element-invisible';
@@ -131,14 +131,14 @@ function cites_preprocess_block( &$variables ) {
 /**
  * Implements theme_menu_tree().
  */
-function cites_menu_tree( $variables ) {
+function cites_theme_menu_tree( $variables ) {
 	return '<ul class="menu clearfix">' . $variables['tree'] . '</ul>';
 }
 
 /**
  * Implements theme_field__field_type().
  */
-function cites_field__taxonomy_term_reference( $variables ) {
+function cites_theme_field__taxonomy_term_reference( $variables ) {
 	$output = '';
 
 	// Render the label, if it's not hidden.

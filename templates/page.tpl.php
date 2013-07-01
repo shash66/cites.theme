@@ -62,7 +62,7 @@
  * @see template_preprocess()
  * @see template_preprocess_page()
  * @see template_process()
- * @see cites_process_page()
+ * @see cites_theme_process_page()
  * @see html.tpl.php
  */
 ?>
