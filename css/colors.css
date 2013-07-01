@@ -43,51 +43,50 @@ a:hover {
   background-image: url("../images/menubar_bg.gif");
 }
 
-#main-menu .nice-menu ul,
-#main-menu .nice-menu li {
+#main-menu .nice-menu ul {
   border-color: #567b29;
 }
 
 #main-menu .nice-menu li {
-  background-color: #f0f5f7;
+  background-color: transparent;
+  border: none;
 }
 
-#main-menu .nice-menu li:focus,
-#main-menu .nice-menu li:hover {
-  background-color: #567b29;
+#main-menu .nice-menu li:hover,
+#main-menu .nice-menu li:focus {
+  background-color: #43631c;
 }
 
 #main-menu .nice-menu li.menuparent {
   background-image: url("../images/arr_black_down.gif");
 }
 
+#main-menu .nice-menu li a {
+  color: #fff;
+}
+
+#main-menu .nice-menu li li {
+  background-color: #f0f5f7;
+  border: 1px solid #567b29;
+  border-top: 0;
+}
+
+#main-menu .nice-menu li li:focus,
+#main-menu .nice-menu li li:hover {
+  background-color: #567b29;
+}
+
 #main-menu .nice-menu li li.menuparent {
   background-image: url("../images/arr_black.gif");
 }
 
-#main-menu .nice-menu li:focus > a,
-#main-menu .nice-menu li:hover > a,
-#main-menu .nice-menu li.menuparent:focus > a,
-#main-menu .nice-menu li.menuparent:hover > a {
-  color: #fff;
-}
-
-#main-menu .nice-menu li a {
+#main-menu .nice-menu li li a {
   color: #333;
 }
 
-#main-menu .nice-menu > li {
-  background-color: transparent;
-  border: none;
-}
-
-#main-menu .nice-menu > li > a {
+#main-menu .nice-menu li li:focus > a,
+#main-menu .nice-menu li li:hover > a {
   color: #fff;
-}
-
-#main-menu .nice-menu > li:hover,
-#main-menu .nice-menu > li:focus {
-  background-color: #43631c;
 }
 
 #featured .section {

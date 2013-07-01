@@ -575,16 +575,20 @@ h1#site-name {
   text-decoration: none;
 }
 
-#main-menu .nice-menu > li {
-  height: 28px;
-}
-
-#main-menu .nice-menu > li > a {
+#main-menu .nice-menu li a {
   line-height: 28px;
 }
 
-#main-menu .nice-menu > li > ul {
+#main-menu .nice-menu li li a {
+  line-height: 1.5;
+}
+
+#main-menu .nice-menu ul {
   top: 28px;
+}
+
+#main-menu .nice-menu ul ul {
+  top: -1px;
 }
 
 
