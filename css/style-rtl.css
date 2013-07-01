@@ -91,9 +91,8 @@ ul.tips {
 
 /* Main Menu */
 
-#main-menu ul.links li,
-#main-menu ul.links li a {
-  float: right;
+#main-menu .nice-menu {
+  text-align: right;
 }
 
 
