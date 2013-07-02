@@ -86,7 +86,7 @@ function cites_theme_preprocess_maintenance_page( &$variables ) {
 		$variables['site_name'] = '';
 	}
 
-	drupal_add_css( drupal_get_path( 'theme', 'cites' ) . '/css/maintenance-page.css' );
+	drupal_add_css( drupal_get_path( 'theme', 'cites_theme' ) . '/css/maintenance-page.css' );
 }
 
 /**
@@ -159,4 +159,14 @@ function cites_theme_field__taxonomy_term_reference( $variables ) {
 	$output = '<div class="' . $variables['classes'] . ( ! in_array( 'clearfix', $variables['classes_array'] ) ? ' clearfix' : '' ) . '"' . $variables['attributes'] .'>' . $output . '</div>';
 
 	return $output;
+}
+
+/**
+ * Performs alterations before a form is rendered.
+ */
+function cites_theme_form_alter( &$form, &$form_state, $form_id ) {
+	// Unset the submit button from search block forms.
+	if ( $form_id == 'search_block_form' ) {
+		unset( $form['actions']['submit'] );
+	}
 }

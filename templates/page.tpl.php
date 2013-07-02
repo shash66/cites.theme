@@ -13,7 +13,7 @@
  * - $base_path: The base URL path of the Drupal installation. At the very
  *   least, this will always default to /.
  * - $directory: The directory the template is located in, e.g. modules/system
- *   or themes/cites.
+ *   or themes/cites_theme.
  * - $is_front: TRUE if the current page is the front page.
  * - $logged_in: TRUE if the user is registered and signed in.
  * - $is_admin: TRUE if the user has permission to access administration pages.
@@ -74,6 +74,11 @@
 				<?php if ( $main_menu ) : ?>
 					<div class="navigation" id="main-menu">
 						<?php
+						// Print the Search block.
+						$block = module_invoke( 'search', 'block_view', 'search' );
+						print render( $block );
+
+						// Print the Main menu links.
 						print theme( 'nice_menus_main_menu', array(
 							'direction' => 'down',
 							'depth'     => -1
