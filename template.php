@@ -165,8 +165,12 @@ function cites_theme_field__taxonomy_term_reference( $variables ) {
  * Performs alterations before a form is rendered.
  */
 function cites_theme_form_alter( &$form, &$form_state, $form_id ) {
-	// Unset the submit button from search block forms.
+	// Alter the search block forms.
 	if ( $form_id == 'search_block_form' ) {
-		unset( $form['actions']['submit'] );
+		// Hide the submit button.
+		$form['actions']['#attributes']['class'][] = 'element-invisible';
+
+		// Add the placeholder text.
+		$form['search_block_form']['#attributes']['placeholder'] = t( 'Search CITES.org' );
 	}
 }
