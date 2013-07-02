@@ -93,9 +93,8 @@ pre var {
 }
 
 kbd {
-  -khtml-border-radius: 5px;
-  -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
   background-color: #f2f2f2;
   border-radius: 5px;
   border: 1px outset #575757;
@@ -323,12 +322,11 @@ ul.tips {
 #skip-link a,
 #skip-link a:link,
 #skip-link a:visited {
-  -khtml-border-radius: 0 0 10px 10px;
-  -moz-border-radius: 0 0 10px 10px;
   -webkit-border-bottom-left-radius: 10px;
   -webkit-border-bottom-right-radius: 10px;
   -webkit-border-top-left-radius: 0;
   -webkit-border-top-right-radius: 0;
+     -moz-border-radius: 0 0 10px 10px;
   background: #444;
   background: rgba(0, 0, 0, 0.6);
   border-radius: 0 0 10px 10px;
@@ -1066,12 +1064,10 @@ ul.links {
 }
 
 .tabs ul.primary li a {
-  -khtml-border-radius-topleft: 6px;
-  -khtml-border-radius-topright: 6px;
-  -moz-border-radius-topleft: 6px;
-  -moz-border-radius-topright: 6px;
   -webkit-border-top-left-radius: 6px;
   -webkit-border-top-right-radius: 6px;
+     -moz-border-radius-topleft: 6px;
+     -moz-border-radius-topright: 6px;
   background-color: #ededed;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
@@ -1113,9 +1109,8 @@ ul.links {
 }
 
 .tabs ul.secondary li a.active {
-  -khtml-border-radius: 5px;
-  -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
   background: #f2f2f2;
   border-bottom: none;
   border-radius: 5px;
@@ -1211,9 +1206,8 @@ div.password-confirm {
 
 input.form-submit,
 a.button {
-  -khtml-border-radius: 15px;
-  -moz-border-radius: 20px;
   -webkit-border-radius: 15px;
+     -moz-border-radius: 20px;
   background: #fff url(../images/buttons.png) 0 0 repeat-x;
   border-bottom: 1px solid #b4b4b4;
   border-left-color: #d2d2d2;
@@ -1244,9 +1238,8 @@ a.button:active {
 /* Form Elements */
 
 fieldset {
-  -khtml-border-radius: 4px;
-  -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
   background: #ffffff;
   border-radius: 4px;
   border: 1px solid #cccccc;
@@ -1266,12 +1259,10 @@ fieldset {
 }
 
 .filter-wrapper {
-  -khtml-border-radius-topleft: 0;
-  -khtml-border-radius-topright: 0;
-  -moz-border-radius-topleft: 0;
-  -moz-border-radius-topright: 0;
   -webkit-border-top-left-radius: 0;
+     -moz-border-radius-topleft: 0;
   -webkit-border-top-right-radius: 0;
+     -moz-border-radius-topright: 0;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   padding: 1em 0 0.2em;
@@ -1296,20 +1287,17 @@ fieldset {
 }
 
 fieldset.collapsed {
-  -khtml-border-radius: 0;
-  -moz-border-radius: 0;
   -webkit-border-radius: 0;
+     -moz-border-radius: 0;
   background: transparent;
   border-radius: 0;
 }
 
 fieldset legend {
-  -khtml-border-radius-topleft: 4px;
-  -khtml-border-radius-topright: 4px;
-  -moz-border-radius-topleft: 4px;
-  -moz-border-radius-topright: 4px;
   -webkit-border-top-left-radius: 4px;
   -webkit-border-top-right-radius: 4px;
+     -moz-border-radius-topleft: 4px;
+     -moz-border-radius-topright: 4px;
   background: #dbdbdb;
   border-bottom: none;
   border-top-left-radius: 4px;
@@ -1330,9 +1318,8 @@ fieldset legend {
 }
 
 fieldset.collapsed legend {
-  -khtml-border-radius: 4px;
-  -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
   border-radius: 4px;
 }
 
@@ -1419,48 +1406,41 @@ input.form-submit:focus {
 /* Contact Form */
 
 .contact-form #edit-name {
-  -khtml-border-radius: 4px;
-  -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
   border-radius: 4px;
   width: 75%;
 }
 
 .contact-form #edit-mail {
-  -khtml-border-radius: 4px;
-  -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
   border-radius: 4px;
   width: 75%;
 }
 
 .contact-form #edit-subject {
-  -khtml-border-radius: 4px;
-  -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
   border-radius: 4px;
   width: 75%;
 }
 
 .contact-form #edit-message {
-  -khtml-border-top-left-radius: 4px;
-  -khtml-border-top-right-radius: 4px;
-  -moz-border-radius-topleft: 4px;
-  -moz-border-radius-topright: 4px;
   -webkit-border-top-left-radius: 4px;
   -webkit-border-top-right-radius: 4px;
+     -moz-border-radius-topleft: 4px;
+     -moz-border-radius-topright: 4px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   width: 76.3%;
 }
 
 .contact-form .resizable-textarea .grippie {
-  -khtml-border-bottom-left-radius: 4px;
-  -khtml-border-bottom-right-radius: 4px;
-  -moz-border-radius-bottomleft: 4px;
-  -moz-border-radius-bottomright: 4px;
   -webkit-border-bottom-left-radius: 4px;
   -webkit-border-bottom-right-radius: 4px;
+     -moz-border-radius-bottomleft: 4px;
+     -moz-border-radius-bottomright: 4px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   width: 76%;
@@ -1512,9 +1492,8 @@ html.js input.throbbing {
 
 .comment-form input,
 .comment-form .form-select {
-  -khtml-border-radius: 4px;
-  -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
   border-radius: 4px;
   margin: 0;
 }
@@ -1569,12 +1548,10 @@ html.js input.throbbing {
 }
 
 .comment-form .form-textarea {
-  -khtml-border-radius-topleft: 4px;
-  -khtml-border-radius-topright: 4px;
-  -moz-border-radius-topleft: 4px;
-  -moz-border-radius-topright: 4px;
   -webkit-border-top-left-radius: 4px;
   -webkit-border-top-right-radius: 4px;
+     -moz-border-radius-topleft: 4px;
+     -moz-border-radius-topright: 4px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
@@ -1641,20 +1618,19 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 
 #search-form input#edit-keys,
 #block-search-form .form-item-search-block-form input {
-  float: left; /* LTR */
   font-size: 1em;
   height: 1.143em;
-  margin: 5px 5px 5px 0;
+  margin: 5px 0;
 }
 
 #sidebar-first #search-form input#edit-keys,
 #sidebar-first #block-search-form .form-item-search-block-form input {
-  width: 99px;
+  width: 138px;
 }
 
 #sidebar-second #search-form input#edit-keys,
 #sidebar-second #block-search-form .form-item-search-block-form input {
-  width: 155px;
+  width: 194px;
 }
 
 #search-block-form input.form-submit,
@@ -1679,6 +1655,34 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 
 #search-form .form-item-keys label {
   display: block;
+}
+
+
+
+/* Search Form (navigation) */
+
+#main-menu form {
+  position: absolute;
+  right: 15px;
+}
+
+#main-menu form .form-item-search-block-form input {
+  -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+  -webkit-transition: all 0.7s ease 0s;
+     -moz-transition: all 0.7s ease 0s;
+      -ms-transition: all 0.7s ease 0s;
+       -o-transition: all 0.7s ease 0s;
+  border-radius: 20px;
+  font-size: 0.7em;
+  margin: 5px 0 0;
+  padding: 3px 15px 3px 23px;
+  transition: all 0.7s ease 0s;
+  width: 90px;
+}
+
+#main-menu form .form-item-search-block-form input:focus {
+  width: 130px;
 }
 
 
