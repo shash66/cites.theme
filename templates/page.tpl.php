@@ -57,6 +57,7 @@
  * - $page['help']: Dynamic help text, mostly for admin pages.
  * - $page['content']: The main content of the current page.
  * - $page['sidebar_first']: Items for the first sidebar.
+ * - $page['sidebar_second']: Items for the second sidebar.
  * - $page['footer']: Items for the footer region.
  *
  * @see template_preprocess()
@@ -169,6 +170,13 @@
 				<?php if ( $page['sidebar_second'] ) : ?>
 					<div class="column sidebar" id="sidebar-second">
 						<div class="section">
+							<div id="social-media">
+								<?php
+								// Display the social media icons block.
+								$block = module_invoke( 'on_the_web', 'block_view' );
+								print render( $block['content'] );
+								?>
+							</div><!-- #social-media -->
 							<?php print render( $page['sidebar_second'] ); ?>
 						</div><!-- .section -->
 					</div><!-- .column .sidebar #sidebar-second -->

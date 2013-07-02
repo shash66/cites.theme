@@ -1,12 +1,7 @@
-/* On The Web */
+/* Social Media Icons */
 
-#sidebar-second .block-on-the-web {
-  border: none;
-  margin-bottom: 10px;
-}
-
-#sidebar-second .block-on-the-web .content {
-  padding: 0;
-  text-align: center;
+#social-media {
   line-height: 1;
+  margin-bottom: 10px;
+  text-align: center;
 }

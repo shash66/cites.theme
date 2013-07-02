@@ -126,10 +126,6 @@ function cites_theme_preprocess_block( &$variables ) {
 	if ( in_array( $variables['block']->region, array( 'header', 'footer' ) ) ) {
 		$variables['title_attributes_array']['class'][] = 'element-invisible';
 	}
-
-	// In the sidebar second region vissualy hide On The Web block title.
-	if ( $variables['block']->module == 'on_the_web' && $variables['block']->region == 'sidebar_second' )
-		$variables['title_attributes_array']['class'][] = 'element-invisible';
 }
 
 /**
