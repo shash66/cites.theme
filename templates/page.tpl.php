@@ -80,8 +80,8 @@
 
 						// Display the Main menu links.
 						print theme( 'nice_menus_main_menu', array(
-							'direction' => 'down',
-							'depth'     => -1
+							'depth'     => -1,
+							'direction' => 'down'
 						) );
 						?>
 					</div><!-- .navigation #main-menu -->
