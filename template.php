@@ -126,6 +126,10 @@ function cites_theme_preprocess_block( &$variables ) {
 	if ( in_array( $variables['block']->region, array( 'header', 'footer' ) ) ) {
 		$variables['title_attributes_array']['class'][] = 'element-invisible';
 	}
+
+	// In the sidebar second region vissualy hide On The Web block title.
+	if ( $variables['block']->module == 'on_the_web' && $variables['block']->region == 'sidebar_second' )
+		$variables['title_attributes_array']['class'][] = 'element-invisible';
 }
 
 /**
@@ -167,7 +171,7 @@ function cites_theme_field__taxonomy_term_reference( $variables ) {
 function cites_theme_form_alter( &$form, &$form_state, $form_id ) {
 	// Alter the search block forms.
 	if ( $form_id == 'search_block_form' ) {
-		// Hide the submit button.
+		// Vissually hide the submit button.
 		$form['actions']['#attributes']['class'][] = 'element-invisible';
 
 		// Add the placeholder text.

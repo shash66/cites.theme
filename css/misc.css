@@ -1,0 +1,12 @@
+/* On The Web */
+
+#sidebar-second .block-on-the-web {
+  border: none;
+  margin-bottom: 10px;
+}
+
+#sidebar-second .block-on-the-web .content {
+  padding: 0;
+  text-align: center;
+  line-height: 1;
+}
