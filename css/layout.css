@@ -22,8 +22,11 @@ body,
 }
 
 #header div.section {
-  padding-top: 99px;
   position: relative;
+}
+
+#banner {
+  height: 99px;
 }
 
 .region-header {
@@ -32,7 +35,7 @@ body,
 }
 
 .with-secondary-menu .region-header {
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 .without-secondary-menu .region-header {

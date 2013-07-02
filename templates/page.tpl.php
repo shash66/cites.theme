@@ -70,7 +70,9 @@
 	<div id="page">
 		<div class="<?php print $secondary_menu ? 'with-secondary-menu' : 'without-secondary-menu'; ?>" id="header">
 			<div class="section clearfix">
-				<?php print render( $page['header'] ); ?>
+				<div id="banner">
+					<?php print render( $page['header'] ); ?>
+				</div><!-- #banner -->
 				<?php if ( $main_menu ) : ?>
 					<div class="navigation" id="main-menu">
 						<?php
