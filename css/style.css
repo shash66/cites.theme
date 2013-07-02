@@ -1675,8 +1675,8 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
        -o-transition: all 0.7s ease 0s;
   border-radius: 20px;
   font-size: 0.7em;
-  margin: 5px 0 0;
-  padding: 3px 15px 3px 23px;
+  margin: 3px 0 0;
+  padding: 5px 15px 5px 23px;
   transition: all 0.7s ease 0s;
   width: 90px;
 }
