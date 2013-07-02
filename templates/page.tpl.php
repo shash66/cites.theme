@@ -74,11 +74,11 @@
 				<?php if ( $main_menu ) : ?>
 					<div class="navigation" id="main-menu">
 						<?php
-						// Print the Search block.
-						$block = module_invoke( 'search', 'block_view', 'search' );
+						// Display the search form block.
+						$block = module_invoke( 'search', 'block_view' );
 						print render( $block );
 
-						// Print the Main menu links.
+						// Display the Main menu links.
 						print theme( 'nice_menus_main_menu', array(
 							'direction' => 'down',
 							'depth'     => -1
