@@ -192,6 +192,21 @@ a.feed-icon {
 
 
 
+/* Clearfix */
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+
 /* Table Styles */
 
 table {
@@ -1915,23 +1930,4 @@ div.admin-panel .description {
 
 #footer-wrapper .poll .bar .foreground {
   background-color: #ddd;
-}
-
-
-
-/* Clearfix */
-
-.clearfix:before,
-.clearfix:after {
-  content: "";
-  display: table;
-  line-height: 0;
-}
-
-.clearfix:after {
-  clear: both;
-}
-
-.clearfix {
-  *zoom: 1;
 }
