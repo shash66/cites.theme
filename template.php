@@ -174,3 +174,13 @@ function cites_theme_form_alter( &$form, &$form_state, $form_id ) {
 		$form['search_block_form']['#attributes']['placeholder'] = t( 'Search CITES.org' );
 	}
 }
+
+/**
+ * Performs alterations before the language switcher is rendered.
+ */
+function cites_theme_language_switch_links_alter( &$links, $type, $path ) {
+	global $language;
+
+	// Remove the active language link.
+	unset( $links[ $language->language ] );
+}
