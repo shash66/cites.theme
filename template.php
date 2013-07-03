@@ -34,6 +34,16 @@ function cites_theme_preprocess_html( &$variables ) {
 }
 
 /**
+ * Performs alterations before a page is rendered.
+ */
+function cites_theme_page_alter( &$page ) {
+	// Force the second sidebar region to render on the front page even if it's
+	// empty.
+	if ( drupal_is_front_page() && empty( $page['sidebar_second'] ) )
+		$page['sidebar_second'] = array( '' );
+}
+
+/**
  * Override or insert variables into the page template.
  */
 function cites_theme_process_page( &$variables ) {
