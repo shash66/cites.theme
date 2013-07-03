@@ -15,11 +15,11 @@ a:hover {
 }
 
 #page-wrapper {
-  background: url("../images/page-wrapper-bg.gif") repeat-x center top #000;
+  background: url("../images/page-wrapper.gif") repeat-x center top #000;
 }
 
 #page {
-  background: url("../images/page-bg.gif") no-repeat center top;
+  background: url("../images/page.gif") no-repeat center top;
 }
 
 #banner {
@@ -40,7 +40,7 @@ a:hover {
 }
 
 #main-menu {
-  background-image: url("../images/main-menu-bg.gif");
+  background-image: url("../images/main-menu.gif");
 }
 
 #main-menu .nice-menu ul {
@@ -126,7 +126,7 @@ a:hover {
 
 .two-sidebars #main,
 .sidebar-second #main {
-  background-image: url("../images/sidebar-second-bg.gif");
+  background-image: url("../images/sidebar-second.gif");
   background-position: right top;
   background-repeat: repeat-y;
 }
@@ -137,7 +137,7 @@ a:hover {
 }
 
 #sidebar-second h2 {
-  background: url("../images/sidebar-second-title-bg.gif") repeat-x;
+  background: url("../images/sidebar-second-title.gif") repeat-x;
   border-color: #ccc;
   color: #666633;
 }
@@ -212,7 +212,7 @@ a:hover {
 }
 
 #footer {
-  background: #eee url("../images/footer-bg.gif") no-repeat;
+  background: #eee url("../images/footer.gif") no-repeat;
   border: none;
 }
 
