@@ -1687,12 +1687,12 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 
 /* Search Form (navigation) */
 
-#main-menu form {
+#search {
   position: absolute;
-  right: 15px;
+  right: 15px; /* RTL */
 }
 
-#main-menu form .form-item-search-block-form input {
+#search .form-item-search-block-form input {
   -webkit-border-radius: 20px;
      -moz-border-radius: 20px;
   -webkit-transition: all 0.7s ease 0s;
@@ -1702,12 +1702,12 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
   border-radius: 20px;
   font-size: 0.7em;
   margin: 3px 0 0;
-  padding: 5px 15px 5px 23px;
+  padding: 5px 15px 5px 23px; /* RTL */
   transition: all 0.7s ease 0s;
   width: 90px;
 }
 
-#main-menu form .form-item-search-block-form input:focus {
+#search .form-item-search-block-form input:focus {
   width: 130px;
 }
 

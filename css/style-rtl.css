@@ -198,9 +198,22 @@ a.button {
 
 #search-form input#edit-keys,
 #block-search-form .form-item-search-block-form input {
-  float: right;
   margin-left: 5px;
   margin-right: 0;
+}
+
+
+
+/* Search Form (navigation) */
+
+#search {
+  left: 15px;
+  right: auto;
+}
+
+#search .form-item-search-block-form input {
+  background-position: right center;
+  padding: 5px 23px 5px 15px;
 }
 
 

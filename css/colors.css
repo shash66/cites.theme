@@ -43,23 +43,6 @@ a:hover {
   background-image: url("../images/menubar_bg.gif");
 }
 
-#main-menu form .form-item-search-block-form input {
-  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
-  background: #43631C url("../images/search-white.png") 5px center no-repeat;
-  border: none;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
-  color: #d7d7d7;
-  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
-}
-
-#main-menu form .form-item-search-block-form input:focus {
-  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
-  background-color: #fcfcfc;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
-  color: #6a6f75;
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-}
-
 #main-menu .nice-menu ul {
   border-color: #567b29;
 }
@@ -101,6 +84,23 @@ a:hover {
 #main-menu .nice-menu li li:focus > a,
 #main-menu .nice-menu li li:hover > a {
   color: #fff;
+}
+
+#search .form-item-search-block-form input {
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  background: #43631C url("../images/search-white.png") left center no-repeat;
+  border: none;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  color: #d7d7d7;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#search .form-item-search-block-form input:focus {
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+  background-color: #fcfcfc;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+  color: #6a6f75;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
 
 #featured .section {
