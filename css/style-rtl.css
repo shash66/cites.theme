@@ -95,6 +95,14 @@ ul.tips {
   text-align: right;
 }
 
+#main-menu .nice-menu li.menuparent {
+  background-position: left center;
+}
+
+#main-menu .nice-menu li li.menuparent {
+  background-image: url("../images/arrow-left-black.gif");
+}
+
 
 
 /* Secondary Menu */
