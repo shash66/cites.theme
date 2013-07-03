@@ -956,7 +956,7 @@ ul.links {
 #sidebar-first .block-menu ul.menu li a,
 #sidebar-first .block-menu-block ul.menu li a {
   display: block;
-  padding: 3px 10px 3px 20px;
+  padding: 3px 10px 3px 20px; /* LTR */
   text-decoration: none;
 }
 
@@ -976,7 +976,7 @@ ul.links {
 #sidebar-second .block-menu ul.menu li a,
 #sidebar-second .block-menu-block ul.menu li a {
   display: block;
-  padding: 3px 10px 3px 10px;
+  padding: 3px 10px;
   text-decoration: none;
 }
 

@@ -161,7 +161,7 @@ a:hover {
 
 #sidebar-first .block-menu ul.menu li a,
 #sidebar-first .block-menu-block ul.menu li a {
-  background: #efeeec url("../images/arrow-right-green.gif") 10px 8px no-repeat;
+  background: #efeeec url("../images/arrow-right-green.gif") left 8px no-repeat;
   border-bottom: 1px solid #fff;
   color: #666;
 }
