@@ -31,26 +31,11 @@ body,
 
 .region-header {
   float: right; /* LTR */
-  margin: 0 5px 10px;
-}
-
-.with-secondary-menu .region-header {
-  margin-top: 2em;
-}
-
-.without-secondary-menu .region-header {
-  margin-top: 15px;
+  margin: 5px;
 }
 
 #main-menu {
   height: 35px;
-}
-
-#secondary-menu {
-  position: absolute;
-  right: 0; /* LTR */
-  top: 0;
-  width: 480px;
 }
 
 #content,

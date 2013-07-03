@@ -22,6 +22,18 @@ a:hover {
   background: url("../images/page.gif") no-repeat center top;
 }
 
+#secondary-menu {
+  background-color: #333;
+}
+
+#secondary-menu-links li a {
+  color: #d7d7d7;
+}
+
+#secondary-menu-links li a:hover {
+  color: #fff;
+}
+
 #banner {
   background: url("../images/header-en.jpg") no-repeat;
 }
@@ -30,8 +42,7 @@ a:hover {
 .region-header a,
 .region-header li a.active,
 #name-and-slogan,
-#name-and-slogan a,
-#secondary-menu-links li a {
+#name-and-slogan a {
   color: #003300;
 }
 

@@ -559,9 +559,17 @@ h1#site-name {
 
 /* Language switcher block in region header. */
 
-.region-header .block-locale ul li {
+.region-header .block-locale .content ul li {
   display: inline;
   padding: 0 0.5em;
+}
+
+.region-header .block-locale .content ul li.first {
+  padding-left: 0; /* LTR */
+}
+
+.region-header .block-locale .content ul li.last {
+  padding-right: 0; /* LTR */
 }
 
 
@@ -611,12 +619,20 @@ h1#site-name {
 #secondary-menu-links {
   float: right; /* LTR */
   font-size: 0.929em;
-  margin: 10px 10px 0;
+  line-height: 2;
+  margin: 0 15px;
 }
 
-#secondary-menu-links a:hover,
-#secondary-menu-links a:focus {
-  text-decoration: underline;
+#secondary-menu-links li.first {
+  padding-left: 0; /* LTR */
+}
+
+#secondary-menu-links li.last {
+  padding-right: 0; /* LTR */
+}
+
+#secondary-menu-links a {
+  text-decoration: none;
 }
 
 

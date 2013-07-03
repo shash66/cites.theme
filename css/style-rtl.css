@@ -88,6 +88,17 @@ ul.tips {
 }
 
 
+/* Language switcher block in region header. */
+
+.region-header .block-locale .content ul li.first {
+  padding-right: 0;
+}
+
+.region-header .block-locale .content ul li.last {
+  padding-left: 0;
+}
+
+
 
 /* Main Menu */
 
@@ -109,6 +120,14 @@ ul.tips {
 
 #secondary-menu-links {
   float: left;
+}
+
+#secondary-menu-links li.first {
+  padding-right: 0;
+}
+
+#secondary-menu-links li.last {
+  padding-left: 0;
 }
 
 

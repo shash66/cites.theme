@@ -69,8 +69,26 @@
 ?>
 <div id="page-wrapper">
 	<div id="page">
-		<div class="<?php print $secondary_menu ? 'with-secondary-menu' : 'without-secondary-menu'; ?>" id="header">
+		<div id="header">
 			<div class="section clearfix">
+				<?php if ( $secondary_menu ) : ?>
+					<div class="navigation clearfix" id="secondary-menu">
+						<?php
+						print theme( 'links__system_secondary_menu', array(
+							'attributes' => array(
+								'class' => array( 'links', 'inline', 'clearfix' ),
+								'id'    => 'secondary-menu-links'
+							),
+							'heading' => array(
+								'class' => array( 'element-invisible' ),
+								'level' => 'h2',
+								'text'  => t( 'Secondary menu' )
+							),
+							'links' => $secondary_menu
+						) );
+						?>
+					</div><!-- .navigation #secondary-menu -->
+				<?php endif; ?>
 				<div id="banner">
 					<?php print render( $page['header'] ); ?>
 				</div><!-- #banner -->
@@ -92,24 +110,6 @@
 						) );
 						?>
 					</div><!-- .navigation #main-menu -->
-				<?php endif; ?>
-				<?php if ( $secondary_menu ) : ?>
-					<div class="navigation" id="secondary-menu">
-						<?php
-						print theme( 'links__system_secondary_menu', array(
-							'attributes' => array(
-								'class' => array( 'links', 'inline', 'clearfix' ),
-								'id'    => 'secondary-menu-links'
-							),
-							'heading' => array(
-								'class' => array( 'element-invisible' ),
-								'level' => 'h2',
-								'text'  => t( 'Secondary menu' )
-							),
-							'links' => $secondary_menu
-						) );
-						?>
-					</div><!-- .navigation #secondary-menu -->
 				<?php endif; ?>
 			</div><!-- .section .clearfix -->
 		</div><!-- #header -->
