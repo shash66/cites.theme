@@ -15,15 +15,15 @@ a:hover {
 }
 
 #page-wrapper {
-  background: url("../images/bodybg_green.gif") repeat-x center top #000;
+  background: url("../images/page-wrapper-bg.gif") repeat-x center top #000;
 }
 
 #page {
-  background: url("../images/outer.gif") no-repeat center top;
+  background: url("../images/page-bg.gif") no-repeat center top;
 }
 
 #banner {
-  background: url("../images/eng-home-banner3.jpg") no-repeat;
+  background: url("../images/header-en.jpg") no-repeat;
 }
 
 .region-header,
@@ -40,7 +40,7 @@ a:hover {
 }
 
 #main-menu {
-  background-image: url("../images/menubar_bg.gif");
+  background-image: url("../images/main-menu-bg.gif");
 }
 
 #main-menu .nice-menu ul {
@@ -53,7 +53,7 @@ a:hover {
 }
 
 #main-menu .nice-menu li.menuparent {
-  background-image: url("../images/arr_black_down.gif");
+  background-image: url("../images/arrow-down-black.gif");
 }
 
 #main-menu .nice-menu li a {
@@ -72,7 +72,7 @@ a:hover {
 }
 
 #main-menu .nice-menu li li.menuparent {
-  background-image: url("../images/arr_black.gif");
+  background-image: url("../images/arrow-right-black.gif");
 }
 
 #main-menu .nice-menu li li a {
@@ -88,7 +88,7 @@ a:hover {
 
 #search .form-item-search-block-form input {
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
-  background: #43631C url("../images/search-white.png") left center no-repeat;
+  background: #43631C url("../images/search-icon.png") left center no-repeat;
   border: none;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
   color: #d7d7d7;
@@ -126,7 +126,7 @@ a:hover {
 
 .two-sidebars #main,
 .sidebar-second #main {
-  background-image: url("../images/droit_bg.gif");
+  background-image: url("../images/sidebar-second-bg.gif");
   background-position: right top;
   background-repeat: repeat-y;
 }
@@ -137,7 +137,7 @@ a:hover {
 }
 
 #sidebar-second h2 {
-  background: url("../images/khaki_bg.gif") repeat-x;
+  background: url("../images/sidebar-second-title-bg.gif") repeat-x;
   border-color: #ccc;
   color: #666633;
 }
@@ -161,7 +161,7 @@ a:hover {
 
 #sidebar-first .block-menu ul.menu li a,
 #sidebar-first .block-menu-block ul.menu li a {
-  background: #efeeec url("../images/arrow.gif") 10px 8px no-repeat;
+  background: #efeeec url("../images/arrow-right-green.gif") 10px 8px no-repeat;
   border-bottom: 1px solid #fff;
   color: #666;
 }
@@ -176,7 +176,7 @@ a:hover {
 #sidebar-first .block-menu-block ul.menu li a:focus,
 #sidebar-first .block-menu-block ul.menu li a:hover {
   background-color: #567b29;
-  background-image: url("../images/arrow_red.gif");
+  background-image: url("../images/arrow-right-red.gif");
   color: #fff;
 }
 
@@ -212,7 +212,7 @@ a:hover {
 }
 
 #footer {
-  background: #eee url("../images/footerbg.gif") no-repeat;
+  background: #eee url("../images/footer-bg.gif") no-repeat;
   border: none;
 }
 
