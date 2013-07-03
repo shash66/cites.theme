@@ -196,6 +196,7 @@ ul.tips {
 }
 
 
+
 /* Password Meter */
 
 #password-strength {
@@ -250,6 +251,10 @@ a.button {
 
 
 /* Footer */
+
+#footer {
+  background-image: url("../images/footer-rtl.gif");
+}
 
 #footer li a {
   border-left: 1px solid #555;
