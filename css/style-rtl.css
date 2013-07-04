@@ -90,10 +90,12 @@ ul.tips {
 
 /* Language switcher block in region header. */
 
+#language-switcher ul li.first,
 .region-header .block-locale .content ul li.first {
   padding-right: 0;
 }
 
+#language-switcher ul li.last,
 .region-header .block-locale .content ul li.last {
   padding-left: 0;
 }

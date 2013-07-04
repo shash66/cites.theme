@@ -559,15 +559,24 @@ h1#site-name {
 
 /* Language switcher block in region header. */
 
+#language-switcher ul {
+  font-size: 0.857em;
+  margin: 10px 15px 0;
+  padding: 0;
+}
+
+#language-switcher ul li,
 .region-header .block-locale .content ul li {
   display: inline;
   padding: 0 0.5em;
 }
 
+#language-switcher ul li.first,
 .region-header .block-locale .content ul li.first {
   padding-left: 0; /* LTR */
 }
 
+#language-switcher ul li.last,
 .region-header .block-locale .content ul li.last {
   padding-right: 0; /* LTR */
 }

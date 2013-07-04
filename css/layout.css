@@ -21,21 +21,25 @@ body,
   width: 986px;
 }
 
-#header div.section {
+#banner {
+  height: 99px;
   position: relative;
 }
 
-#banner {
-  height: 99px;
+#language-switcher {
+  position: absolute;
+  right: 0; /* LTR */
+  top: 0;
 }
 
 .region-header {
   float: right; /* LTR */
-  margin: 5px;
+  margin: 3em 5px 0;
 }
 
 #main-menu {
   height: 35px;
+  position: relative;
 }
 
 #content,

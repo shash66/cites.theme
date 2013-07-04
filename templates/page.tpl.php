@@ -90,6 +90,15 @@
 					</div><!-- .navigation #secondary-menu -->
 				<?php endif; ?>
 				<div id="banner">
+					<?php if ( module_exists( 'locale' ) ) : ?>
+						<div id="language-switcher">
+							<?php
+							// Display the language switcher block.
+							$block = module_invoke( 'locale', 'block_view', 'language' );
+							print render( $block['content'] );
+							?>
+						</div><!-- #language-switcher -->
+					<?php endif; ?>
 					<?php print render( $page['header'] ); ?>
 				</div><!-- #banner -->
 				<?php if ( $main_menu ) : ?>

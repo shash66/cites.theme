@@ -38,6 +38,7 @@ a:hover {
   background: url("../images/header-en.jpg") no-repeat;
 }
 
+#language-switcher a,
 .region-header,
 .region-header a,
 .region-header li a.active,
