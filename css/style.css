@@ -548,10 +548,6 @@ h1#site-name {
 
 /* Search block in region header. */
 
-.region-header #block-search-form {
-  width: 208px;
-}
-
 .region-header #block-search-form .form-text {
   width: 154px;
 }
