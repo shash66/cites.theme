@@ -192,13 +192,15 @@
 				<?php if ( $page['sidebar_second'] ) : ?>
 					<div class="column sidebar" id="sidebar-second">
 						<div class="section">
-							<div id="social-media">
-								<?php
-								// Display the social media icons block.
-								$block = module_invoke( 'on_the_web', 'block_view' );
-								print render( $block['content'] );
-								?>
-							</div><!-- #social-media -->
+							<?php if ( module_exists( 'on_the_web' ) ) : ?>
+								<div id="social-media">
+									<?php
+									// Display the social media icons block.
+									$block = module_invoke( 'on_the_web', 'block_view' );
+									print render( $block['content'] );
+									?>
+								</div><!-- #social-media -->
+							<?php endif; ?>
 							<?php print render( $page['sidebar_second'] ); ?>
 						</div><!-- .section -->
 					</div><!-- .column .sidebar #sidebar-second -->
