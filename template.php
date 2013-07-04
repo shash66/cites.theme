@@ -37,10 +37,14 @@ function cites_theme_preprocess_html( &$variables ) {
  * Performs alterations before a page is rendered.
  */
 function cites_theme_page_alter( &$page ) {
-	// Force the second sidebar region to render on the front page even if it's
-	// empty.
-	if ( drupal_is_front_page() && empty( $page['sidebar_second'] ) )
+	if ( ! drupal_is_front_page() ) {
+		// Remove the second sidebar region from other pages than front page.
+		unset( $page['sidebar_second'] );
+	} else if ( empty( $page['sidebar_second'] ) ) {
+		// Force the second sidebar region to render on the front page even if
+		// it's empty.
 		$page['sidebar_second'] = array( '' );
+	}
 }
 
 /**
