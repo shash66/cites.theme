@@ -581,21 +581,39 @@ h1#site-name {
   text-align: center;
 }
 
+#main-menu-links,
 #main-menu .nice-menu {
   display: inline-block;
-  float: none;
   font-size: 0.929em;
   margin: 0;
   padding: 0;
   text-align: left; /* LTR */
 }
 
+#main-menu .nice-menu {
+  float: none;
+}
+
+#main-menu-links li {
+  display: inline-block;
+  list-style: none;
+}
+
+#main-menu-links a,
 #main-menu .nice-menu a {
-  padding-bottom: 0;
-  padding-top: 0;
   text-decoration: none;
 }
 
+#main-menu-links a {
+  padding: 0 5px;
+}
+
+#main-menu .nice-menu a {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+#main-menu-links li a,
 #main-menu .nice-menu li a {
   line-height: 28px;
 }

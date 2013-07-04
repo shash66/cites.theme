@@ -67,6 +67,7 @@ a:hover {
   background-image: url("../images/arrow-down-black.gif");
 }
 
+#main-menu-links li a,
 #main-menu .nice-menu li a {
   color: #fff;
 }

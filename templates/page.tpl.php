@@ -94,20 +94,38 @@
 				</div><!-- #banner -->
 				<?php if ( $main_menu ) : ?>
 					<div class="navigation" id="main-menu">
-						<div id="search">
-							<?php
-							// Display the search form block.
-							$block = module_invoke( 'search', 'block_view' );
-							print render( $block );
-							?>
-						</div><!-- #search -->
-
+						<?php if ( module_exists( 'search' ) ) : ?>
+							<div id="search">
+								<?php
+								// Display the search form block.
+								$block = module_invoke( 'search', 'block_view' );
+								print render( $block );
+								?>
+							</div><!-- #search -->
+						<?php endif; ?>
 						<?php
-						// Display the Main menu links.
-						print theme( 'nice_menus_main_menu', array(
-							'depth'     => -1,
-							'direction' => 'down'
-						) );
+						if ( module_exists( 'nice_menus' ) ) {
+							// Use the Nice menus module to display the Main
+							// menu links.
+							print theme( 'nice_menus_main_menu', array(
+								'depth'     => -1,
+								'direction' => 'down'
+							) );
+						} else {
+							// Display the Main menu links.
+							print theme( 'links__system_main_menu', array(
+								'attributes' => array(
+									'class' => array( 'links', 'clearfix' ),
+									'id'    => 'main-menu-links'
+								),
+								'heading' => array(
+									'class' => array( 'element-invisible' ),
+									'level' => 'h2',
+									'text'  => t( 'Main menu' )
+								),
+								'links' => $main_menu
+							) );
+						}
 						?>
 					</div><!-- .navigation #main-menu -->
 				<?php endif; ?>
