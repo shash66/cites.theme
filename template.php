@@ -190,7 +190,7 @@ function cites_theme_form_alter( &$form, &$form_state, $form_id ) {
 		$form['actions']['#attributes']['class'][] = 'element-invisible';
 
 		// Add the placeholder text.
-		$form['search_block_form']['#attributes']['placeholder'] = t( 'Search CITES.org' );
+		$form['search_block_form']['#attributes']['placeholder'] = t( 'Search' );
 	}
 }
 
