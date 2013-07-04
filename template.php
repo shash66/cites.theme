@@ -37,8 +37,13 @@ function cites_theme_preprocess_html( &$variables ) {
  * Performs alterations before a page is rendered.
  */
 function cites_theme_page_alter( &$page ) {
-	if ( ! drupal_is_front_page() ) {
-		// Remove the second sidebar region from other pages than front page.
+	global $theme;
+
+	$item = menu_get_item();
+
+	if ( ! drupal_is_front_page() && $item['path'] != 'admin/structure/block/demo/' . $theme ) {
+		// Remove the second sidebar region from other pages than front page and
+		// block regions demonstration.
 		unset( $page['sidebar_second'] );
 	} else if ( empty( $page['sidebar_second'] ) ) {
 		// Force the second sidebar region to render on the front page even if
