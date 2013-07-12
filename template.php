@@ -7,7 +7,7 @@ function cites_theme_preprocess_html( &$variables ) {
 		$variables['classes_array'][] = 'featured';
 	}
 
-	// Add conditional stylesheets for IE
+	// Add conditional stylesheets for IE.
 	drupal_add_css(
 		path_to_theme() . '/css/ie.css',
 		array(
@@ -31,6 +31,30 @@ function cites_theme_preprocess_html( &$variables ) {
 			'preprocess' => FALSE
 		)
 	);
+
+	if ( module_exists( 'nice_menus' ) ) {
+		// Add Superfish JavaScript, if enabled.
+		if ( variable_get( 'nice_menus_js', 1 ) == 1 )
+			drupal_add_library( 'nice_menus', 'nice_menus' );
+
+		// Add main CSS functionality.
+		drupal_add_css(
+			drupal_get_path( 'module', 'nice_menus' ) . '/css/nice_menus.css',
+			array(
+				'basename' => 'nice_menus.css',
+				'group'    => CSS_DEFAULT
+			)
+		);
+
+		// Add default CSS layout.
+		drupal_add_css(
+			drupal_get_path( 'module', 'nice_menus' ) . '/css/nice_menus_default.css',
+			array(
+				'basename' => '/css/nice_menus_default.css',
+				'group'    => CSS_DEFAULT
+			)
+		);
+	}
 }
 
 /**
