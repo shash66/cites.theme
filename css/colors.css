@@ -38,6 +38,14 @@ a:hover {
   background: url("../images/header-en.jpg") no-repeat;
 }
 
+.i18n-fr #banner {
+  background: url("../images/header-fr.jpg") no-repeat;
+}
+
+.i18n-es #banner {
+  background: url("../images/header-es.jpg") no-repeat;
+}
+
 #language-switcher a,
 .region-header,
 .region-header a,
