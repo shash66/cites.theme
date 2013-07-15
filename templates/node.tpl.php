@@ -6,8 +6,8 @@
  * Available variables:
  * - $title: the (sanitized) title of the node.
  * - $content: An array of node items. Use render($content) to print them all,
- *   or print a subset such as render($content['field_example']). Use
- *   hide($content['field_example']) to temporarily suppress the printing of a
+ *   or print a subset such as render( $content['field_example'] ). Use
+ *   hide( $content['field_example'] ) to temporarily suppress the printing of a
  *   given element.
  * - $user_picture: The node author's picture from user-picture.tpl.php.
  * - $date: Formatted creation date. Preprocess functions can reformat it by
@@ -22,9 +22,9 @@
  *   preprocess functions. The default values can be one or more of the
  *   following:
  *   - node: The current template type; for example, "theming hook".
- *   - node-[type]: The current node type. For example, if the node is a
- *     "Blog entry" it would result in "node-blog". Note that the machine
- *     name will often be in a short form of the human readable label.
+ *   - node-[type]: The current node type. For example, if the node is a "Blog
+ *     entry" it would result in "node-blog". Note that the machine name will
+ *     often be in a short form of the human readable label.
  *   - node-teaser: Nodes in teaser form.
  *   - node-preview: Nodes in preview mode.
  *   The following are controlled through the node publishing options.
@@ -45,10 +45,10 @@
  * - $comment_count: Number of comments attached to the node.
  * - $uid: User ID of the node author.
  * - $created: Time the node was published formatted in Unix timestamp.
- * - $classes_array: Array of html class attribute values. It is flattened
- *   into a string within the variable $classes.
- * - $zebra: Outputs either "even" or "odd". Useful for zebra striping in
- *   teaser listings.
+ * - $classes_array: Array of html class attribute values. It is flattened into
+ *   a string within the variable $classes.
+ * - $zebra: Outputs either "even" or "odd". Useful for zebra striping in teaser
+ *   listings.
  * - $id: Position of the node. Increments each time it's output.
  *
  * Node status variables:
@@ -93,22 +93,21 @@
 	<?php endif; ?>
 	<div class="content clearfix"<?php print $content_attributes; ?>>
 		<?php
-			// We hide the comments and links now so that we can render them
-			// later.
-			hide( $content['comments'] );
-			hide( $content['links'] );
-			print render( $content );
+		// Hides the comments and links now so that they can be rendered later.
+		hide( $content['comments'] );
+		hide( $content['links'] );
+
+		print render( $content );
 		?>
 	</div><!-- .content .clearfix -->
 	<?php
-		// Remove the "Add new comment" link on the teaser page or if the
-		// comment form is being displayed on the same page.
-		if ( $teaser || ! empty( $content['comments']['comment_form'] ) ) {
-			unset( $content['links']['comment']['#links']['comment-add'] );
-		}
+	// Removes the "Add new comment" link on the teaser page or if the comment
+	// form is being displayed on the same page.
+	if ( $teaser || ! empty( $content['comments']['comment_form'] ) )
+		unset( $content['links']['comment']['#links']['comment-add'] );
 
-		// Only display the wrapper div if there are links.
-		$links = render( $content['links'] );
+	// Displays only the wrapper div if there are links.
+	$links = render( $content['links'] );
 	?>
 	<?php if ( $links ) : ?>
 		<div class="link-wrapper">

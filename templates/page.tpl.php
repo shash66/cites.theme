@@ -24,8 +24,8 @@
  *   prefix.
  *
  * Navigation:
- * - $main_menu (array): An array containing the Main menu links for the
- *   site, if they have been configured.
+ * - $main_menu (array): An array containing the Main menu links for the site,
+ *   if they have been configured.
  * - $secondary_menu (array): An array containing the Secondary menu links for
  *   the site, if they have been configured.
  * - $breadcrumb: The breadcrumb trail for the current page.
@@ -45,10 +45,9 @@
  * - $action_links (array): Actions local to the page, such as 'Add menu' on the
  *   menu administration interface.
  * - $feed_icons: A string of all feed icons for the current page.
- * - $node: The node object, if there is an automatically-loaded node
- *   associated with the page, and the node ID is the second argument
- *   in the page's path (e.g. node/12345 and node/12345/revisions, but not
- *   comment/reply/12345).
+ * - $node: The node object, if there is an automatically-loaded node associated
+ *   with the page, and the node ID is the second argument in the page's path
+ *   (e.g. node/12345 and node/12345/revisions, but not comment/reply/12345).
  *
  * Regions:
  * - $page['header']: Items for the header region.
@@ -74,6 +73,7 @@
 				<?php if ( $secondary_menu ) : ?>
 					<div class="navigation clearfix" id="secondary-menu">
 						<?php
+						// Displays the Secondary links.
 						print theme( 'links__system_secondary_menu', array(
 							'attributes' => array(
 								'class' => array( 'links', 'inline', 'clearfix' ),
@@ -93,7 +93,7 @@
 					<?php if ( module_exists( 'locale' ) ) : ?>
 						<div id="language-switcher">
 							<?php
-							// Display the language switcher block.
+							// Displays the language switcher block.
 							$block = module_invoke( 'locale', 'block_view', 'language' );
 							print render( $block['content'] );
 							?>
@@ -106,7 +106,7 @@
 						<?php if ( module_exists( 'search' ) ) : ?>
 							<div id="search">
 								<?php
-								// Display the search form block.
+								// Displays the search form block.
 								$block = module_invoke( 'search', 'block_view' );
 								print render( $block );
 								?>
@@ -114,14 +114,14 @@
 						<?php endif; ?>
 						<?php
 						if ( module_exists( 'nice_menus' ) ) {
-							// Use the Nice menus module to display the Main
-							// menu links.
+							// Uses the Nice menus module to display the Main
+							// links.
 							print theme( 'nice_menus_main_menu', array(
 								'depth'     => -1,
 								'direction' => 'down'
 							) );
 						} else {
-							// Display the Main menu links.
+							// Displays the Main links.
 							print theme( 'links__system_main_menu', array(
 								'attributes' => array(
 									'class' => array( 'links', 'clearfix' ),
@@ -204,7 +204,7 @@
 							<?php if ( module_exists( 'on_the_web' ) ) : ?>
 								<div id="social-media">
 									<?php
-									// Display the social media icons block.
+									// Displays the social media icons block.
 									$block = module_invoke( 'on_the_web', 'block_view' );
 									print render( $block['content'] );
 									?>
