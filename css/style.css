@@ -1698,6 +1698,18 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
   width: 194px;
 }
 
+.sidebar-first #search-form input#edit-keys {
+  width: 707px;
+}
+
+.sidebar-second #search-form input#edit-keys {
+  width: 651px;
+}
+
+.two-sidebars #search-form input#edit-keys {
+  width: 450px;
+}
+
 #search-block-form input.form-submit,
 #search-form input.form-submit {
   background: url(../images/search-button.png) no-repeat center top;
