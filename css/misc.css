@@ -5,3 +5,40 @@
   margin-bottom: 10px;
   text-align: center;
 }
+
+
+
+/* Google Custom Search Engine */
+
+.content .searchhead {
+  margin-bottom: 0;
+}
+
+ol.google-search-results {
+  margin-top: 0;
+  padding: 0;
+}
+
+.google-search-results .gss-result {
+  border-bottom: 1px solid #d5d3d0;
+  padding: 1em 0;
+}
+
+.google-search-results .gss-result img {
+  float: left;
+  margin-right: 1em;
+}
+
+.google-search-results .gss-result .gss-search-snippet-info .gss-search-snippet {
+  margin: 0;
+}
+
+.google-search-results .gss-result .gss-search-snippet-info .gss-search-url {
+  font-size: small;
+  font-style: normal;
+}
+
+div.google-search-pager ul.pager {
+  margin-bottom: 1em;
+  padding: 0;
+}
