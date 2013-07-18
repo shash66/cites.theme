@@ -5,8 +5,8 @@
  *
  * Available variables:
  * - $content: The array of content-related elements for the node. Use
- *   render( $content ) to print them all, or print a subset such as
- *   render( $content['comment_form'] ).
+ *   render($content) to print them all, or print a subset such as
+ *   render($content['comment_form']).
  * - $classes: String of classes that can be used to style contextually through
  *   CSS. It can be manipulated through the variable $classes_array from
  *   preprocess functions. The default value has the following:
@@ -34,18 +34,18 @@
  */
 ?>
 <div class="<?php print $classes; ?>" id="comments"<?php print $attributes; ?>>
-	<?php if ( $content['comments'] && $node->type != 'forum' ) : ?>
-		<?php print render( $title_prefix ); ?>
-		<h2 class="title">
-			<?php print t( 'Comments' ); ?>
-		</h2><!-- .title -->
-		<?php print render( $title_suffix ); ?>
-	<?php endif; ?>
-	<?php print render( $content['comments'] ); ?>
-	<?php if ( $content['comment_form'] ) : ?>
-		<h2 class="title comment-form">
-			<?php print t( 'Add new comment' ); ?>
-		</h2><!-- .title .comment-form -->
-		<?php print render( $content['comment_form'] ); ?>
-	<?php endif; ?>
+  <?php if ($content['comments'] && $node->type != 'forum') : ?>
+    <?php print render($title_prefix); ?>
+    <h2 class="title">
+      <?php print t('Comments'); ?>
+    </h2><!-- .title -->
+    <?php print render($title_suffix); ?>
+  <?php endif; ?>
+  <?php print render($content['comments']); ?>
+  <?php if ($content['comment_form']) : ?>
+    <h2 class="title comment-form">
+      <?php print t('Add new comment'); ?>
+    </h2><!-- .title .comment-form -->
+    <?php print render($content['comment_form']); ?>
+  <?php endif; ?>
 </div><!-- #comments -->
