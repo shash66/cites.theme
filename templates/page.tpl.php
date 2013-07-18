@@ -67,163 +67,163 @@
  */
 ?>
 <div id="page-wrapper">
-	<div id="page">
-		<div id="header">
-			<div class="section clearfix">
-				<?php if ( $secondary_menu ) : ?>
-					<div class="navigation clearfix" id="secondary-menu">
-						<?php
-						// Displays the Secondary links.
-						print theme( 'links__system_secondary_menu', array(
-							'attributes' => array(
-								'class' => array( 'links', 'inline', 'clearfix' ),
-								'id'    => 'secondary-menu-links'
-							),
-							'heading' => array(
-								'class' => array( 'element-invisible' ),
-								'level' => 'h2',
-								'text'  => t( 'Secondary menu' )
-							),
-							'links' => $secondary_menu
-						) );
-						?>
-					</div><!-- .navigation #secondary-menu -->
-				<?php endif; ?>
-				<div id="banner">
-					<?php if ( module_exists( 'locale' ) ) : ?>
-						<div id="language-switcher">
-							<?php
-							// Displays the language switcher block.
-							$block = module_invoke( 'locale', 'block_view', 'language' );
-							print render( $block['content'] );
-							?>
-						</div><!-- #language-switcher -->
-					<?php endif; ?>
-					<?php print render( $page['header'] ); ?>
-				</div><!-- #banner -->
-				<?php if ( $main_menu ) : ?>
-					<div class="navigation" id="main-menu">
-						<?php if ( module_exists( 'search' ) ) : ?>
-							<div id="search">
-								<?php
-								// Displays the search form block.
-								$block = module_invoke( 'search', 'block_view' );
-								print render( $block );
-								?>
-							</div><!-- #search -->
-						<?php endif; ?>
-						<?php
-						if ( module_exists( 'nice_menus' ) ) {
-							// Uses the Nice menus module to display the Main
-							// links.
-							print theme( 'nice_menus_main_menu', array(
-								'depth'     => -1,
-								'direction' => 'down'
-							) );
-						} else {
-							// Displays the Main links.
-							print theme( 'links__system_main_menu', array(
-								'attributes' => array(
-									'class' => array( 'links', 'clearfix' ),
-									'id'    => 'main-menu-links'
-								),
-								'heading' => array(
-									'class' => array( 'element-invisible' ),
-									'level' => 'h2',
-									'text'  => t( 'Main menu' )
-								),
-								'links' => $main_menu
-							) );
-						}
-						?>
-					</div><!-- .navigation #main-menu -->
-				<?php endif; ?>
-			</div><!-- .section .clearfix -->
-		</div><!-- #header -->
-		<?php if ( $messages ) : ?>
-			<div id="messages">
-				<div class="section clearfix">
-					<?php print $messages; ?>
-				</div><!-- .section .clearfix -->
-			</div><!-- #messages -->
-		<?php endif; ?>
-		<?php if ( $page['featured'] ) : ?>
-			<div id="featured">
-				<div class="section clearfix">
-					<?php print render( $page['featured'] ); ?>
-				</div><!-- .section .clearfix -->
-			</div><!-- #featured -->
-		<?php endif; ?>
-		<div class="clearfix" id="main-wrapper">
-			<div class="clearfix" id="main">
-				<?php if ( $breadcrumb ) : ?>
-					<div id="breadcrumb">
-						<?php print $breadcrumb; ?>
-					</div><!-- #breadcrumb -->
-				<?php endif; ?>
-				<?php if ( $page['sidebar_first'] ) : ?>
-					<div class="column sidebar" id="sidebar-first">
-						<div class="section">
-							<?php print render( $page['sidebar_first'] ); ?>
-						</div><!-- .section -->
-					</div><!-- .column .sidebar #sidebar-first -->
-				<?php endif; ?>
-				<div class="column" id="content">
-					<div class="section">
-						<?php if ( $page['highlighted'] ) : ?>
-							<div id="highlighted">
-								<?php print render( $page['highlighted'] ); ?>
-							</div><!-- #highlighted -->
-						<?php endif; ?>
-						<a id="main-content"></a>
-						<?php print render( $title_prefix ); ?>
-						<?php if ( $title ): ?>
-							<h1 class="title" id="page-title">
-								<?php print $title; ?>
-							</h1><!--  .title #page-title -->
-						<?php endif; ?>
-						<?php print render( $title_suffix ); ?>
-						<?php if ( $tabs ) : ?>
-							<div class="tabs">
-								<?php print render( $tabs ); ?>
-							</div><!-- .tabs -->
-						<?php endif; ?>
-						<?php print render( $page['help'] ); ?>
-						<?php if ( $action_links ) : ?>
-							<ul class="action-links">
-								<?php print render( $action_links ); ?>
-							</ul><!-- .action-links -->
-						<?php endif; ?>
-						<?php print render( $page['content'] ); ?>
-						<?php print $feed_icons; ?>
-					</div><!-- .section -->
-				</div><!-- .column #content -->
-				<?php if ( $page['sidebar_second'] ) : ?>
-					<div class="column sidebar" id="sidebar-second">
-						<div class="section">
-							<?php if ( module_exists( 'on_the_web' ) ) : ?>
-								<div id="social-media">
-									<?php
-									// Displays the social media icons block.
-									$block = module_invoke( 'on_the_web', 'block_view' );
-									print render( $block['content'] );
-									?>
-								</div><!-- #social-media -->
-							<?php endif; ?>
-							<?php print render( $page['sidebar_second'] ); ?>
-						</div><!-- .section -->
-					</div><!-- .column .sidebar #sidebar-second -->
-				<?php endif; ?>
-			</div><!-- .clearfix #main -->
-		</div><!-- .clearfix #main-wrapper -->
-		<div id="footer-wrapper">
-			<div class="section">
-				<?php if ( $page['footer'] ) : ?>
-					<div class="clearfix" id="footer">
-						<?php print render( $page['footer'] ); ?>
-					</div><!-- .clearfix #footer -->
-				<?php endif; ?>
-			</div><!-- .section -->
-		</div><!-- #footer-wrapper -->
-	</div><!-- #page -->
+  <div id="page">
+    <div id="header">
+      <div class="section clearfix">
+        <?php if ($secondary_menu): ?>
+          <div class="navigation clearfix" id="secondary-menu">
+            <?php
+            // Displays the Secondary links.
+            print theme('links__system_secondary_menu', array(
+              'attributes' => array(
+                'class' => array('links', 'inline', 'clearfix'),
+                'id'    => 'secondary-menu-links'
+              ),
+              'heading' => array(
+                'class' => array('element-invisible'),
+                'level' => 'h2',
+                'text'  => t('Secondary menu')
+              ),
+              'links' => $secondary_menu
+            ));
+            ?>
+          </div><!-- .navigation #secondary-menu -->
+        <?php endif; ?>
+        <div id="banner">
+          <?php if (module_exists('locale')): ?>
+            <div id="language-switcher">
+              <?php
+              // Displays the language switcher block.
+              $block = module_invoke('locale', 'block_view', 'language');
+              print render($block['content']);
+              ?>
+            </div><!-- #language-switcher -->
+          <?php endif; ?>
+          <?php print render($page['header']); ?>
+        </div><!-- #banner -->
+        <?php if ($main_menu): ?>
+          <div class="navigation" id="main-menu">
+            <?php if (module_exists('search')): ?>
+              <div id="search">
+                <?php
+                // Displays the search form block.
+                $block = module_invoke('search', 'block_view');
+                print render($block);
+                ?>
+              </div><!-- #search -->
+            <?php endif; ?>
+            <?php
+            if (module_exists('nice_menus')) {
+              // Uses the Nice menus module to display the Main
+              // links.
+              print theme('nice_menus_main_menu', array(
+                'depth'     => -1,
+                'direction' => 'down'
+              ));
+            } else {
+              // Displays the Main links.
+              print theme('links__system_main_menu', array(
+                'attributes' => array(
+                  'class' => array('links', 'clearfix'),
+                  'id'    => 'main-menu-links'
+                ),
+                'heading' => array(
+                  'class' => array('element-invisible'),
+                  'level' => 'h2',
+                  'text'  => t('Main menu')
+                ),
+                'links' => $main_menu
+              ));
+            }
+            ?>
+          </div><!-- .navigation #main-menu -->
+        <?php endif; ?>
+      </div><!-- .section .clearfix -->
+    </div><!-- #header -->
+    <?php if ($messages): ?>
+      <div id="messages">
+        <div class="section clearfix">
+          <?php print $messages; ?>
+        </div><!-- .section .clearfix -->
+      </div><!-- #messages -->
+    <?php endif; ?>
+    <?php if ($page['featured']): ?>
+      <div id="featured">
+        <div class="section clearfix">
+          <?php print render($page['featured']); ?>
+        </div><!-- .section .clearfix -->
+      </div><!-- #featured -->
+    <?php endif; ?>
+    <div class="clearfix" id="main-wrapper">
+      <div class="clearfix" id="main">
+        <?php if ($breadcrumb): ?>
+          <div id="breadcrumb">
+            <?php print $breadcrumb; ?>
+          </div><!-- #breadcrumb -->
+        <?php endif; ?>
+        <?php if ($page['sidebar_first']): ?>
+          <div class="column sidebar" id="sidebar-first">
+            <div class="section">
+              <?php print render($page['sidebar_first']); ?>
+            </div><!-- .section -->
+          </div><!-- .column .sidebar #sidebar-first -->
+        <?php endif; ?>
+        <div class="column" id="content">
+          <div class="section">
+            <?php if ($page['highlighted']): ?>
+              <div id="highlighted">
+                <?php print render($page['highlighted']); ?>
+              </div><!-- #highlighted -->
+            <?php endif; ?>
+            <a id="main-content"></a>
+            <?php print render($title_prefix); ?>
+            <?php if ($title): ?>
+              <h1 class="title" id="page-title">
+                <?php print $title; ?>
+              </h1><!--  .title #page-title -->
+            <?php endif; ?>
+            <?php print render($title_suffix); ?>
+            <?php if ($tabs): ?>
+              <div class="tabs">
+                <?php print render($tabs); ?>
+              </div><!-- .tabs -->
+            <?php endif; ?>
+            <?php print render($page['help']); ?>
+            <?php if ($action_links): ?>
+              <ul class="action-links">
+                <?php print render($action_links); ?>
+              </ul><!-- .action-links -->
+            <?php endif; ?>
+            <?php print render($page['content']); ?>
+            <?php print $feed_icons; ?>
+          </div><!-- .section -->
+        </div><!-- .column #content -->
+        <?php if ($page['sidebar_second']): ?>
+          <div class="column sidebar" id="sidebar-second">
+            <div class="section">
+              <?php if (module_exists('on_the_web')): ?>
+                <div id="social-media">
+                  <?php
+                  // Displays the social media icons block.
+                  $block = module_invoke('on_the_web', 'block_view');
+                  print render($block['content']);
+                  ?>
+                </div><!-- #social-media -->
+              <?php endif; ?>
+              <?php print render($page['sidebar_second']); ?>
+            </div><!-- .section -->
+          </div><!-- .column .sidebar #sidebar-second -->
+        <?php endif; ?>
+      </div><!-- .clearfix #main -->
+    </div><!-- .clearfix #main-wrapper -->
+    <div id="footer-wrapper">
+      <div class="section">
+        <?php if ($page['footer']): ?>
+          <div class="clearfix" id="footer">
+            <?php print render($page['footer']); ?>
+          </div><!-- .clearfix #footer -->
+        <?php endif; ?>
+      </div><!-- .section -->
+    </div><!-- #footer-wrapper -->
+  </div><!-- #page -->
 </div><!-- #page-wrapper -->
