@@ -6,8 +6,8 @@
  * Available variables:
  * - $title: the (sanitized) title of the node.
  * - $content: An array of node items. Use render($content) to print them all,
- *   or print a subset such as render( $content['field_example'] ). Use
- *   hide( $content['field_example'] ) to temporarily suppress the printing of a
+ *   or print a subset such as render($content['field_example']). Use
+ *   hide($content['field_example']) to temporarily suppress the printing of a
  *   given element.
  * - $user_picture: The node author's picture from user-picture.tpl.php.
  * - $date: Formatted creation date. Preprocess functions can reformat it by
@@ -78,41 +78,41 @@
  */
 ?>
 <div class="<?php print $classes; ?> clearfix"<?php print $attributes; ?> id="node-<?php print $node->nid; ?>">
-	<?php print render( $title_prefix ); ?>
-	<?php if ( ! $page ) : ?>
-		<h2<?php print $title_attributes; ?>>
-			<a href="<?php print $node_url; ?>"><?php print $title; ?></a>
-		</h2>
-	<?php endif; ?>
-	<?php print render( $title_suffix ); ?>
-	<?php if ( $display_submitted ) : ?>
-		<div class="meta submitted">
-			<?php print $user_picture; ?>
-			<?php print $submitted; ?>
-		</div><!-- .meta .submitted -->
-	<?php endif; ?>
-	<div class="content clearfix"<?php print $content_attributes; ?>>
-		<?php
-		// Hides the comments and links now so that they can be rendered later.
-		hide( $content['comments'] );
-		hide( $content['links'] );
+  <?php print render($title_prefix); ?>
+  <?php if (!$page) : ?>
+    <h2<?php print $title_attributes; ?>>
+      <a href="<?php print $node_url; ?>"><?php print $title; ?></a>
+    </h2>
+  <?php endif; ?>
+  <?php print render($title_suffix); ?>
+  <?php if ($display_submitted) : ?>
+    <div class="meta submitted">
+      <?php print $user_picture; ?>
+      <?php print $submitted; ?>
+    </div><!-- .meta .submitted -->
+  <?php endif; ?>
+  <div class="content clearfix"<?php print $content_attributes; ?>>
+    <?php
+    // Hides the comments and links now so that they can be rendered later.
+    hide($content['comments']);
+    hide($content['links']);
 
-		print render( $content );
-		?>
-	</div><!-- .content .clearfix -->
-	<?php
-	// Removes the "Add new comment" link on the teaser page or if the comment
-	// form is being displayed on the same page.
-	if ( $teaser || ! empty( $content['comments']['comment_form'] ) )
-		unset( $content['links']['comment']['#links']['comment-add'] );
+    print render($content);
+    ?>
+  </div><!-- .content .clearfix -->
+  <?php
+  // Removes the "Add new comment" link on the teaser page or if the comment
+  // form is being displayed on the same page.
+  if ($teaser || !empty($content['comments']['comment_form']))
+    unset($content['links']['comment']['#links']['comment-add']);
 
-	// Displays only the wrapper div if there are links.
-	$links = render( $content['links'] );
-	?>
-	<?php if ( $links ) : ?>
-		<div class="link-wrapper">
-			<?php print $links; ?>
-		</div><!-- .link-wrapper -->
-	<?php endif; ?>
-	<?php print render( $content['comments'] ); ?>
+  // Displays only the wrapper div if there are links.
+  $links = render($content['links']);
+  ?>
+  <?php if ($links) : ?>
+    <div class="link-wrapper">
+      <?php print $links; ?>
+    </div><!-- .link-wrapper -->
+  <?php endif; ?>
+  <?php print render($content['comments']); ?>
 </div><!-- .clearfix -->
