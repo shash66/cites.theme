@@ -5,9 +5,9 @@
  *
  * Available variables:
  * - $author: Comment author. Can be link or plain text.
- * - $content: An array of comment items. Use render( $content ) to print them
- *   all, or print a subset such as render( $content['field_example'] ). Use
- *   hide( $content['field_example'] ) to temporarily suppress the printing of a
+ * - $content: An array of comment items. Use render($content) to print them
+ *   all, or print a subset such as render($content['field_example']). Use
+ *   hide($content['field_example']) to temporarily suppress the printing of a
  *   given element.
  * - $created: Formatted date and time for when the comment was created.
  *   Preprocess functions can reformat it by calling format_date() with the
@@ -59,43 +59,43 @@
  */
 ?>
 <div class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-	<div class="attribution">
-		<?php print $picture; ?>
-		<div class="submitted">
-			<p class="commenter-name">
-				<?php print $author; ?>
-			</p><!-- .commenter-name -->
-			<p class="comment-time">
-				<?php print $created; ?>
-			</p><!-- .comment-time -->
-			<p class="comment-permalink">
-				<?php print $permalink; ?>
-			</p><!-- .comment-permalink -->
-		</div><!-- .submitted -->
-	</div><!-- .attribution -->
-	<div class="comment-text">
-		<div class="comment-arrow"></div>
-		<?php if ( $new ) : ?>
-			<span class="new">
-				<?php print $new; ?>
-			</span><!-- .new -->
-		<?php endif; ?>
-		<?php print render( $title_prefix ); ?>
-		<h3<?php print $title_attributes; ?>><?php print $title; ?></h3>
-		<?php print render( $title_suffix ); ?>
-		<div class="content"<?php print $content_attributes; ?>>
-			<?php
-			// Hides the links now so that they can be rendered later.
-			hide( $content['links'] );
+  <div class="attribution">
+    <?php print $picture; ?>
+    <div class="submitted">
+      <p class="commenter-name">
+        <?php print $author; ?>
+      </p><!-- .commenter-name -->
+      <p class="comment-time">
+        <?php print $created; ?>
+      </p><!-- .comment-time -->
+      <p class="comment-permalink">
+        <?php print $permalink; ?>
+      </p><!-- .comment-permalink -->
+    </div><!-- .submitted -->
+  </div><!-- .attribution -->
+  <div class="comment-text">
+    <div class="comment-arrow"></div>
+    <?php if ($new) : ?>
+      <span class="new">
+        <?php print $new; ?>
+      </span><!-- .new -->
+    <?php endif; ?>
+    <?php print render($title_prefix); ?>
+    <h3<?php print $title_attributes; ?>><?php print $title; ?></h3>
+    <?php print render($title_suffix); ?>
+    <div class="content"<?php print $content_attributes; ?>>
+      <?php
+      // Hides the links now so that they can be rendered later.
+      hide($content['links']);
 
-			print render( $content );
-			?>
-			<?php if ( $signature ) : ?>
-			<div class="user-signature clearfix">
-				<?php print $signature; ?>
-			</div><!-- .user-signature .clearfix -->
-			<?php endif; ?>
-		</div><!-- .content -->
-		<?php print render( $content['links'] ); ?>
-	</div><!-- .comment-text -->
+      print render($content);
+      ?>
+      <?php if ($signature) : ?>
+      <div class="user-signature clearfix">
+        <?php print $signature; ?>
+      </div><!-- .user-signature .clearfix -->
+      <?php endif; ?>
+    </div><!-- .content -->
+    <?php print render($content['links']); ?>
+  </div><!-- .comment-text -->
 </div><!-- .clearfix -->
