@@ -1,6 +1,12 @@
 <?php
 /**
  * Adds body classes if certain regions have content.
+ *
+ * @param $variables
+ *   An associative array with generated variables.
+ *
+ * @return
+ *   Nothing.
  */
 function cites_theme_preprocess_html(&$variables) {
   if (!empty($variables['page']['featured'])) {
@@ -61,6 +67,12 @@ function cites_theme_preprocess_html(&$variables) {
 
 /**
  * Performs alterations before a page is rendered.
+ *
+ * @param $page
+ *   Nested array of renderable elements that make up the page.
+ *
+ * @return
+ *   Nothing.
  */
 function cites_theme_page_alter(&$page) {
   global $theme;
@@ -80,6 +92,12 @@ function cites_theme_page_alter(&$page) {
 
 /**
  * Overrides or inserts variables into the page template.
+ *
+ * @param $variables
+ *   An associative array with generated variables.
+ *
+ * @return
+ *   Nothing.
  */
 function cites_theme_process_page(&$variables) {
   // Visually hides the site name and slogan if they are toggled off.
@@ -118,6 +136,12 @@ function cites_theme_process_page(&$variables) {
  * Implements hook_preprocess_maintenance_page().
  *
  * @see template_preprocess_maintenance_page
+ *
+ * @param $variables
+ *   An associative array with generated variables.
+ *
+ * @return
+ *   Nothing.
  */
 function cites_theme_preprocess_maintenance_page(&$variables) {
   // Sets the site_name to an empty string if no database connection is
@@ -131,6 +155,12 @@ function cites_theme_preprocess_maintenance_page(&$variables) {
 
 /**
  * Override or insert variables into the maintenance page template.
+ *
+ * @param $variables
+ *   An associative array with generated variables.
+ *
+ * @return
+ *   Nothing.
  */
 function cites_theme_process_maintenance_page(&$variables) {
   // Always print the site name and slogan, but if they are toggled off, we'll
@@ -151,6 +181,12 @@ function cites_theme_process_maintenance_page(&$variables) {
 
 /**
  * Overrides or inserts variables into the node template.
+ *
+ * @param $variables
+ *   An associative array with generated variables.
+ *
+ * @return
+ *   Nothing.
  */
 function cites_theme_preprocess_node(&$variables) {
   if ($variables['view_mode'] == 'full' && node_is_page($variables['node']))
@@ -159,6 +195,12 @@ function cites_theme_preprocess_node(&$variables) {
 
 /**
  * Overrides or inserts variables into the block template.
+ *
+ * @param $variables
+ *   An associative array with generated variables.
+ *
+ * @return
+ *   Nothing.
  */
 function cites_theme_preprocess_block(&$variables) {
   // Visually hides block titles in the header and footer regions.
@@ -168,6 +210,12 @@ function cites_theme_preprocess_block(&$variables) {
 
 /**
  * Implements theme_menu_tree().
+ *
+ * @param $variables
+ *   An associative array with generated variables.
+ *
+ * @return
+ *   HTML for a wrapper for a menu sub-tree.
  */
 function cites_theme_menu_tree($variables) {
   return '<ul class="menu clearfix">' . $variables['tree'] . '</ul>';
@@ -175,6 +223,12 @@ function cites_theme_menu_tree($variables) {
 
 /**
  * Implements theme_field__field_type().
+ *
+ * @param $variables
+ *   An associative array with generated variables.
+ *
+ * @return
+ *   HTML for a field.
  */
 function cites_theme_field__taxonomy_term_reference($variables) {
   $output = '';
@@ -199,6 +253,19 @@ function cites_theme_field__taxonomy_term_reference($variables) {
 
 /**
  * Performs alterations before a form is rendered.
+ *
+ * @param $form
+ *   Nested array of form elements that comprise the form.
+ * @param $form_state
+ *   A keyed array containing the current state of the form. The arguments that
+ *   drupal_get_form() was originally called with are available in the array
+ *   $form_state['build_info']['args'].
+ * @param $form_id
+ *   String representing the name of the form itself. Typically this is the
+ *   name of the function that generated the form.
+ *
+ * @return
+ *   Nothing.
  */
 function cites_theme_form_alter(&$form, &$form_state, $form_id) {
   // Alters the search block forms.
@@ -213,6 +280,16 @@ function cites_theme_form_alter(&$form, &$form_state, $form_id) {
 
 /**
  * Performs alterations before the language switcher is rendered.
+ *
+ * @param $links
+ *   Nested array of links keyed by language code.
+ * @param $type
+ *   The language type the links will switch.
+ * @param $path
+ *   The current path.
+ *
+ * @return
+ *   Nothing.
  */
 function cites_theme_language_switch_links_alter(&$links, $type, $path) {
   global $language;
