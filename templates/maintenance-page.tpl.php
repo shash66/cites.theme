@@ -36,11 +36,11 @@
             <div class="column" id="content">
               <div class="section">
                 <a id="main-content"></a>
-                <?php if ($title) : ?>
+                <?php if ($title): ?>
                   <h1 class="title" id="page-title"><?php print $title; ?></h1>
                 <?php endif; ?>
                 <?php print $content; ?>
-                <?php if ($messages) : ?>
+                <?php if ($messages): ?>
                   <div id="messages">
                     <div class="section clearfix">
                       <?php print $messages; ?>

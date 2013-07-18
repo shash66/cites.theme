@@ -75,7 +75,7 @@
   </div><!-- .attribution -->
   <div class="comment-text">
     <div class="comment-arrow"></div>
-    <?php if ($new) : ?>
+    <?php if ($new): ?>
       <span class="new">
         <?php print $new; ?>
       </span><!-- .new -->
@@ -90,7 +90,7 @@
 
       print render($content);
       ?>
-      <?php if ($signature) : ?>
+      <?php if ($signature): ?>
       <div class="user-signature clearfix">
         <?php print $signature; ?>
       </div><!-- .user-signature .clearfix -->

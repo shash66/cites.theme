@@ -79,13 +79,13 @@
 ?>
 <div class="<?php print $classes; ?> clearfix"<?php print $attributes; ?> id="node-<?php print $node->nid; ?>">
   <?php print render($title_prefix); ?>
-  <?php if (!$page) : ?>
+  <?php if (!$page): ?>
     <h2<?php print $title_attributes; ?>>
       <a href="<?php print $node_url; ?>"><?php print $title; ?></a>
     </h2>
   <?php endif; ?>
   <?php print render($title_suffix); ?>
-  <?php if ($display_submitted) : ?>
+  <?php if ($display_submitted): ?>
     <div class="meta submitted">
       <?php print $user_picture; ?>
       <?php print $submitted; ?>
@@ -109,7 +109,7 @@
   // Displays only the wrapper div if there are links.
   $links = render($content['links']);
   ?>
-  <?php if ($links) : ?>
+  <?php if ($links): ?>
     <div class="link-wrapper">
       <?php print $links; ?>
     </div><!-- .link-wrapper -->
