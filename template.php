@@ -65,6 +65,7 @@ function cites_theme_preprocess_html(&$variables) {
   }
 }
 
+
 /**
  * Performs alterations before a page is rendered.
  *
@@ -89,6 +90,7 @@ function cites_theme_page_alter(&$page) {
     $page['sidebar_second'] = array('');
   }
 }
+
 
 /**
  * Overrides or inserts variables into the page template.
@@ -132,6 +134,7 @@ function cites_theme_process_page(&$variables) {
   }
 }
 
+
 /**
  * Implements hook_preprocess_maintenance_page().
  *
@@ -152,6 +155,7 @@ function cites_theme_preprocess_maintenance_page(&$variables) {
   // Adds the maintenance CSS layout.
   drupal_add_css(drupal_get_path('theme', 'cites_theme') . '/css/maintenance-page.css');
 }
+
 
 /**
  * Override or insert variables into the maintenance page template.
@@ -179,6 +183,7 @@ function cites_theme_process_maintenance_page(&$variables) {
   }
 }
 
+
 /**
  * Overrides or inserts variables into the node template.
  *
@@ -192,6 +197,7 @@ function cites_theme_preprocess_node(&$variables) {
   if ($variables['view_mode'] == 'full' && node_is_page($variables['node']))
     $variables['classes_array'][] = 'node-full';
 }
+
 
 /**
  * Overrides or inserts variables into the block template.
@@ -208,6 +214,7 @@ function cites_theme_preprocess_block(&$variables) {
     $variables['title_attributes_array']['class'][] = 'element-invisible';
 }
 
+
 /**
  * Implements theme_menu_tree().
  *
@@ -220,6 +227,7 @@ function cites_theme_preprocess_block(&$variables) {
 function cites_theme_menu_tree($variables) {
   return '<ul class="menu clearfix">' . $variables['tree'] . '</ul>';
 }
+
 
 /**
  * Implements theme_field__field_type().
@@ -251,6 +259,7 @@ function cites_theme_field__taxonomy_term_reference($variables) {
   return $output;
 }
 
+
 /**
  * Performs alterations before a form is rendered.
  *
@@ -277,6 +286,7 @@ function cites_theme_form_alter(&$form, &$form_state, $form_id) {
     $form['search_block_form']['#attributes']['placeholder'] = t('Search');
   }
 }
+
 
 /**
  * Performs alterations before the language switcher is rendered.
