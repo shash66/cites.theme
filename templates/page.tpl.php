@@ -54,6 +54,7 @@
  * - $page['featured']: Items for the featured region.
  * - $page['highlighted']: Items for the highlighted content region.
  * - $page['help']: Dynamic help text, mostly for admin pages.
+ * - $page['front']: The main content of the front page.
  * - $page['content']: The main content of the current page.
  * - $page['sidebar_first']: Items for the first sidebar.
  * - $page['sidebar_second']: Items for the second sidebar.
@@ -194,7 +195,12 @@
                 <?php print render($action_links); ?>
               </ul><!-- .action-links -->
             <?php endif; ?>
-            <?php print render($page['content']); ?>
+            <?php
+            if ($is_front)
+              print render($page['front']);
+            else
+              print render($page['content']);
+            ?>
             <?php print $feed_icons; ?>
           </div><!-- .section -->
         </div><!-- .column #content -->
