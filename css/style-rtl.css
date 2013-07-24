@@ -203,17 +203,14 @@ ul.tips {
   background-position: left top;
 }
 
-#sidebar-first .block-menu ul.menu li a,
-#sidebar-first .block-menu-block ul.menu li a {
+#sidebar-first .block-menu ul.menu li a {
   background-image: url("../images/arrow-left-green.gif");
   background-position: right 8px;
   padding: 3px 20px 3px 10px;
 }
 
 #sidebar-first .block-menu ul.menu li a:focus,
-#sidebar-first .block-menu ul.menu li a:hover,
-#sidebar-first .block-menu-block ul.menu li a:focus,
-#sidebar-first .block-menu-block ul.menu li a:hover {
+#sidebar-first .block-menu ul.menu li a:hover {
   background-image: url("../images/arrow-left-red.gif");
 }
 

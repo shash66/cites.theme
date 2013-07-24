@@ -979,41 +979,33 @@ ul.links {
   padding: 5px 10px;
 }
 
-#sidebar-first .block-menu .content,
-#sidebar-first .block-menu-block .content {
+#sidebar-first .block-menu .content {
   padding: 0 0 10px;
 }
 
 #sidebar-first .block-menu ul.menu,
-#sidebar-first .block-menu ul.menu li,
-#sidebar-first .block-menu-block ul.menu,
-#sidebar-first .block-menu-block ul.menu li {
+#sidebar-first .block-menu ul.menu li {
   list-style: none;
   padding: 0;
 }
 
-#sidebar-first .block-menu ul.menu li a,
-#sidebar-first .block-menu-block ul.menu li a {
+#sidebar-first .block-menu ul.menu li a {
   display: block;
   padding: 3px 10px 3px 20px; /* LTR */
   text-decoration: none;
 }
 
-#sidebar-second .block-menu .content,
-#sidebar-second .block-menu-block .content {
+#sidebar-second .block-menu .content {
   padding: 0;
 }
 
 #sidebar-second .block-menu ul.menu,
-#sidebar-second .block-menu ul.menu li,
-#sidebar-second .block-menu-block ul.menu,
-#sidebar-second .block-menu-block ul.menu li {
+#sidebar-second .block-menu ul.menu li {
   list-style: none;
   padding: 0;
 }
 
-#sidebar-second .block-menu ul.menu li a,
-#sidebar-second .block-menu-block ul.menu li a {
+#sidebar-second .block-menu ul.menu li a {
   display: block;
   padding: 3px 10px;
   text-decoration: none;
