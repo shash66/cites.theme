@@ -1068,7 +1068,7 @@ ul.links {
 }
 
 #footer ul.menu li {
-  float: left;
+  float: left; /* LTR */
   list-style: none;
 }
 

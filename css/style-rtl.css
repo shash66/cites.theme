@@ -275,17 +275,21 @@ a.button {
   background-image: url("../images/footer-rtl.gif");
 }
 
-#footer li a {
+#footer ul.menu li {
+  float: right;
+}
+
+#footer ul.menu li a {
   border-left: 1px solid #555;
-  border-right: none;
+  border-right: 0;
 }
 
-#footer li.first a {
-  padding-right: 0;
+#footer ul.menu li.first a {
   padding-left: 12px;
+  padding-right: 0;
 }
 
-#footer li.last a {
+#footer ul.menu li.last a {
   border-left: none;
   padding-left: 0;
   padding-right: 12px;
