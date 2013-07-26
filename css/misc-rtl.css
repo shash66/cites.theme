@@ -1,5 +1,9 @@
 /* Google Site Search */
 
+ol.google-search-results {
+  padding-right: 0;
+}
+
 .google-search-results .gss-result img {
   float: right;
   margin-left: 1em;

@@ -16,7 +16,8 @@
 
 ol.google-search-results {
   margin-top: 0;
-  padding: 0;
+  padding-bottom: 0;
+  padding-left: 0; /* LTR */
 }
 
 .google-search-results .gss-result {
