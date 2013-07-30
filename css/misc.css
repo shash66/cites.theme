@@ -82,9 +82,25 @@ div.google-search-pager ul.pager {
   color: #fff;
   font-size: small;
   left: 0;
+  line-height: 1;
   padding: 5px;
   position: absolute;
   right: 0;
+}
+
+.views-field-field-caption a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.views-field-field-caption a:active,
+.views-field-field-caption a:focus,
+.views-field-field-caption a:hover {
+  text-decoration: none;
+}
+
+.views-field-field-caption p {
+  margin-bottom: 0;
 }
 
 .views-slideshow-pager-fields {
