@@ -109,7 +109,7 @@ a:hover {
 
 #search .form-item-search-block-form input {
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
-  background: #43631C url("../images/search-icon.png") left center no-repeat;
+  background: #43631C url("../images/search-icon-light.png") left center no-repeat;
   border: none;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
   color: #d7d7d7;
@@ -119,6 +119,7 @@ a:hover {
 #search .form-item-search-block-form input:focus {
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
   background-color: #fcfcfc;
+  background-image: url("../images/search-icon-dark.png");
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
   color: #6a6f75;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
