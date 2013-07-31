@@ -137,6 +137,10 @@ ul.tips {
 
 /* Content */
 
+#content h2 {
+  background-position: right bottom;
+}
+
 .submitted .user-picture img {
   float: right;
   margin-left: 5px;
@@ -173,7 +177,7 @@ ul.tips {
 }
 
 .comment .comment-arrow {
-  background-image: url(../images/comment-arrow-rtl.gif);
+  background-image: url("../images/comment-arrow-rtl.gif");
   margin-left: 0;
   margin-right: -47px;
 }

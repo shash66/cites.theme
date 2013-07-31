@@ -725,9 +725,11 @@ h1#page-title {
 }
 
 #content h2 {
-  margin-bottom: 2px;
+  background: url("../images/content-title.jpg") no-repeat left bottom transparent; /* LTR */
   font-size: 1.429em;
   line-height: 1.4;
+  margin-bottom: 2px;
+  padding-bottom: 14px;
 }
 
 .node .content {
@@ -895,7 +897,7 @@ ul.links {
 }
 
 .comment .comment-arrow {
-  background: url(../images/comment-arrow.gif) no-repeat 0 center transparent; /* LTR */
+  background: url("../images/comment-arrow.gif") no-repeat 0 center transparent; /* LTR */
   border-left: 1px solid;
   border-right: 1px solid;
   height: 40px;
@@ -1102,7 +1104,7 @@ ul.links {
 }
 
 .tabs ul.primary {
-  background: transparent url(../images/tabs-border.png) repeat-x left bottom;
+  background: url("../images/tabs-border.png") repeat-x left bottom transparent;
   border: none;
   margin: 0;
   overflow: hidden;
@@ -1185,7 +1187,7 @@ ul.action-links li {
 }
 
 ul.action-links li a {
-  background: url(../images/add.png) no-repeat left center;
+  background: url("../images/add.png") no-repeat left center;
   margin: 0 10px 0 0;
   padding-left: 15px;
 }
@@ -1265,7 +1267,7 @@ input.form-submit,
 a.button {
   -webkit-border-radius: 15px;
      -moz-border-radius: 20px;
-  background: #fff url(../images/buttons.png) 0 0 repeat-x;
+  background: url("../images/buttons.png") repeat-x 0 0 #fff;
   border-bottom: 1px solid #b4b4b4;
   border-left-color: #d2d2d2;
   border-radius: 15px;
@@ -1297,9 +1299,9 @@ a.button:active {
 fieldset {
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 4px;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   margin-bottom: 32px;
   margin-top: 10px;
   padding: 0 0 10px;
@@ -1704,7 +1706,7 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 
 #search-block-form input.form-submit,
 #search-form input.form-submit {
-  background: url(../images/search-button.png) no-repeat center top;
+  background: url("../images/search-button.png") no-repeat center top;
   border-color: #e4e4e4 #d2d2d2 #b4b4b4;
   cursor: pointer;
   height: 25px;

@@ -109,7 +109,7 @@ a:hover {
 
 #search .form-item-search-block-form input {
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
-  background: #43631C url("../images/search-icon-light.png") left center no-repeat;
+  background: url("../images/search-icon-light.png") no-repeat left center #43631C;
   border: none;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
   color: #d7d7d7;
@@ -127,6 +127,11 @@ a:hover {
 
 #featured .section {
   border-color: #d5d3d0;
+}
+
+#content h1,
+#content h2 {
+  color: #336600;
 }
 
 .comment .comment-arrow {
@@ -180,7 +185,7 @@ a:hover {
 }
 
 #sidebar-first .block-menu ul.menu li a {
-  background: #efeeec url("../images/arrow-right-green.gif") left 8px no-repeat;
+  background: url("../images/arrow-right-green.gif") no-repeat left 8px #efeeec;
   border-bottom: 1px solid #fff;
   color: #666;
 }
@@ -224,7 +229,7 @@ a:hover {
 }
 
 #footer {
-  background: #eee url("../images/footer.gif") no-repeat;
+  background: url("../images/footer.gif") no-repeat #eee;
   border: none;
 }
 
