@@ -152,7 +152,15 @@ div.google-search-pager ul.pager {
 
 
 
-/* External News */
+/* News and highlights */
+
+#content .view-external-news ul {
+  list-style-image: url("../images/bullet-arrow-green.gif");
+}
+
+
+
+/* CITES in the news */
 
 #sidebar-second #block-views-external-news-block .content {
   padding: 0;
