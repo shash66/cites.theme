@@ -80,7 +80,6 @@ div.google-search-pager ul.pager {
   font-size: small;
   left: 0;
   line-height: 1;
-  padding: 5px;
   position: absolute;
   right: 0;
 }
@@ -98,7 +97,7 @@ div.google-search-pager ul.pager {
 }
 
 .views-field-field-slide-caption p {
-  margin-bottom: 0;
+  margin: 5px;
 }
 
 .views-slideshow-pager-fields {
