@@ -121,7 +121,7 @@ div.google-search-pager ul.pager {
 .views-slideshow-controls-text span {
   position: absolute;
   top: 129px;
-  z-index: 1000;
+  z-index: 900;
 }
 
 .views-slideshow-controls-text-previous {

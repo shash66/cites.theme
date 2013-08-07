@@ -597,7 +597,7 @@ h1#site-name {
 
 #main-menu .nice-menu {
   float: none;
-  z-index: 1001;
+  z-index: 901;
 }
 
 #main-menu-links li {
