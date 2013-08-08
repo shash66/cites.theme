@@ -9,6 +9,8 @@ stylesheets[all][]   = css/colors.css
 stylesheets[all][]   = css/misc.css
 stylesheets[print][] = css/print.css
 
+scripts[] = js/cites_theme.js
+
 regions[header]      = Header
 regions[help]        = Help
 regions[page_top]    = Page top
