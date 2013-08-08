@@ -1014,6 +1014,10 @@ ul.links {
   text-decoration: none;
 }
 
+#sidebar-first .block-menu.collapsible h2:hover {
+  cursor: pointer;
+}
+
 .sidebar tbody {
   border: none;
 }
