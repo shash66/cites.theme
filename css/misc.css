@@ -151,6 +151,23 @@ div.google-search-pager ul.pager {
 
 
 
+/* CITES Virtual College */
+
+#sidebar-first #block-block-1 {
+  border: none;
+}
+
+#sidebar-first #block-block-1 .content {
+  padding: 0;
+}
+
+#sidebar-first #block-block-1 .content p {
+  margin: 0;
+  text-align: center;
+}
+
+
+
 /* News and highlights */
 
 #content #block-views-news-block .content ul,
