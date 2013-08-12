@@ -185,6 +185,23 @@ div.google-search-pager ul.pager {
 
 
 
+/* The InforMEA portal */
+
+#sidebar-first #block-block-4 {
+  border: none;
+}
+
+#sidebar-first #block-block-4 .content {
+  padding: 0;
+}
+
+#sidebar-first #block-block-4 .content p {
+  margin: 0;
+  text-align: center;
+}
+
+
+
 /* News and highlights */
 
 #content #block-views-news-block .content ul,
