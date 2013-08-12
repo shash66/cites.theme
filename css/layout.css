@@ -74,6 +74,11 @@ body,
   width: 256px;
 }
 
+#sidebar-second .section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 #content .section,
 .sidebar .section {
   padding: 0 15px;
