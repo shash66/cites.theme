@@ -53,6 +53,9 @@ tr.odd {
 }
 
 img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
   outline: 0;
 }
 
@@ -965,7 +968,7 @@ ul.links {
   margin: 0 0 20px;
 }
 
-.sidebar h2 {
+.sidebar .block h2 {
   border-bottom: 1px solid #d6d6d6;
   font-size: 1.071em;
   font-weight: bold;
