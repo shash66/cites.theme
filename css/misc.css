@@ -202,6 +202,24 @@ div.google-search-pager ul.pager {
 
 
 
+/* Subscribe to email alerts */
+
+#sidebar-first #block-block-2 .content {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#sidebar-first #block-block-2 .content p {
+  margin: 0;
+  text-align: center;
+}
+
+#sidebar-first #block-block-2 .content a {
+  font-weight: bold;
+}
+
+
+
 /* News and highlights */
 
 #content #block-views-news-block .content ul,
