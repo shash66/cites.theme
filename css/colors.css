@@ -158,12 +158,22 @@ a:hover {
   background-repeat: repeat-y;
 }
 
+.sidebar a {
+  color: #333;
+}
+
+.sidebar a:active,
+.sidebar a:focus,
+.sidebar a:hover {
+  color: #ff6633;
+}
+
 .sidebar .block {
   background-color: #fff;
   border-color: #ccc;
 }
 
-#sidebar-second h2 {
+#sidebar-second .block h2 {
   background: url("../images/sidebar-second-title.gif") repeat-x;
   border-color: #ccc;
   color: #666633;
