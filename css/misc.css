@@ -168,6 +168,23 @@ div.google-search-pager ul.pager {
 
 
 
+/* CITES Trade Dashboard */
+
+#sidebar-first #block-block-3 {
+  border: none;
+}
+
+#sidebar-first #block-block-3 .content {
+  padding: 0;
+}
+
+#sidebar-first #block-block-3 .content p {
+  margin: 0;
+  text-align: center;
+}
+
+
+
 /* News and highlights */
 
 #content #block-views-news-block .content ul,
