@@ -220,6 +220,29 @@ div.google-search-pager ul.pager {
 
 
 
+/* Highlights */
+
+#sidebar-second #block-block-5 {
+}
+
+#sidebar-second #block-block-5 .content {
+  padding: 0;
+}
+
+#sidebar-second #block-block-5 .content p {
+  margin: 0;
+  text-align: center;
+}
+
+#sidebar-second #block-block-5 .content a.more-link {
+  background: url("../images/arrow-right-orange.gif") 10px 5px no-repeat;
+  display: block;
+  padding-left: 30px;
+  text-align: left;
+}
+
+
+
 /* News and highlights */
 
 #content #block-views-news-block .content ul,
