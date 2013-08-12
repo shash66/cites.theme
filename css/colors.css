@@ -14,6 +14,10 @@ a:hover {
   color: #ff6633;
 }
 
+hr {
+  border-color: #ccc;
+}
+
 #page-wrapper {
   background: url("../images/page-wrapper.gif") repeat-x center top #000;
 }
