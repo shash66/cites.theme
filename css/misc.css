@@ -151,7 +151,7 @@ div.google-search-pager ul.pager {
 
 
 
-/* CITES Virtual College */
+/* Block: CITES Virtual College */
 
 #sidebar-first #block-block-1 {
   border: none;
@@ -172,7 +172,28 @@ div.google-search-pager ul.pager {
 
 
 
-/* CITES Trade Dashboard */
+/* Block: CITES Trade Dashboard */
+
+#sidebar-first #block-block-2 {
+  border: none;
+}
+
+#sidebar-first #block-block-2 .content {
+  padding: 0;
+}
+
+#sidebar-first #block-block-2 .content p {
+  margin-bottom: 0.4em;
+  text-align: center;
+}
+
+#sidebar-first #block-block-2 .content img {
+  vertical-align: middle;
+}
+
+
+
+/* Block: The InforMEA portal */
 
 #sidebar-first #block-block-3 {
   border: none;
@@ -187,74 +208,53 @@ div.google-search-pager ul.pager {
   text-align: center;
 }
 
-#sidebar-first #block-block-1 .content img {
+#sidebar-first #block-block-3 .content img {
   vertical-align: middle;
 }
 
 
 
-/* The InforMEA portal */
+/* Block: Subscribe to email alerts */
 
-#sidebar-first #block-block-4 {
-  border: none;
-}
-
-#sidebar-first #block-block-4 .content {
-  padding: 0;
-}
-
-#sidebar-first #block-block-4 .content p {
-  margin-bottom: 0.4em;
-  text-align: center;
-}
-
-#sidebar-first #block-block-1 .content img {
-  vertical-align: middle;
-}
-
-
-
-/* Subscribe to email alerts */
-
-#sidebar-first #block-block-2 .content {
+#sidebar-first #block-block-0 .content {
   padding-left: 0;
   padding-right: 0;
 }
 
-#sidebar-first #block-block-2 .content p {
+#sidebar-first #block-block-0 .content p {
   margin: 0;
   text-align: center;
 }
 
-#sidebar-first #block-block-2 .content a {
+#sidebar-first #block-block-0 .content a {
   font-weight: bold;
 }
 
 
 
-/* Highlights */
+/* Block: Highlights */
 
-#sidebar-second #block-block-5 {
+#sidebar-second #block-block-4 {
 }
 
-#sidebar-second #block-block-5 .content {
+#sidebar-second #block-block-4 .content {
   padding: 0;
 }
 
-#sidebar-second #block-block-5 .content p {
+#sidebar-second #block-block-4 .content p {
   margin: 1px;
   text-align: center;
 }
 
-#sidebar-second #block-block-5 .content img {
+#sidebar-second #block-block-4 .content img {
   vertical-align: middle;
 }
 
-#sidebar-second #block-block-5 .content hr {
+#sidebar-second #block-block-4 .content hr {
   margin: 0;
 }
 
-#sidebar-second #block-block-5 .content a.more-link {
+#sidebar-second #block-block-4 .content a.more-link {
   background: url("../images/arrow-right-orange.gif") 10px 8px no-repeat;
   display: block;
   padding: 3px 10px 3px 30px;
@@ -263,7 +263,7 @@ div.google-search-pager ul.pager {
 
 
 
-/* News and highlights */
+/* View: News and highlights */
 
 #content #block-views-news-block .content ul,
 #content #block-views-news-block .content ul li {
@@ -295,7 +295,7 @@ div.google-search-pager ul.pager {
 
 
 
-/* CITES in the news */
+/* Block: CITES in the news */
 
 #sidebar-second #block-views-external-news-block .content {
   padding: 0;
