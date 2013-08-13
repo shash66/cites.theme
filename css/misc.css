@@ -2,7 +2,7 @@
 
 #social-media {
   line-height: 1;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
   text-align: center;
 }
 
@@ -162,8 +162,12 @@ div.google-search-pager ul.pager {
 }
 
 #sidebar-first #block-block-1 .content p {
-  margin: 0;
+  margin-bottom: 0.4em;
   text-align: center;
+}
+
+#sidebar-first #block-block-1 .content img {
+  vertical-align: middle;
 }
 
 
@@ -179,8 +183,12 @@ div.google-search-pager ul.pager {
 }
 
 #sidebar-first #block-block-3 .content p {
-  margin: 0;
+  margin-bottom: 0.4em;
   text-align: center;
+}
+
+#sidebar-first #block-block-1 .content img {
+  vertical-align: middle;
 }
 
 
@@ -196,8 +204,12 @@ div.google-search-pager ul.pager {
 }
 
 #sidebar-first #block-block-4 .content p {
-  margin: 0;
+  margin-bottom: 0.4em;
   text-align: center;
+}
+
+#sidebar-first #block-block-1 .content img {
+  vertical-align: middle;
 }
 
 
@@ -230,14 +242,22 @@ div.google-search-pager ul.pager {
 }
 
 #sidebar-second #block-block-5 .content p {
-  margin: 0;
+  margin: 1px;
   text-align: center;
 }
 
+#sidebar-second #block-block-5 .content img {
+  vertical-align: middle;
+}
+
+#sidebar-second #block-block-5 .content hr {
+  margin: 0;
+}
+
 #sidebar-second #block-block-5 .content a.more-link {
-  background: url("../images/arrow-right-orange.gif") 10px 5px no-repeat;
+  background: url("../images/arrow-right-orange.gif") 10px 8px no-repeat;
   display: block;
-  padding-left: 30px;
+  padding: 3px 10px 3px 30px;
   text-align: left;
 }
 
