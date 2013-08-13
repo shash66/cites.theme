@@ -9,7 +9,7 @@ stylesheets[all][]   = css/colors.css
 stylesheets[all][]   = css/misc.css
 stylesheets[print][] = css/print.css
 
-scripts[] = js/cites_theme.js
+scripts[] = script.js
 
 regions[header]      = Header
 regions[help]        = Help
