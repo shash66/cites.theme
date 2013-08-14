@@ -214,6 +214,21 @@ div.google-search-pager ul.pager {
 
 
 
+/* Block: Newsletter: Multi Subscription */
+
+#block-simplenews-0 .content {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#block-simplenews-0 .content p {
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
 /* Block: Highlights */
 
 #sidebar-second #block-block-4 {
@@ -245,7 +260,7 @@ div.google-search-pager ul.pager {
 
 
 
-/* View: News and highlights */
+/* Block: View: News */
 
 #content #block-views-news-block .content ul,
 #content #block-views-news-block .content ul li {
@@ -271,13 +286,16 @@ div.google-search-pager ul.pager {
   font-size: small;
 }
 
+
+/* Page: View: News */
+
 #content .view-news ul {
   list-style-image: url("../images/bullet-arrow-green.gif");
 }
 
 
 
-/* Block: CITES in the news */
+/* Block: View: External news */
 
 #sidebar-second #block-views-external-news-block .content {
   padding: 0;
@@ -314,6 +332,9 @@ div.google-search-pager ul.pager {
   border: none;
   padding-left: 30px;
 }
+
+
+/* Page: View: External news */
 
 #content .view-external-news ul {
   list-style-image: url("../images/bullet-rhomb-green.gif");
