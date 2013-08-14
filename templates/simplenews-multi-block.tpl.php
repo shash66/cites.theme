@@ -13,4 +13,4 @@
  * @see template_preprocess_simplenews_multi_block()
  */
 ?>
-<?php print l(t('Subscribe to email alerts'), 'newsletter/subscriptions'); ?>
+<p><?php print l(t('Subscribe to email alerts'), 'newsletter/subscriptions'); ?></p>
