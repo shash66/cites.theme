@@ -307,3 +307,20 @@ function cites_theme_language_switch_links_alter(&$links, $type, $path) {
   // Removes the active language link.
   unset($links[$language->language]);
 }
+
+
+/**
+ * Performs alterations before the social media services are used.
+ *
+ * @param $services
+ *   Nested array of social media services.
+ *
+ * @return
+ *   Nothing.
+ */
+function cites_theme_on_the_web_get_services_alter(&$services) {
+  unset($services['itunes']);
+  unset($services['pinterest']);
+
+  ksort($services);
+}
