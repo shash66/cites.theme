@@ -324,3 +324,27 @@ function cites_theme_on_the_web_get_services_alter(&$services) {
 
   ksort($services);
 }
+
+
+/**
+ * Implements theme_on_the_web_image().
+ *
+ * @param $variables
+ *   An associative array with generated variables.
+ *
+ * @return
+ *   HTML for a social media icon.
+ */
+function cites_theme_on_the_web_image($variables) {
+  $service = $variables['service'];
+  $title   = $variables['title'];
+  $size    = variable_get('on_the_web_size', 'sm');
+
+  $variables = array(
+    'alt'   => $title,
+    'path'  => drupal_get_path('theme', 'cites_theme') . '/images/social-icons/' . $service . '-' . $size . '.png',
+    'title' => $title
+  );
+
+  return theme('image', $variables);
+}
