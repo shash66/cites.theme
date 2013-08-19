@@ -92,12 +92,14 @@ ul.tips {
 
 #language-switcher ul li.first,
 .region-header .block-locale .content ul li.first {
+  padding-left: 0.5em;
   padding-right: 0;
 }
 
 #language-switcher ul li.last,
 .region-header .block-locale .content ul li.last {
   padding-left: 0;
+  padding-right: 0.5em;
 }
 
 
@@ -130,11 +132,13 @@ ul.tips {
 }
 
 #secondary-menu-links li.first {
+  padding-left: 0.5em;
   padding-right: 0;
 }
 
 #secondary-menu-links li.last {
   padding-left: 0;
+  padding-right: 0.5em;
 }
 
 
