@@ -623,10 +623,6 @@ h1#site-name {
   padding: 0 5px;
 }
 
-#main-menu .nice-menu li.menuparent {
-  background-image: none;
-}
-
 #main-menu .nice-menu li.menuparent a {
   padding-right: 5px; /* LTR */
 }

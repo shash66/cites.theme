@@ -76,6 +76,10 @@ hr {
   border: none;
 }
 
+#main-menu .nice-menu li.menuparent {
+  background-image: none;
+}
+
 #main-menu-links li a,
 #main-menu .nice-menu li a {
   color: #fff;
