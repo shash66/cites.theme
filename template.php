@@ -263,6 +263,8 @@ function cites_theme_field__taxonomy_term_reference($variables) {
 /**
  * Performs alterations before a form is rendered.
  *
+ * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+ *
  * @param $form
  *   Nested array of form elements that comprise the form.
  * @param $form_state
@@ -290,6 +292,8 @@ function cites_theme_form_alter(&$form, &$form_state, $form_id) {
 
 /**
  * Performs alterations before the language switcher is rendered.
+ *
+ * @SuppressWarnings(PHPMD.UnusedFormalParameter)
  *
  * @param $links
  *   Nested array of links keyed by language code.
