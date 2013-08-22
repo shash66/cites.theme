@@ -311,40 +311,40 @@ div.google-search-pager ul.pager {
 
 
 
-/* Block: View: Calendar */
+/* Block: View: Meetings */
 
-#content #block-views-calendar-block .content ul,
-#content #block-views-calendar-block .content ul li {
+#content #block-views-meetings-block .content ul,
+#content #block-views-meetings-block .content ul li {
   list-style-image: none;
 }
 
-#content #block-views-calendar-block .content a {
+#content #block-views-meetings-block .content a {
   color: #333;
 }
 
-#content #block-views-calendar-block .content a:active,
-#content #block-views-calendar-block .content a:focus,
-#content #block-views-calendar-block .content a:hover {
+#content #block-views-meetings-block .content a:active,
+#content #block-views-meetings-block .content a:focus,
+#content #block-views-meetings-block .content a:hover {
   color: #ff6633;
 }
 
-#content #block-views-calendar-block .content .more-link {
+#content #block-views-meetings-block .content .more-link {
   padding-left: 1em;
   text-align: left;
 }
 
-#content #block-views-calendar-block .content .more-link a {
+#content #block-views-meetings-block .content .more-link a {
   font-size: small;
 }
 
 
-/* Page: View: Calendar */
+/* Page: View: Meetings */
 
-#content .view-calendar ul {
+#content .view-meetings ul {
   list-style-image: url("../images/bullet-arrow-green.gif");
 }
 
-#content .view-calendar h3 {
+#content .view-meetings h3 {
   background-color: #eef9f2;
   font-weight: bold;
   text-align: center;
