@@ -1,7 +1,8 @@
-name        = CITES
-description = Tableless multi-column theme designed for CITES.
-version     = 1.0.0
+name        = CITES primary theme
+description = Tableless multi-column theme designed for CITES after the original theme from the static website.
 core        = 7.x
+package = CITES
+project status url = http://fserver.eaudeweb.ro/fserver
 
 stylesheets[all][]   = css/layout.css
 stylesheets[all][]   = css/style.css
