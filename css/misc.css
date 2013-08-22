@@ -62,7 +62,7 @@ div.google-search-pager ul.pager {
 
 
 
-/* Views Slideshow */
+/* Views Slideshow (block) */
 
 .view .skin-default {
   margin: 0 auto;
@@ -167,7 +167,7 @@ div.google-search-pager ul.pager {
 
 
 
-/* Block: CITES Virtual College */
+/* CITES Virtual College (block) */
 
 #sidebar-first #block-block-1 {
   border: none;
@@ -188,7 +188,7 @@ div.google-search-pager ul.pager {
 
 
 
-/* Block: CITES Trade Dashboard */
+/* CITES Trade Dashboard (block) */
 
 #sidebar-first #block-block-2 {
   border: none;
@@ -209,7 +209,7 @@ div.google-search-pager ul.pager {
 
 
 
-/* Block: The InforMEA portal */
+/* The InforMEA portal (block) */
 
 #sidebar-first #block-block-3 {
   border: none;
@@ -230,7 +230,7 @@ div.google-search-pager ul.pager {
 
 
 
-/* Block: Newsletter: Multi Subscription */
+/* Simplenews (block) */
 
 #block-simplenews-0 .content {
   padding-left: 0;
@@ -245,7 +245,7 @@ div.google-search-pager ul.pager {
 
 
 
-/* Block: Highlights */
+/* Highlights (block) */
 
 #sidebar-second #block-block-4 {
 }
@@ -276,7 +276,7 @@ div.google-search-pager ul.pager {
 
 
 
-/* Block: View: News */
+/* News (block) */
 
 #content #block-views-news-block .content ul,
 #content #block-views-news-block .content ul li {
@@ -303,7 +303,7 @@ div.google-search-pager ul.pager {
 }
 
 
-/* Page: View: News */
+/* News (page) */
 
 #content .view-news ul {
   list-style-image: url("../images/bullet-arrow-green.gif");
@@ -311,7 +311,7 @@ div.google-search-pager ul.pager {
 
 
 
-/* Block: View: Meetings */
+/* Meetings (block) */
 
 #content #block-views-meetings-block .content ul,
 #content #block-views-meetings-block .content ul li {
@@ -338,7 +338,7 @@ div.google-search-pager ul.pager {
 }
 
 
-/* Page: View: Meetings */
+/* Meetings (page) */
 
 #content .view-meetings ul {
   list-style-image: url("../images/bullet-arrow-green.gif");
@@ -352,7 +352,7 @@ div.google-search-pager ul.pager {
 
 
 
-/* Block: View: External news */
+/* External news (block) */
 
 #sidebar-second #block-views-external-news-block .content {
   padding: 0;
@@ -391,7 +391,7 @@ div.google-search-pager ul.pager {
 }
 
 
-/* Page: View: External news */
+/* External news (page) */
 
 #content .view-external-news ul {
   list-style-image: url("../images/bullet-rhomb-green.gif");
