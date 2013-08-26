@@ -312,6 +312,34 @@ div.google-search-pager ul.pager {
 
 
 
+/* Notification to the Parties (block) */
+
+
+/* Notification to the Parties (page) */
+
+#content .view-parties-notification span.status {
+  display: inline-block;
+  height: 16px;
+  width: 18px;
+}
+
+#content .view-parties-notification th,
+#content .view-parties-notification td.views-field-field-notification-number,
+#content .view-parties-notification td.views-field-created,
+#content .view-parties-notification td.views-field-field-notification-status {
+  text-align: center;
+}
+
+#content .view-parties-notification span.status.status-0 {
+  background: url("../images/status-invalid.gif") no-repeat;
+}
+
+#content .view-parties-notification span.status.status-1 {
+  background: url("../images/status-valid.gif") no-repeat;
+}
+
+
+
 /* Meetings (block) */
 
 #content #block-views-meetings-block .content ul,
