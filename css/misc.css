@@ -338,6 +338,10 @@ div.google-search-pager ul.pager {
   background: url("../images/status-valid.gif") no-repeat;
 }
 
+#content .view-parties-notification ul {
+  list-style-image: url("../images/bullet-rhomb-green.gif");
+}
+
 
 
 /* Meetings (block) */
