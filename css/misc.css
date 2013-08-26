@@ -294,6 +294,7 @@ div.google-search-pager ul.pager {
 }
 
 #content #block-views-news-block .content .more-link {
+  margin-top: 1em;
   padding-left: 1em;
   text-align: left;
 }
@@ -329,6 +330,7 @@ div.google-search-pager ul.pager {
 }
 
 #content #block-views-meetings-block .content .more-link {
+  margin-top: 1em;
   padding-left: 1em;
   text-align: left;
 }
