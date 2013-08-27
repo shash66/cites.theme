@@ -319,6 +319,10 @@ div.google-search-pager ul.pager {
   list-style-image: none;
 }
 
+#content #block-views-parties-notification-block .content span.views-field-field-notification-annexes:before {
+  content: url("../images/arrow-right-green-lg.gif");
+}
+
 #content #block-views-parties-notification-block .content a {
   color: #333;
 }
@@ -327,13 +331,6 @@ div.google-search-pager ul.pager {
 #content #block-views-parties-notification-block .content a:focus,
 #content #block-views-parties-notification-block .content a:hover {
   color: #ff6633;
-}
-
-#content #block-views-parties-notification-block .content span.arrow {
-  background: url("../images/arrow-right-green-lg.gif") no-repeat;
-  display: inline-block;
-  height: 9px;
-  width: 5px;
 }
 
 #content #block-views-parties-notification-block .content .more-link {
@@ -349,6 +346,34 @@ div.google-search-pager ul.pager {
 
 /* Notification to the Parties (page) */
 
+#content .view-parties-notification caption {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#content .view-parties-notification table tr th {
+  background: #f0ede6;
+}
+
+#content .view-parties-notification table tr th,
+#content .view-parties-notification table tr th a,
+#content .view-parties-notification table tr th a:hover {
+  color: #333;
+}
+
+#content .view-parties-notification tr td,
+#content .view-parties-notification tr th {
+  border-color: #ccc;
+}
+
+#content .view-parties-notification tr,
+#content .view-parties-notification tr.even,
+#content .view-parties-notification tr.odd {
+  background: #fafaf6;
+}
+
 #content .view-parties-notification th,
 #content .view-parties-notification td.views-field-field-notification-number,
 #content .view-parties-notification td.views-field-created,
@@ -361,6 +386,7 @@ div.google-search-pager ul.pager {
   height: 16px;
   overflow: hidden;
   text-indent: -9999px;
+  vertical-align: middle;
   width: 18px;
 }
 
@@ -374,6 +400,16 @@ div.google-search-pager ul.pager {
 
 #content .view-parties-notification ul {
   list-style-image: url("../images/bullet-rhomb-green.gif");
+}
+
+#content .view-parties-notification a {
+  color: #333;
+}
+
+#content .view-parties-notification a:active,
+#content .view-parties-notification a:focus,
+#content .view-parties-notification a:hover {
+  color: #ff6633;
 }
 
 
