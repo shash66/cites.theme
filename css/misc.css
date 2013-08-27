@@ -314,6 +314,38 @@ div.google-search-pager ul.pager {
 
 /* Notification to the Parties (block) */
 
+#content #block-views-parties-notification-block .content ul,
+#content #block-views-parties-notification-block .content ul li {
+  list-style-image: none;
+}
+
+#content #block-views-parties-notification-block .content a {
+  color: #333;
+}
+
+#content #block-views-parties-notification-block .content a:active,
+#content #block-views-parties-notification-block .content a:focus,
+#content #block-views-parties-notification-block .content a:hover {
+  color: #ff6633;
+}
+
+#content #block-views-parties-notification-block .content span.arrow {
+  background: url("../images/arrow-right-green-lg.gif") no-repeat;
+  display: inline-block;
+  height: 9px;
+  width: 5px;
+}
+
+#content #block-views-parties-notification-block .content .more-link {
+  margin-top: 1em;
+  padding-left: 1em;
+  text-align: left;
+}
+
+#content #block-views-parties-notification-block .content .more-link a {
+  font-size: small;
+}
+
 
 /* Notification to the Parties (page) */
 
