@@ -346,15 +346,30 @@ div.google-search-pager ul.pager {
 
 /* Notification to the Parties (page) */
 
+#content .view-parties-notification #edit-date-filter-min-wrapper,
+#content .view-parties-notification #edit-date-filter-max-wrapper {
+  float: left;
+}
+
+#content .view-parties-notification #edit-date-filter-min-wrapper label,
+#content .view-parties-notification #edit-date-filter-max-wrapper label {
+  float: left;
+  margin-right: 0.5em;
+  padding: 4px 0;
+}
+
 #content .view-parties-notification caption {
+  background-color: #f0ede6;
+  border: 1px solid #ccc;
   color: #333;
   font-weight: bold;
   margin-bottom: 10px;
+  padding: 4px 9px;
   text-align: center;
 }
 
 #content .view-parties-notification table tr th {
-  background: #f0ede6;
+  background-color: #f0ede6;
 }
 
 #content .view-parties-notification table tr th,
@@ -371,7 +386,7 @@ div.google-search-pager ul.pager {
 #content .view-parties-notification tr,
 #content .view-parties-notification tr.even,
 #content .view-parties-notification tr.odd {
-  background: #fafaf6;
+  background-color: #fafaf6;
 }
 
 #content .view-parties-notification th,
@@ -400,6 +415,15 @@ div.google-search-pager ul.pager {
 
 #content .view-parties-notification ul {
   list-style-image: url("../images/bullet-rhomb-green.gif");
+  list-style-position: inside;
+  margin: 0 -9px;
+  padding: 0;
+}
+
+#content .view-parties-notification ul li {
+  border-top: 1px solid #ccc;
+  margin-top: 4px;
+  padding: 4px 9px 0;
 }
 
 #content .view-parties-notification a {
