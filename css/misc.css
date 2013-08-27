@@ -314,11 +314,6 @@ div.google-search-pager ul.pager {
 
 /* Notification to the Parties (block) */
 
-#content #block-views-parties-notification-block .content ul,
-#content #block-views-parties-notification-block .content ul li {
-  list-style-image: none;
-}
-
 #content #block-views-parties-notification-block .content span.views-field-field-notification-annexes:before {
   content: url("../images/arrow-right-green-lg.gif");
 }
@@ -346,19 +341,20 @@ div.google-search-pager ul.pager {
 
 /* Notification to the Parties (page) */
 
-#content .view-parties-notification #edit-date-filter-min-wrapper,
-#content .view-parties-notification #edit-date-filter-max-wrapper {
-  float: left;
+.view-parties-notification.view-display-id-page #edit-date-filter-min-wrapper,
+.view-parties-notification.view-display-id-page #edit-date-filter-max-wrapper,
+.view-parties-notification.view-display-id-page #edit-date-filter-min-wrapper label,
+.view-parties-notification.view-display-id-page #edit-date-filter-max-wrapper label {
+  float: left; /* LTR */
 }
 
-#content .view-parties-notification #edit-date-filter-min-wrapper label,
-#content .view-parties-notification #edit-date-filter-max-wrapper label {
-  float: left;
-  margin-right: 0.5em;
+.view-parties-notification.view-display-id-page #edit-date-filter-min-wrapper label,
+.view-parties-notification.view-display-id-page #edit-date-filter-max-wrapper label {
+  margin-right: 0.5em; /* LTR */
   padding: 4px 0;
 }
 
-#content .view-parties-notification caption {
+.view-parties-notification.view-display-id-page caption {
   background-color: #f0ede6;
   border: 1px solid #ccc;
   color: #333;
@@ -368,35 +364,35 @@ div.google-search-pager ul.pager {
   text-align: center;
 }
 
-#content .view-parties-notification table tr th {
+.view-parties-notification.view-display-id-page table tr th {
   background-color: #f0ede6;
 }
 
-#content .view-parties-notification table tr th,
-#content .view-parties-notification table tr th a,
-#content .view-parties-notification table tr th a:hover {
+.view-parties-notification.view-display-id-page table tr th,
+.view-parties-notification.view-display-id-page table tr th a,
+.view-parties-notification.view-display-id-page table tr th a:hover {
   color: #333;
 }
 
-#content .view-parties-notification tr td,
-#content .view-parties-notification tr th {
+.view-parties-notification.view-display-id-page tr td,
+.view-parties-notification.view-display-id-page tr th {
   border-color: #ccc;
 }
 
-#content .view-parties-notification tr,
-#content .view-parties-notification tr.even,
-#content .view-parties-notification tr.odd {
+.view-parties-notification.view-display-id-page tr,
+.view-parties-notification.view-display-id-page tr.even,
+.view-parties-notification.view-display-id-page tr.odd {
   background-color: #fafaf6;
 }
 
-#content .view-parties-notification th,
-#content .view-parties-notification td.views-field-field-notification-number,
-#content .view-parties-notification td.views-field-created,
-#content .view-parties-notification td.views-field-field-notification-status {
+.view-parties-notification.view-display-id-page th,
+.view-parties-notification.view-display-id-page td.views-field-field-notification-number,
+.view-parties-notification.view-display-id-page td.views-field-created,
+.view-parties-notification.view-display-id-page td.views-field-field-notification-status {
   text-align: center;
 }
 
-#content .view-parties-notification span.status {
+.view-parties-notification.view-display-id-page span.status {
   display: inline-block;
   height: 16px;
   overflow: hidden;
@@ -405,34 +401,34 @@ div.google-search-pager ul.pager {
   width: 18px;
 }
 
-#content .view-parties-notification span.status.status-0 {
+.view-parties-notification.view-display-id-page span.status.status-0 {
   background: url("../images/status-invalid.gif") no-repeat;
 }
 
-#content .view-parties-notification span.status.status-1 {
+.view-parties-notification.view-display-id-page span.status.status-1 {
   background: url("../images/status-valid.gif") no-repeat;
 }
 
-#content .view-parties-notification ul {
+.view-parties-notification.view-display-id-page ul {
   list-style-image: url("../images/bullet-rhomb-green.gif");
   list-style-position: inside;
   margin: 0 -9px;
   padding: 0;
 }
 
-#content .view-parties-notification ul li {
+.view-parties-notification.view-display-id-page ul li {
   border-top: 1px solid #ccc;
   margin-top: 4px;
   padding: 4px 9px 0;
 }
 
-#content .view-parties-notification a {
+.view-parties-notification.view-display-id-page a {
   color: #333;
 }
 
-#content .view-parties-notification a:active,
-#content .view-parties-notification a:focus,
-#content .view-parties-notification a:hover {
+.view-parties-notification.view-display-id-page a:active,
+.view-parties-notification.view-display-id-page a:focus,
+.view-parties-notification.view-display-id-page a:hover {
   color: #ff6633;
 }
 
