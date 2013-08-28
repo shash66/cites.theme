@@ -158,7 +158,7 @@ function cites_theme_preprocess_maintenance_page(&$variables) {
 
 
 /**
- * Override or insert variables into the maintenance page template.
+ * Overrides or inserts variables into the maintenance page template.
  *
  * @param $variables
  *   An associative array with generated variables.
@@ -337,8 +337,10 @@ function cites_theme_feed_icon($variables) {
  *   Nothing.
  */
 function cites_theme_on_the_web_get_services_alter(&$services) {
-  unset($services['itunes']);
-  unset($services['pinterest']);
+  unset(
+    $services['itunes'],
+    $services['pinterest']
+  );
 
   ksort($services);
 }
