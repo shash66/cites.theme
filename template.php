@@ -314,6 +314,20 @@ function cites_theme_language_switch_links_alter(&$links, $type, $path) {
 
 
 /**
+ * Implements theme_feed_icon().
+ *
+ * @param $variables
+ *   An associative array with generated variables.
+ *
+ * @return
+ *   HTML for a feed icon.
+ */
+function cites_theme_feed_icon($variables) {
+  return;
+}
+
+
+/**
  * Performs alterations before the social media services are used.
  *
  * @param $services
