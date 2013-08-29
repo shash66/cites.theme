@@ -504,6 +504,12 @@ div.google-search-pager ul.pager {
 
 /* External news (page) */
 
+#content .view-external-news.view-display-id-page h3 {
+  color: #336600;
+  font-weight: bold;
+  text-align: center;
+}
+
 #content .view-external-news.view-display-id-page ul {
   list-style-image: url("../images/bullet-rhomb-green.gif");
 }
