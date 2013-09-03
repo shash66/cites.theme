@@ -521,6 +521,14 @@ div.google-search-pager ul.pager {
 
 
 
+/* Press releases (page) */
+
+#content .view-press-releases.view-display-id-page ul {
+  list-style-image: url("../images/bullet-arrow-green.gif");
+}
+
+
+
 /* Resolutions (page) */
 
 .view-resolutions.view-display-id-page .view-header a {
