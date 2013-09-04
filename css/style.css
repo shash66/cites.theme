@@ -221,7 +221,6 @@ table {
   border: 0;
   font-size: 0.857em;
   margin: 10px 0;
-  width: 100%;
 }
 
 table table {
@@ -289,7 +288,7 @@ table ul.links li {
 .block ol,
 .block ul {
   margin: 0;
-  padding: 0 0 0 1em; /* LTR */
+  padding: 0 0 0 2em; /* LTR */
 }
 
 .contextual-links-wrapper {
@@ -562,7 +561,7 @@ h1#site-name {
 /* Language switcher block in region header. */
 
 #language-switcher ul {
-  font-size: 0.857em;
+  font-size: 1em;
   margin: 5px 15px 0;
   padding: 0;
 }
@@ -652,7 +651,7 @@ h1#site-name {
 
 #secondary-menu-links {
   float: right; /* LTR */
-  font-size: 0.857em;
+  font-size: 1em;
   line-height: 2;
   margin: 0 15px;
 }
@@ -1008,6 +1007,14 @@ ul.links {
   text-decoration: none;
 }
 
+#sidebar-first .block-menu.collapsible h2:hover {
+  cursor: pointer;
+}
+
+#sidebar-second .block .content {
+  font-size: 0.86em;
+}
+
 #sidebar-second .block-menu .content {
   padding: 0;
 }
@@ -1022,10 +1029,6 @@ ul.links {
   display: block;
   padding: 3px 10px;
   text-decoration: none;
-}
-
-#sidebar-first .block-menu.collapsible h2:hover {
-  cursor: pointer;
 }
 
 .sidebar tbody {
