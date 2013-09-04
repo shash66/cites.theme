@@ -33,11 +33,11 @@ h6 {
 
 h1 {
   color: #000;
-  font-size: 1.357em;
+  font-size: 1.174em;
 }
 
 h2 {
-  font-size: 1.143em;
+  font-size: 1.083em;
 }
 
 p {
@@ -90,7 +90,7 @@ pre var {
 }
 
 .description code {
-  font-size: 1em;
+  font-size: 0.916em;
 }
 
 kbd {
@@ -225,11 +225,11 @@ table {
 }
 
 table table {
-  font-size: 1em;
+  font-size: 0.916em;
 }
 
 #footer-wrapper table {
-  font-size: 1em;
+  font-size: 0.916em;
 }
 
 table tr th {
@@ -274,7 +274,7 @@ tr.even {
 }
 
 table ul.links {
-  font-size: 1em;
+  font-size: 0.916em;
   margin: 0;
   padding: 0;
 }
@@ -379,7 +379,7 @@ ul.tips {
 
 #site-name {
   color: #686868;
-  font-size: 1.821em;
+  font-size: 1.357em;
   line-height: 1;
 }
 
@@ -681,7 +681,7 @@ h1#site-name {
 /* Featured */
 
 #featured {
-  font-size: 1.643em;
+  font-size: 1em;
   font-weight: normal;
   line-height: 1.4;
   margin: 0;
@@ -732,24 +732,24 @@ h1#site-name {
 }
 
 h1#page-title {
-  font-size: 2em;
+  font-size: 1.357em;
   line-height: 1;
 }
 
 #content h2 {
   background: url("../images/content-title.jpg") no-repeat left bottom transparent; /* LTR */
-  font-size: 1.429em;
+  font-size: 1.174em;
   line-height: 1.4;
   margin-bottom: 2px;
   padding-bottom: 14px;
 }
 
 .node .content {
-  font-size: 1.071em;
+  font-size: 0.929em;
 }
 
 .node-teaser .content {
-  font-size: 1em;
+  font-size: 0.916em;
 }
 
 .node-teaser h2 {
@@ -888,7 +888,7 @@ ul.links {
 }
 
 .comment .submitted p {
-  font-size: 1.071em;
+  font-size: 0.929em;
   line-height: 1.2;
   margin: 4px 0;
 }
@@ -978,7 +978,7 @@ ul.links {
 
 .sidebar .block h2 {
   border-bottom: 1px solid #d6d6d6;
-  font-size: 1.071em;
+  font-size: 0.929em;
   font-weight: bold;
   line-height: 24px;
   margin: 0;
@@ -1680,7 +1680,7 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 }
 
 #forum .description {
-  font-size: 1em;
+  font-size: 0.916em;
 }
 
 
@@ -1693,7 +1693,7 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 
 #search-form input#edit-keys,
 #block-search-form .form-item-search-block-form input {
-  font-size: 1em;
+  font-size: 0.916em;
   height: 1.143em;
   margin: 5px 0;
 }
