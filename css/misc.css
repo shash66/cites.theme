@@ -265,7 +265,7 @@ div.google-search-pager ul.pager {
 }
 
 #sidebar-second #block-block-4 .content a.more-link {
-  background: url("../images/arrow-right-orange.gif") 10px 6px no-repeat; /* LTR */
+  background: url("../images/arrow-right-orange.gif") 10px 5px no-repeat; /* LTR */
   display: block;
   padding: 3px 10px 3px 30px; /* LTR */
   text-align: left; /* LTR */
@@ -500,7 +500,7 @@ div.google-search-pager ul.pager {
 
 #sidebar-second #block-views-external-news-block .content .more-link a {
   background-image: url("../images/arrow-right-orange.gif");
-  background-position: 10px 6px; /* LTR */
+  background-position: 10px 5px; /* LTR */
   background-repeat: no-repeat;
   border: none;
   padding-left: 30px; /* LTR */
