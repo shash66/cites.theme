@@ -736,10 +736,11 @@ h1#page-title {
 
 #content h2 {
   background: url("../images/content-title.jpg") no-repeat left bottom transparent; /* LTR */
-  font-size: 1.429em;
-  line-height: 1.4;
+  font-size: 1.25em;
+  font-weight: bold;
+  line-height: 1.3;
   margin-bottom: 2px;
-  padding-bottom: 14px;
+  padding-bottom: 15px;
 }
 
 .node .content {
@@ -1046,7 +1047,7 @@ ul.links {
 /* Footer */
 
 #footer-wrapper {
-  font-size: 0.857em;
+  font-size: 1em;
 }
 
 #footer-wrapper tr.odd {
@@ -1237,7 +1238,7 @@ div.messages {
 }
 
 .breadcrumb {
-  font-size: 0.929em;
+  font-size: 1em;
 }
 
 
