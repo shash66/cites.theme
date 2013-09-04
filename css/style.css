@@ -726,6 +726,7 @@ h1#site-name {
 /* Content */
 
 .content {
+  font-size: 0.929em;
   margin-top: 10px;
 }
 
@@ -740,10 +741,6 @@ h1#page-title {
   line-height: 1.4;
   margin-bottom: 2px;
   padding-bottom: 14px;
-}
-
-.node .content {
-  font-size: 0.929em;
 }
 
 .node-teaser .content {
