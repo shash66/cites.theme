@@ -286,7 +286,7 @@ div.google-search-pager ul.pager {
 }
 
 #content #block-views-news-block .content .more-link {
-  margin-top: 1em;
+  margin: 1.2em 0;
   padding-left: 1em; /* LTR */
   text-align: left; /* LTR */
 }
@@ -321,7 +321,7 @@ div.google-search-pager ul.pager {
 }
 
 #content #block-views-parties-notification-block .content .more-link {
-  margin-top: 1em;
+  margin: 1.2em 0;
   padding-left: 1em; /* LTR */
   text-align: left; /* LTR */
 }
@@ -440,7 +440,7 @@ div.google-search-pager ul.pager {
 }
 
 #content #block-views-calendar-block .content .more-link {
-  margin-top: 1em;
+  margin: 1.2em 0;
   padding-left: 1em; /* LTR */
   text-align: left; /* LTR */
 }
