@@ -2,7 +2,7 @@
 
 body {
   border: 0;
-  font-size: 87.5%;
+  font-size: 12px;
   line-height: 1.5;
   margin: 0;
   outline: 0;
@@ -33,11 +33,11 @@ h6 {
 
 h1 {
   color: #000;
-  font-size: 1.174em;
+  font-size: 1.357em;
 }
 
 h2 {
-  font-size: 1.083em;
+  font-size: 1.143em;
 }
 
 p {
@@ -90,7 +90,7 @@ pre var {
 }
 
 .description code {
-  font-size: 0.916em;
+  font-size: 1em;
 }
 
 kbd {
@@ -221,14 +221,15 @@ table {
   border: 0;
   font-size: 0.857em;
   margin: 10px 0;
+  width: 100%;
 }
 
 table table {
-  font-size: 0.916em;
+  font-size: 1em;
 }
 
 #footer-wrapper table {
-  font-size: 0.916em;
+  font-size: 1em;
 }
 
 table tr th {
@@ -272,7 +273,7 @@ tr.even {
 }
 
 table ul.links {
-  font-size: 0.916em;
+  font-size: 1em;
   margin: 0;
   padding: 0;
 }
@@ -377,7 +378,7 @@ ul.tips {
 
 #site-name {
   color: #686868;
-  font-size: 1.357em;
+  font-size: 1.821em;
   line-height: 1;
 }
 
@@ -594,7 +595,7 @@ h1#site-name {
 #main-menu-links,
 #main-menu .nice-menu {
   display: inline-block;
-  font-size: 0.929em;
+  font-size: 1em;
   margin: 0;
   padding: 0;
   text-align: left; /* LTR */
@@ -679,7 +680,7 @@ h1#site-name {
 /* Featured */
 
 #featured {
-  font-size: 1em;
+  font-size: 1.643em;
   font-weight: normal;
   line-height: 1.4;
   margin: 0;
@@ -726,25 +727,28 @@ h1#site-name {
 /* Content */
 
 .content {
-  font-size: 0.929em;
   margin-top: 10px;
 }
 
 h1#page-title {
-  font-size: 1.357em;
+  font-size: 2em;
   line-height: 1;
 }
 
 #content h2 {
   background: url("../images/content-title.jpg") no-repeat left bottom transparent; /* LTR */
-  font-size: 1.174em;
+  font-size: 1.429em;
   line-height: 1.4;
   margin-bottom: 2px;
   padding-bottom: 14px;
 }
 
+.node .content {
+  font-size: 1em;
+}
+
 .node-teaser .content {
-  font-size: 0.916em;
+  font-size: 1em;
 }
 
 .node-teaser h2 {
@@ -883,7 +887,7 @@ ul.links {
 }
 
 .comment .submitted p {
-  font-size: 0.929em;
+  font-size: 1.071em;
   line-height: 1.2;
   margin: 4px 0;
 }
@@ -973,16 +977,16 @@ ul.links {
 
 .sidebar .block h2 {
   border-bottom: 1px solid #d6d6d6;
-  font-size: 1em;
+  font-size: 1.16em;
   font-weight: bold;
-  line-height: 24px;
+  line-height: 1.8em;
   margin: 0;
   text-align: center;
   text-shadow: 0 1px 0 #fff;
 }
 
 .sidebar .block .content {
-  font-size: 0.914em;
+  font-size: 1em;
   line-height: 1.4;
   margin: 0;
   padding: 5px 10px;
@@ -1675,7 +1679,7 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 }
 
 #forum .description {
-  font-size: 0.916em;
+  font-size: 1em;
 }
 
 
@@ -1688,7 +1692,7 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane {
 
 #search-form input#edit-keys,
 #block-search-form .form-item-search-block-form input {
-  font-size: 0.916em;
+  font-size: 1em;
   height: 1.143em;
   margin: 5px 0;
 }
