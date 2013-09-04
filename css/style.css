@@ -53,8 +53,8 @@ tr.odd {
 }
 
 img {
-  display: inline-block;
-  outline: 0;
+  border: 0;
+  vertical-align: middle;
 }
 
 code,
