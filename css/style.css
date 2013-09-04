@@ -252,7 +252,6 @@ tr td,
 tr th {
   border: 1px solid #fff;
   padding: 4px 9px;
-  text-align: left; /* LTR */
 }
 
 #footer-wrapper tr td,
