@@ -1,22 +1,7 @@
 /* Reset Styles */
 
-caption,
-th,
-td {
+caption {
   text-align: right;
-}
-
-blockquote {
-  border-left: none;
-  border-right: 4px solid #afafaf;
-}
-
-blockquote:before {
-  content: "\201D";
-}
-
-blockquote:after {
-  content: "\201C";
 }
 
 
