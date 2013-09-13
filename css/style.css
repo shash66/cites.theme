@@ -204,7 +204,6 @@ a.feed-icon {
 .clearfix:before,
 .clearfix:after {
   content: "";
-  display: table;
   line-height: 0;
 }
 
