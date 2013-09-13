@@ -232,15 +232,12 @@ table table {
 }
 
 table tr th {
-  background: #757575;
-  background: rgba(0, 0, 0, 0.51);
   border-bottom-style: none;
 }
 
 table tr th,
 table tr th a,
 table tr th a:hover {
-  color: #fff;
   font-weight: bold;
 }
 
@@ -250,25 +247,7 @@ table tbody tr th {
 
 tr td,
 tr th {
-  border: 1px solid #fff;
   padding: 4px 9px;
-}
-
-#footer-wrapper tr td,
-#footer-wrapper tr th {
-  border-color: #555;
-  border-color: rgba(255, 255, 255, 0.18);
-}
-
-tr.odd {
-  background: #e4e4e4;
-  background: rgba(0, 0, 0, 0.105);
-}
-
-tr,
-tr.even {
-  background: #efefef;
-  background: rgba(0, 0, 0, 0.063);
 }
 
 table ul.links {
