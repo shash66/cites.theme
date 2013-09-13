@@ -1156,10 +1156,11 @@ ul.action-links li a {
 
 #messages .section {
   border-bottom: 1px solid #eee;
+  padding-top: 3px;
 }
 
 div.messages {
-  margin: 3px 15px 8px;
+  margin: 0 15px 8px;
 }
 
 
