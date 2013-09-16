@@ -115,7 +115,7 @@ pre {
 }
 
 hr {
-  border: none;
+  border: 0;
   border-top: 1px solid #575757;
   margin: 10px 0;
 }
@@ -201,6 +201,10 @@ table table {
   font-size: 1em;
 }
 
+table tbody {
+  border: 0;
+}
+
 table tr th {
   border-bottom-style: none;
 }
@@ -217,6 +221,7 @@ table tbody tr th {
 
 tr td,
 tr th {
+  border: 0;
   padding: 4px 9px;
 }
 
@@ -711,7 +716,7 @@ h1#site-name {
 
 .node-full {
   background: none;
-  border: none;
+  border: 0;
   padding: 0;
 }
 
@@ -968,7 +973,7 @@ ul.links {
 }
 
 .sidebar tbody {
-  border: none;
+  border: 0;
 }
 
 .sidebar tr.even,
@@ -1059,7 +1064,7 @@ ul.links {
 
 .tabs ul.primary {
   background: url("../images/tabs-border.png") repeat-x left bottom transparent;
-  border: none;
+  border: 0;
   margin: 0;
   overflow: hidden;
   padding: 0 3px;

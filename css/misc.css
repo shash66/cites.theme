@@ -170,7 +170,7 @@ div.google-search-pager ul.pager {
 /* CITES Virtual College (block) */
 
 #sidebar-first #block-block-1 {
-  border: none;
+  border: 0;
 }
 
 #sidebar-first #block-block-1 .content {
@@ -191,7 +191,7 @@ div.google-search-pager ul.pager {
 /* CITES Trade Dashboard (block) */
 
 #sidebar-first #block-block-2 {
-  border: none;
+  border: 0;
 }
 
 #sidebar-first #block-block-2 .content {
@@ -212,7 +212,7 @@ div.google-search-pager ul.pager {
 /* The InforMEA portal (block) */
 
 #sidebar-first #block-block-3 {
-  border: none;
+  border: 0;
 }
 
 #sidebar-first #block-block-3 .content {
@@ -349,7 +349,7 @@ div.google-search-pager ul.pager {
 .view-parties-notification.view-display-id-page caption {
   background-color: #f0ede6;
   border: 1px solid #ccc;
-  border-bottom: none;
+  border-bottom: 0;
   color: #333;
   font-weight: bold;
   padding: 4px 9px;
@@ -368,7 +368,7 @@ div.google-search-pager ul.pager {
 
 .view-parties-notification.view-display-id-page tr td,
 .view-parties-notification.view-display-id-page tr th {
-  border-color: #ccc;
+  border: 1px solid #ccc;
 }
 
 .view-parties-notification.view-display-id-page tr,
@@ -502,7 +502,7 @@ div.google-search-pager ul.pager {
   background-image: url("../images/arrow-right-orange.gif");
   background-position: 10px 5px; /* LTR */
   background-repeat: no-repeat;
-  border: none;
+  border: 0;
   padding-left: 30px; /* LTR */
 }
 
@@ -538,7 +538,7 @@ div.google-search-pager ul.pager {
 .view-resolutions.view-display-id-page caption {
   background-color: #f0ede6;
   border: 1px solid #ccc;
-  border-bottom: none;
+  border-bottom: 0;
   color: #333;
   font-weight: bold;
   padding: 4px 9px;
@@ -547,7 +547,7 @@ div.google-search-pager ul.pager {
 
 .view-resolutions.view-display-id-page tr td,
 .view-resolutions.view-display-id-page tr th {
-  border-color: #ccc;
+  border: 1px solid #ccc;
 }
 
 .view-resolutions.view-display-id-page tr,
