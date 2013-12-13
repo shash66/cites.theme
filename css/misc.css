@@ -232,12 +232,12 @@ div.google-search-pager ul.pager {
 
 /* Simplenews (block) */
 
-#sidebar-first #block-simplenews-0 .content {
+#sidebar-second #block-simplenews-0 .content {
   padding-left: 0;
   padding-right: 0;
 }
 
-#sidebar-first #block-simplenews-0 .content p {
+#sidebar-second #block-simplenews-0 .content p {
   margin: 0;
   font-weight: bold;
   text-align: center;
