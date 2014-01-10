@@ -619,6 +619,37 @@ div.google-search-pager ul.pager {
 
 
 
+/* National contacts & information (block) */
+
+#sidebar-first #block-views-f384cdcef493c440cb0cfbfd9324ce62 {
+  border: 0;
+}
+
+#sidebar-first #block-views-f384cdcef493c440cb0cfbfd9324ce62 .content {
+  padding: 0;
+}
+
+#sidebar-first #block-views-f384cdcef493c440cb0cfbfd9324ce62 .content a {
+  background-color: #efeeec;
+  border-bottom: 1px solid #fff;
+  color: #666;
+  display: block;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+
+#sidebar-first #block-views-f384cdcef493c440cb0cfbfd9324ce62 .content a:active {
+  color: #000;
+}
+
+#sidebar-first #block-views-f384cdcef493c440cb0cfbfd9324ce62 .content a:focus,
+#sidebar-first #block-views-f384cdcef493c440cb0cfbfd9324ce62 .content a:hover {
+  background-color: #567b29;
+  color: #fff;
+}
+
+
+
 /* National contacts & information (page) */
 
 .view-national-contacts-and-information.view-display-id-page table {
