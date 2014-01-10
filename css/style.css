@@ -12,13 +12,13 @@ body {
 
 a:link,
 a:visited {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover,
 a:active,
 a:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 h1,
@@ -189,16 +189,7 @@ a.feed-icon {
 table {
   border-spacing: 0;
   border: 0;
-  font-size: 0.857em;
   margin: 10px 0;
-}
-
-table table {
-  font-size: 1em;
-}
-
-#footer-wrapper table {
-  font-size: 1em;
 }
 
 table tbody {
@@ -226,7 +217,6 @@ tr th {
 }
 
 table ul.links {
-  font-size: 1em;
   margin: 0;
   padding: 0;
 }

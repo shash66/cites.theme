@@ -243,6 +243,16 @@ div.google-search-pager ul.pager {
   text-align: center;
 }
 
+#sidebar-second #block-simplenews-0 .content a {
+  text-decoration: none;
+}
+
+#sidebar-second #block-simplenews-0 .content a:hover,
+#sidebar-second #block-simplenews-0 .content a:active,
+#sidebar-second #block-simplenews-0 .content a:focus {
+  text-decoration: underline;
+}
+
 
 
 /* Highlights (block) */
@@ -277,12 +287,14 @@ div.google-search-pager ul.pager {
 
 #content #block-views-news-block .content a {
   color: #333;
+  text-decoration: none;
 }
 
 #content #block-views-news-block .content a:active,
 #content #block-views-news-block .content a:focus,
 #content #block-views-news-block .content a:hover {
   color: #ff6633;
+  text-decoration: underline;
 }
 
 #content #block-views-news-block .content .more-link {
@@ -312,12 +324,14 @@ div.google-search-pager ul.pager {
 
 #content #block-views-parties-notification-block .content a {
   color: #333;
+  text-decoration: none;
 }
 
 #content #block-views-parties-notification-block .content a:active,
 #content #block-views-parties-notification-block .content a:focus,
 #content #block-views-parties-notification-block .content a:hover {
   color: #ff6633;
+  text-decoration: underline;
 }
 
 #content #block-views-parties-notification-block .content .more-link {
@@ -358,11 +372,6 @@ div.google-search-pager ul.pager {
 
 .view-parties-notification.view-display-id-page table tr th {
   background-color: #f0ede6;
-}
-
-.view-parties-notification.view-display-id-page table tr th,
-.view-parties-notification.view-display-id-page table tr th a,
-.view-parties-notification.view-display-id-page table tr th a:hover {
   color: #333;
 }
 
@@ -413,6 +422,7 @@ div.google-search-pager ul.pager {
 
 .view-parties-notification.view-display-id-page a {
   color: #333;
+  text-decoration: none;
 }
 
 .view-parties-notification.view-display-id-page a:active,
@@ -427,12 +437,14 @@ div.google-search-pager ul.pager {
 
 #content #block-views-calendar-block .content a {
   color: #333;
+  text-decoration: none;
 }
 
 #content #block-views-calendar-block .content a:active,
 #content #block-views-calendar-block .content a:focus,
 #content #block-views-calendar-block .content a:hover {
   color: #ff6633;
+  text-decoration: underline;
 }
 
 #content #block-views-calendar-block .content .field-content p {
@@ -560,6 +572,10 @@ div.google-search-pager ul.pager {
   background-color: #fafaf6;
 }
 
+.view-resolutions.view-display-id-page a {
+  text-decoration: none;
+}
+
 
 
 /* Reports (page) */
@@ -595,6 +611,10 @@ div.google-search-pager ul.pager {
 
 .view-biennial-reports.view-display-id-page .views-field-field-report-date {
   width: 20%;
+}
+
+.view-biennial-reports.view-display-id-page a {
+  text-decoration: none;
 }
 
 
