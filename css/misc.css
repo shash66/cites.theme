@@ -684,6 +684,130 @@ div.google-search-pager ul.pager {
 
 
 
+/* Register of captive-breeding operations (block) */
+
+#sidebar-first #block-views-624181da01d2834d06a332e3ef47c9f4 {
+  border: 0;
+}
+
+#sidebar-first #block-views-624181da01d2834d06a332e3ef47c9f4 .content {
+  padding: 0;
+}
+
+#sidebar-first #block-views-624181da01d2834d06a332e3ef47c9f4 .content a {
+  background-color: #efeeec;
+  border-bottom: 1px solid #fff;
+  color: #666;
+  display: block;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+
+#sidebar-first #block-views-624181da01d2834d06a332e3ef47c9f4 .content a:active {
+  color: #000;
+}
+
+#sidebar-first #block-views-624181da01d2834d06a332e3ef47c9f4 .content a:focus,
+#sidebar-first #block-views-624181da01d2834d06a332e3ef47c9f4 .content a:hover {
+  background-color: #567b29;
+  color: #fff;
+}
+
+
+
+/* Register of nurseries (block) */
+
+#sidebar-first #block-views-register-of-nurseries-block {
+  border: 0;
+}
+
+#sidebar-first #block-views-register-of-nurseries-block .content {
+  padding: 0;
+}
+
+#sidebar-first #block-views-register-of-nurseries-block .content a {
+  background-color: #efeeec;
+  border-bottom: 1px solid #fff;
+  color: #666;
+  display: block;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+
+#sidebar-first #block-views-register-of-nurseries-block .content a:active {
+  color: #000;
+}
+
+#sidebar-first #block-views-register-of-nurseries-block .content a:focus,
+#sidebar-first #block-views-register-of-nurseries-block .content a:hover {
+  background-color: #567b29;
+  color: #fff;
+}
+
+
+
+/* Register of scientific institutions (block) */
+
+#sidebar-first #block-views-88b6e49496d3702e036ebfaac10168cd {
+  border: 0;
+}
+
+#sidebar-first #block-views-88b6e49496d3702e036ebfaac10168cd .content {
+  padding: 0;
+}
+
+#sidebar-first #block-views-88b6e49496d3702e036ebfaac10168cd .content a {
+  background-color: #efeeec;
+  border-bottom: 1px solid #fff;
+  color: #666;
+  display: block;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+
+#sidebar-first #block-views-88b6e49496d3702e036ebfaac10168cd .content a:active {
+  color: #000;
+}
+
+#sidebar-first #block-views-88b6e49496d3702e036ebfaac10168cd .content a:focus,
+#sidebar-first #block-views-88b6e49496d3702e036ebfaac10168cd .content a:hover {
+  background-color: #567b29;
+  color: #fff;
+}
+
+
+
+/* Register of caviar exporters (block) */
+
+#sidebar-first #block-views-bda9eec958edfeb8e43bcbd424fd9ee2 {
+  border: 0;
+}
+
+#sidebar-first #block-views-bda9eec958edfeb8e43bcbd424fd9ee2 .content {
+  padding: 0;
+}
+
+#sidebar-first #block-views-bda9eec958edfeb8e43bcbd424fd9ee2 .content a {
+  background-color: #efeeec;
+  border-bottom: 1px solid #fff;
+  color: #666;
+  display: block;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+
+#sidebar-first #block-views-bda9eec958edfeb8e43bcbd424fd9ee2 .content a:active {
+  color: #000;
+}
+
+#sidebar-first #block-views-bda9eec958edfeb8e43bcbd424fd9ee2 .content a:focus,
+#sidebar-first #block-views-bda9eec958edfeb8e43bcbd424fd9ee2 .content a:hover {
+  background-color: #567b29;
+  color: #fff;
+}
+
+
+
 /* Trade suspensions */
 
 .view-trade-suspension.view-display-id-page .view-header a {
