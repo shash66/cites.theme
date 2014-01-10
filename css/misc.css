@@ -370,9 +370,10 @@ div.google-search-pager ul.pager {
   text-align: center;
 }
 
-.view-parties-notification.view-display-id-page table tr th {
+.view-parties-notification.view-display-id-page tr th {
   background-color: #f0ede6;
   color: #333;
+  text-align: center;
 }
 
 .view-parties-notification.view-display-id-page tr td,
@@ -384,10 +385,6 @@ div.google-search-pager ul.pager {
 .view-parties-notification.view-display-id-page tr.even,
 .view-parties-notification.view-display-id-page tr.odd {
   background-color: #fafaf6;
-}
-
-.view-parties-notification.view-display-id-page th {
-  text-align: center;
 }
 
 .view-parties-notification.view-display-id-page span.status {
@@ -683,4 +680,36 @@ div.google-search-pager ul.pager {
 
 .view-national-contacts-and-information.view-display-id-page .views-field-field-report-date {
   width: 20%;
+}
+
+
+
+/* Trade suspensions */
+
+.view-trade-suspension.view-display-id-page .view-header a {
+  font-weight: bold;
+}
+
+.view-trade-suspension.view-display-id-page table {
+  width: 100%;
+}
+
+.view-trade-suspension.view-display-id-page tr th {
+  background-color: #f0ede6;
+  color: #333;
+}
+
+.view-trade-suspension.view-display-id-page tr td,
+.view-trade-suspension.view-display-id-page tr th {
+  border: 1px solid #ccc;
+}
+
+.view-trade-suspension.view-display-id-page tr,
+.view-trade-suspension.view-display-id-page tr.even,
+.view-trade-suspension.view-display-id-page tr.odd {
+  background-color: #fafaf6;
+}
+
+.view-trade-suspension.view-display-id-page a {
+  text-decoration: none;
 }
