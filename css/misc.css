@@ -904,6 +904,27 @@ div.google-search-pager ul.pager {
 
 
 
+/* Register of caviar exporters (page) */
+
+.view-register-of-caviar-exporters.view-display-id-page tr th {
+  background-color: #f0ede6;
+  color: #333;
+  text-align: center;
+}
+
+.view-register-of-caviar-exporters.view-display-id-page tr td,
+.view-register-of-caviar-exporters.view-display-id-page tr th {
+  border: 1px solid #ccc;
+}
+
+.view-register-of-caviar-exporters.view-display-id-page tr,
+.view-register-of-caviar-exporters.view-display-id-page tr.even,
+.view-register-of-caviar-exporters.view-display-id-page tr.odd {
+  background-color: #fafaf6;
+}
+
+
+
 /* Trade suspensions */
 
 .view-trade-suspension.view-display-id-page .view-header a {
