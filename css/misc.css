@@ -467,7 +467,6 @@ div.google-search-pager ul.pager {
 
 #content .view-calendar.view-display-id-page h3 {
   background-color: #eef9f2;
-  font-weight: bold;
   text-align: center;
 }
 
@@ -520,7 +519,6 @@ div.google-search-pager ul.pager {
 
 #content .view-external-news.view-display-id-page h3 {
   color: #336600;
-  font-weight: bold;
   text-align: center;
 }
 
@@ -711,6 +709,15 @@ div.google-search-pager ul.pager {
 #sidebar-first #block-views-624181da01d2834d06a332e3ef47c9f4 .content a:hover {
   background-color: #567b29;
   color: #fff;
+}
+
+
+
+/* Register of captive-breeding operations (page) */
+
+#content .view-register-of-captive-breeding-operations.view-display-id-page h3 {
+  background-color: #eef9f2;
+  text-align: center;
 }
 
 
