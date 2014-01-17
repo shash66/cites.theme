@@ -430,6 +430,27 @@ div.google-search-pager ul.pager {
 
 
 
+/* Notification to the Parties (page) */
+
+.view-the-standing-committee.view-display-id-page tr th {
+  background-color: #f0ede6;
+  color: #333;
+  text-align: center;
+}
+
+.view-the-standing-committee.view-display-id-page tr td,
+.view-the-standing-committee.view-display-id-page tr th {
+  border: 1px solid #ccc;
+}
+
+.view-the-standing-committee.view-display-id-page tr,
+.view-the-standing-committee.view-display-id-page tr.even,
+.view-the-standing-committee.view-display-id-page tr.odd {
+  background-color: #fafaf6;
+}
+
+
+
 /* Calendar (block) */
 
 #content #block-views-calendar-block .content a {
