@@ -719,6 +719,23 @@ div.google-search-pager ul.pager {
   background-color: #eef9f2;
   text-align: center;
 }
+/**/
+.view-register-of-captive-breeding-operations.view-display-id-page_summary tr th {
+  background-color: #f0ede6;
+  color: #333;
+  text-align: center;
+}
+
+.view-register-of-captive-breeding-operations.view-display-id-page_summary tr td,
+.view-register-of-captive-breeding-operations.view-display-id-page_summary tr th {
+  border: 1px solid #ccc;
+}
+
+.view-register-of-captive-breeding-operations.view-display-id-page_summary tr,
+.view-register-of-captive-breeding-operations.view-display-id-page_summary tr.even,
+.view-register-of-captive-breeding-operations.view-display-id-page_summary tr.odd {
+  background-color: #fafaf6;
+}
 
 
 
