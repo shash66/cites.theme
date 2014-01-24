@@ -368,3 +368,35 @@ function cites_theme_on_the_web_image($variables) {
 
   return theme('image', $variables);
 }
+
+
+/**
+ * Implements hook_views_pre_render().
+ *
+ * @param $view
+ *   The view object about to be processed.
+ *
+ * @return
+ *   Nothing.
+ */
+function cites_theme_views_pre_render(&$view) {
+  if ($view->name == 'national_contacts_and_information') {
+    switch ($view->current_display) {
+      case 'page_contacts':
+      case 'page_reports':
+      case 'page_registers':
+        $country = strtoupper($view->args[0]);
+        $path = drupal_get_path('theme', 'cites_theme') . '/images/flags/' . $country . '.gif';
+
+        if (file_exists($path)) {
+          $variables = array(
+            'alt'   => $view->build_info['title'],
+            'path'  => $path,
+            'title' => $view->build_info['title']
+          );
+
+          $view->build_info['title'] = theme('image', $variables) . ' ' . $view->build_info['title'];
+        }
+    }
+  }
+}
