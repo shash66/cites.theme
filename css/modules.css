@@ -610,6 +610,11 @@ div.google-search-pager ul.pager {
   text-align: center;
 }
 
+.view-biennial-reports.view-display-id-page tr th {
+  background-color: #f0ede6;
+  color: #333;
+}
+
 .view-biennial-reports.view-display-id-page tr td,
 .view-biennial-reports.view-display-id-page tr th {
   border: 1px solid #ccc;
@@ -626,6 +631,7 @@ div.google-search-pager ul.pager {
 }
 
 .view-biennial-reports.view-display-id-page .views-field-field-report-date {
+  text-align: center;
   width: 20%;
 }
 
