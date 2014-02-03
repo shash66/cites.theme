@@ -594,6 +594,57 @@ div.google-search-pager ul.pager {
 
 
 
+/* Decisions (page) */
+
+.page-dec .region-help {
+  border: 0;
+  padding: 0;
+}
+
+.view-decisions.view-display-id-page .view-content {
+  margin-bottom: 11px;
+}
+
+.view-decisions.view-display-id-page .view-grouping-header,
+.view-decisions.view-display-id-page caption {
+  background-color: #f0ede6;
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  color: #333;
+  font-weight: bold;
+  padding: 4px 9px;
+  text-align: center;
+}
+
+.view-decisions.view-display-id-page table {
+  margin: 0 0 -1px;
+  width: 100%;
+}
+
+.view-decisions.view-display-id-page tr td,
+.view-decisions.view-display-id-page tr th {
+  border: 1px solid #ccc;
+}
+
+.view-decisions.view-display-id-page tr,
+.view-decisions.view-display-id-page tr.even,
+.view-decisions.view-display-id-page tr.odd {
+  background-color: #fafaf6;
+}
+
+.view-decisions.view-display-id-page a {
+  color: #000;
+  text-decoration: none;
+}
+
+.view-decisions.view-display-id-page a:active,
+.view-decisions.view-display-id-page a:focus,
+.view-decisions.view-display-id-page a:hover {
+  color: #ff6633;
+}
+
+
+
 /* Reports (page) */
 
 .view-biennial-reports.view-display-id-page table {
