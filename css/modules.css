@@ -563,7 +563,12 @@ div.google-search-pager ul.pager {
   font-weight: bold;
 }
 
+.view-resolutions.view-display-id-page .view-content {
+  margin-bottom: 11px;
+}
+
 .view-resolutions.view-display-id-page table {
+  margin: 0 0 -1px;
   width: 100%;
 }
 
@@ -586,6 +591,14 @@ div.google-search-pager ul.pager {
 .view-resolutions.view-display-id-page tr.even,
 .view-resolutions.view-display-id-page tr.odd {
   background-color: #fafaf6;
+}
+
+.view-resolutions.view-display-id-page td.views-field-field-document-no {
+  width: 21%;
+}
+
+.view-resolutions.view-display-id-page td.views-field-field-document-files {
+  width: 6%;
 }
 
 .view-resolutions.view-display-id-page a {
