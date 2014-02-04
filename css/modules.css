@@ -1009,6 +1009,10 @@ div.google-search-pager ul.pager {
 
 /* Register of caviar exporters (page) */
 
+.view-register-of-caviar-exporters.view-display-id-page table {
+  width: 100%;
+}
+
 .view-register-of-caviar-exporters.view-display-id-page tr th {
   background-color: #f0ede6;
   color: #333;
