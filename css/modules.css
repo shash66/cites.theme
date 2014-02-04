@@ -649,6 +649,10 @@ div.google-search-pager ul.pager {
   background-color: #fafaf6;
 }
 
+.view-decisions.view-display-id-page td.views-field-field-document-no {
+  width: 20%;
+}
+
 .view-decisions.view-display-id-page a {
   color: #000;
   text-decoration: none;
