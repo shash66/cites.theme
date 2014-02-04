@@ -421,6 +421,10 @@ div.google-search-pager ul.pager {
   padding: 4px 9px 0;
 }
 
+.view-parties-notification.view-display-id-page .file-icon {
+  float: right;
+}
+
 .view-parties-notification.view-display-id-page a {
   color: #333;
   text-decoration: none;
