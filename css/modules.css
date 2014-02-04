@@ -434,7 +434,11 @@ div.google-search-pager ul.pager {
 
 
 
-/* Notification to the Parties (page) */
+/* The Standing Committee (page) */
+
+.view-the-standing-committee.view-display-id-page table {
+  width: 100%;
+}
 
 .view-the-standing-committee.view-display-id-page tr th {
   background-color: #f0ede6;
@@ -451,6 +455,10 @@ div.google-search-pager ul.pager {
 .view-the-standing-committee.view-display-id-page tr.even,
 .view-the-standing-committee.view-display-id-page tr.odd {
   background-color: #fafaf6;
+}
+
+.view-the-standing-committee.view-display-id-page th.views-field-body {
+  width: 35%;
 }
 
 
