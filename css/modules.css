@@ -334,6 +334,10 @@ div.google-search-pager ul.pager {
   text-decoration: underline;
 }
 
+#content #block-views-parties-notification-block .content .file-icon {
+  display: none;
+}
+
 #content #block-views-parties-notification-block .content .more-link {
   margin: 0.6em 0 1.2em;
   padding-left: 2em; /* LTR */
