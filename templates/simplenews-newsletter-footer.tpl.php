@@ -40,7 +40,9 @@
   <?php endif ?>
   <?php if ($format == 'html'): ?>
     <p class="newsletter-footer"><a href="[simplenews-subscriber:unsubscribe-url]"><?php print $unsubscribe_text ?></a></p>
-<?php else: ?><?php print($unsubscribe_text)?>: [simplenews-subscriber:unsubscribe-url]<?php endif ?>
+  <?php else: ?>
+<?php print("\n".$unsubscribe_text)?>: [simplenews-subscriber:unsubscribe-url]
+  <?php endif ?>
 <?php endif; ?>
 
 <?php if ($key == 'test'): ?>
