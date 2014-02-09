@@ -213,6 +213,42 @@ function cites_theme_preprocess_node(&$variables) {
 
 
 /**
+ * Overrides or inserts variables into the page template.
+ *
+ * @param $variables
+ *   An associative array with generated variables.
+ *
+ * @return
+ *   Nothing.
+ */
+function cites_theme_preprocess_page(&$variables) {
+  if (!isset($variables['node']))
+    return;
+
+  $node = $variables['node'];
+
+  if ($node->type != 'document')
+    return;
+
+  $language = $variables['language']->language;
+  $type     = $node->field_document_type[$language][0]['taxonomy_term']->name;
+  $code     = $node->field_document_no[$language][0]['value'];
+
+  switch ($node->field_document_type['en'][0]['taxonomy_term']->name) {
+    case 'Decision':
+    case 'Resolution':
+      $title = $type . ' ' . $code;
+  }
+
+  if (isset($title)) {
+    drupal_set_title($title);
+
+    $variables['title'] = $title;
+  }
+}
+
+
+/**
  * Overrides or inserts variables into the block template.
  *
  * @param $variables
