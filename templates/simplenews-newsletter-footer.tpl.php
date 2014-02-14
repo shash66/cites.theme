@@ -29,20 +29,8 @@
  */
 ?>
 <?php if (!$opt_out_hidden): ?>
-  <?php if ($language == 'en'): ?>
-	<?php  $unsubscribe_text="Please do not reply to this email. If you no longer wish to receive such email alerts, you can unsubscribe at"?>
-  <?php endif ?>
-  <?php if ($language == 'fr'): ?>
-	<?php  $unsubscribe_text="Veuillez ne pas répondre à ce courriel. Si vous ne souhaitez plus recevoir ces alertes par courriel, vous pouvez vous désinscrire à la page suivante"?>
-  <?php endif ?>
-  <?php if ($language == 'es'): ?>
-	<?php  $unsubscribe_text="Se ruega no responda a este correo electrónico. Si no desea recibir alertas electrónicas, vaya al sitio web y desubscribase"?>
-  <?php endif ?>
-  <?php if ($format == 'html'): ?>
-    <p class="newsletter-footer"><a href="[simplenews-subscriber:unsubscribe-url]"><?php print $unsubscribe_text ?></a></p>
-  <?php else: ?>
-<?php print("\n".$unsubscribe_text)?>: [simplenews-subscriber:unsubscribe-url]
-  <?php endif ?>
+<?php if ($format == 'html'): ?>
+<p class="newsletter-footer"><a href="[simplenews-subscriber:unsubscribe-url]"><?php print $unsubscribe_text ?></a></p><?php else: ?><?php print("\n")?>[simplenews-subscriber:unsubscribe-url]<?php endif ?>
 <?php endif; ?>
 
 <?php if ($key == 'test'): ?>
