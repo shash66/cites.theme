@@ -222,22 +222,31 @@ function cites_theme_preprocess_node(&$variables) {
  *   Nothing.
  */
 function cites_theme_preprocess_page(&$variables) {
-  if (!isset($variables['node']))
+  if (!isset($variables['node'])) {
     return;
+  }
 
   $node = $variables['node'];
 
-  if ($node->type != 'document')
+  if ($node->type != 'document') {
     return;
+  }
 
   $language = $variables['language']->language;
-  $type     = $node->field_document_type[$language][0]['taxonomy_term']->name;
-  $code     = $node->field_document_no[$language][0]['value'];
+  $taxonomy_term = taxonomy_term_load($node->field_document_type['und'][0]['tid']);
+  $type = $taxonomy_term->name;
+  $translated_type = $type;
 
-  switch ($node->field_document_type['en'][0]['taxonomy_term']->name) {
+  if (module_exists('i18n_taxonomy')) {
+    $translated_type = i18n_taxonomy_term_name($taxonomy_term, $language);
+  }
+
+  $code     = $node->field_document_no['und'][0]['value'];
+
+  switch ($type) {
     case 'Decision':
     case 'Resolution':
-      $title = $type . ' ' . $code;
+      $title = $translated_type . ' ' . $code;
   }
 
   if (isset($title)) {
