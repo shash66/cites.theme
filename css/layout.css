@@ -51,7 +51,7 @@ body,
 }
 
 .one-sidebar.sidebar-first #content {
-  width: 785px;
+  width: 79%;
 }
 
 .one-sidebar.sidebar-second #content {
@@ -59,7 +59,7 @@ body,
 }
 
 .two-sidebars #content {
-  width: 528px;
+  width: 54%;
 }
 
 .no-sidebars #content {
@@ -67,11 +67,11 @@ body,
 }
 
 #sidebar-first {
-  width: 200px;
+  width: 20%;
 }
 
 #sidebar-second {
-  width: 256px;
+  width: 25%;
 }
 
 #sidebar-second .section {
