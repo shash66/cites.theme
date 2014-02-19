@@ -222,15 +222,13 @@ function cites_theme_preprocess_node(&$variables) {
  *   Nothing.
  */
 function cites_theme_preprocess_page(&$variables) {
-  if (!isset($variables['node'])) {
+  if (!isset($variables['node']))
     return;
-  }
 
   $node = $variables['node'];
 
-  if ($node->type != 'document') {
+  if ($node->type != 'document')
     return;
-  }
 
   $language = $variables['language']->language;
   $taxonomy_term = taxonomy_term_load($node->field_document_type['und'][0]['tid']);
@@ -238,15 +236,20 @@ function cites_theme_preprocess_page(&$variables) {
   $translated_type = $type;
 
   if (module_exists('i18n_taxonomy')) {
-    $translated_type = i18n_taxonomy_term_name($taxonomy_term, $language);
+      $translated_type = i18n_taxonomy_term_name($taxonomy_term, $language);
   }
 
   $code     = $node->field_document_no['und'][0]['value'];
 
   switch ($type) {
-    case 'Decision':
-    case 'Resolution':
+    case "Decision":
+      $title = $node->title . ' ' . $code;
+      break;
+    case "Resolution":
       $title = $translated_type . ' ' . $code;
+      break;
+    default:
+      return;
   }
 
   if (isset($title)) {
