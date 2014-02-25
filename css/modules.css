@@ -949,6 +949,10 @@ div.google-search-pager ul.pager {
 
 /* Register of scientific institutions (page) */
 
+.view-register-of-scientific-institutions.view-display-id-page table {
+  width: 100%;
+}
+
 .view-register-of-scientific-institutions.view-display-id-page tr th {
   background-color: #f0ede6;
   color: #333;
