@@ -753,8 +753,9 @@ div.google-search-pager ul.pager {
 
 /* National contacts & information (page) */
 
-.view-national-contacts-and-information.view-display-id-page_contacts .attachment .view {
-  margin-top: 10px;
+.view-national-contacts-and-information.view-display-id-page_contacts .views-field-field-contact-note-before-1,
+.view-national-contacts-and-information.view-display-id-page_contacts .views-field-field-contact-note-before-3 {
+  margin: 10px 0;
 }
 
 .view-national-contacts-and-information.view-display-id-page_contacts table,
