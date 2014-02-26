@@ -30,9 +30,8 @@
 ?>
 <?php if (!$opt_out_hidden): ?>
 <?php if ($format == 'html'): ?>
-<p class="newsletter-footer"><a href="[simplenews-subscriber:unsubscribe-url]"><?php print $unsubscribe_text ?></a></p><?php else: ?><?php print("\n")?>[simplenews-subscriber:unsubscribe-url]<?php endif ?>
+<p class="newsletter-footer">[simplenews-subscriber:unsubscribe-url]</p><?php else: ?><?php print("\n")?>[simplenews-subscriber:unsubscribe-url]<?php endif ?>
 <?php endif; ?>
-
 <?php if ($key == 'test'): ?>
 - - - <?php print $test_message ?> - - -
 <?php endif ?>
