@@ -505,16 +505,19 @@ div.google-search-pager ul.pager {
 
 /* Calendar (page) */
 
-#content .view-calendar.view-display-id-page ul {
+#content .view-calendar.view-display-id-page ul,
+#content .view-calendar.view-display-id-page_sharks ul {
   list-style-image: url("../images/bullet-arrow-green.gif");
 }
 
-#content .view-calendar.view-display-id-page h3 {
+#content .view-calendar.view-display-id-page h3,
+#content .view-calendar.view-display-id-page_sharks h3 {
   background-color: #eef9f2;
   text-align: center;
 }
 
-#content .view-calendar.view-display-id-page .field-content p {
+#content .view-calendar.view-display-id-page .field-content p,
+#content .view-calendar.view-display-id-page_sharks .field-content p {
   display: inline;
 }
 
