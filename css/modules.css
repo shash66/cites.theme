@@ -469,29 +469,36 @@ div.google-search-pager ul.pager {
 
 /* Calendar (block) */
 
-#content #block-views-calendar-block .content a {
+#content #block-views-calendar-block .content a,
+#content #block-views-calendar-block-sharks .content a {
   color: #333;
   text-decoration: none;
 }
 
 #content #block-views-calendar-block .content a:active,
+#content #block-views-calendar-block-sharks .content a:active,
 #content #block-views-calendar-block .content a:focus,
-#content #block-views-calendar-block .content a:hover {
+#content #block-views-calendar-block-sharks .content a:focus,
+#content #block-views-calendar-block .content a:hover,
+#content #block-views-calendar-block-sharks .content a:hover {
   color: #ff6633;
   text-decoration: underline;
 }
 
-#content #block-views-calendar-block .content .field-content p {
+#content #block-views-calendar-block .content .field-content p,
+#content #block-views-calendar-block-sharks .content .field-content p {
   display: inline;
 }
 
-#content #block-views-calendar-block .content .more-link {
+#content #block-views-calendar-block .content .more-link,
+#content #block-views-calendar-block-sharks .content .more-link {
   margin: 0.6em 0 1.2em;
   padding-left: 2em; /* LTR */
   text-align: left; /* LTR */
 }
 
-#content #block-views-calendar-block .content .more-link a {
+#content #block-views-calendar-block .content .more-link a,
+#content #block-views-calendar-block-sharks .content .more-link a {
   font-size: 0.85em;
 }
 
