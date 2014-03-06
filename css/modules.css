@@ -642,11 +642,6 @@ div.google-search-pager ul.pager {
 
 /* Decisions (page) */
 
-.page-dec .region-help {
-  border: 0;
-  padding: 0;
-}
-
 .view-decisions.view-display-id-page .view-content {
   margin-bottom: 11px;
 }
@@ -1094,13 +1089,4 @@ div.google-search-pager ul.pager {
 
 .view-trade-suspension.view-display-id-page a {
   text-decoration: none;
-}
-
-
-
-/* Sharks and manta rays */
-
-.page-node-10550 .region-help {
-  border: 0;
-  padding: 0;
 }
