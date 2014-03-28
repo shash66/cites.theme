@@ -358,6 +358,11 @@ div.google-search-pager ul.pager {
 
 /* Notification to the Parties (page) */
 
+
+th.views-field.views-field-nothing {
+  width:100%;
+}
+
 .view-parties-notification.view-display-id-page #edit-date-filter-min-wrapper,
 .view-parties-notification.view-display-id-page #edit-date-filter-max-wrapper,
 .view-parties-notification.view-display-id-page #edit-date-filter-min-wrapper label,
