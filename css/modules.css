@@ -1120,7 +1120,7 @@ th.views-field.views-field-nothing {
 
 /* Secretary-General's statements (page) */
 
-div.views-field.views-field-view-node {
+.view-id-secretary_general_s_statements.view-display-id-page div.views-field.views-field-view-node {
     background-image: url("../images/arrow-right-orange.gif");
     background-repeat: no-repeat;
     background-position: left top;
@@ -1128,19 +1128,19 @@ div.views-field.views-field-view-node {
     margin-bottom: 21px;
 }
 
-span.field-content {
+.view-id-secretary_general_s_statements.view-display-id-page span.field-content {
     position:relative;
     top: -27px;
     left: 21px;
 }
 
-div.views-field.views-field-view-node {
+.view-id-secretary_general_s_statements.view-display-id-page div.views-field.views-field-view-node {
     position:relative;
     left: 6px;
     top: 21px;
 }
 
-div.views-field.views-field-body {
+.view-id-secretary_general_s_statements.view-display-id-page div.views-field.views-field-body {
     position:relative;
     top: 10px;
 }
