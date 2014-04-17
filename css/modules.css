@@ -1111,10 +1111,36 @@ th.views-field.views-field-nothing {
 }
 
 
-
 /* Sharks and manta rays */
 
 .page-node-10550 .region-help {
   border: 0;
   padding: 0;
+}
+
+/* Secretary-General's statements (page) */
+
+div.views-field.views-field-view-node {
+    background-image: url("../images/arrow-right-orange.gif");
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 23px;
+    margin-bottom: 21px;
+}
+
+span.field-content {
+    position:relative;
+    top: -27px;
+    left: 21px;
+}
+
+div.views-field.views-field-view-node {
+    position:relative;
+    left: 6px;
+    top: 21px;
+}
+
+div.views-field.views-field-body {
+    position:relative;
+    top: 10px;
 }
