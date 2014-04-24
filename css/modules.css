@@ -1144,3 +1144,7 @@ th.views-field.views-field-nothing {
     position:relative;
     top: 10px;
 }
+
+.view-register-of-caviar-exporters.view-id-register_of_caviar_exporters.view-display-id-page th.views-field.views-field-title-field.views-align-center {
+	width:25%;
+}
