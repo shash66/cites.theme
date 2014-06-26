@@ -459,6 +459,21 @@ th.views-field.views-field-nothing {
   color: #ff6633;
 }
 
+/* Vacancy Announcements */
+
+#content #block-views-news-block-vacancies .content a {
+  color: #333;
+  text-decoration: none;
+}
+
+#content #block-views-news-block-vacancies .content a:active,
+#content #block-views-news-block-vacancies .content a:focus,
+#content #block-views-news-block-vacancies .content a:hover {
+  color: #ff6633;
+  text-decoration: underline;
+}
+
+
 
 
 /* The Standing Committee (page) */
